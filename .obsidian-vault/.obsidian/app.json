@@ -1,0 +1,12 @@
+{
+  "vimMode": false,
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
+  "showLineNumber": true,
+  "strictLineBreaks": false,
+  "cssTheme": "",
+  "theme": "obsidian",
+  "baseFontSize": 15,
+  "defaultViewMode": "preview"
+}
