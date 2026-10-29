@@ -1,0 +1,70 @@
+2026-10-29 18:03:53.905 INFO   Freerouting v2.4.1 (build-date: 2026-09-03)
+2026-10-29 18:03:56.351 INFO   [530FDF\85975F] Loading board file 'SHM_Node_R2.dsn'...
+2026-10-29 18:03:56.672 INFO   Layer 'In1.Cu' has been automatically configured as a dedicated power plane because it contains a large conduction area covering >50% of the board.
+2026-10-29 18:03:56.673 INFO   Layer 'In2.Cu' has been automatically configured as a dedicated power plane because it contains a large conduction area covering >50% of the board.
+2026-10-29 18:03:56.785 INFO   [530FDF\85975F] Job '530FDF\85975F' started at 2026-10-29T10:03:56.784835600Z.
+2026-10-29 18:03:57.204 INFO   [530FDF\85975F] Fanout stage started on board 'dd79794815194784a7ccdd314e9e100a' with 130 of 214 SMD pins needing fanout (19 already connected, 65 netless).
+2026-10-29 18:03:57.223 INFO   New version available: v2.5.0
+2026-10-29 18:04:07.871 INFO   [530FDF\85975F] Fanout pass #1 on board 'fe1772ffa3cff7f1f437f6db34c55977' completed in 10.54 seconds with 69 SMD pins fanouted, 43 not routed, 0 insert errors, +7 extra vias (0 SMD pins still to check in pass, ripup costs=100).
+2026-10-29 18:04:14.613 INFO   [530FDF\85975F] Fanout pass #2 on board '7087a93f7491e4a75cec40dda2f111af' completed in 6.71 seconds with 15 SMD pins fanouted, 71 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=200).
+2026-10-29 18:04:17.912 INFO   [530FDF\85975F] Fanout pass #3 on board 'db192b57e659e2fc311ef0fe98a8203b' completed in 3.26 seconds with 11 SMD pins fanouted, 62 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=300).
+2026-10-29 18:04:21.396 INFO   [530FDF\85975F] Fanout pass #4 on board '555e2928c69c464472c1fab54818b4f1' completed in 3.46 seconds with 11 SMD pins fanouted, 62 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=400).
+2026-10-29 18:04:24.346 INFO   [530FDF\85975F] Fanout pass #5 on board 'f2804d920fe3489ac5d39d05bc148093' completed in 2.93 seconds with 11 SMD pins fanouted, 62 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=500).
+2026-10-29 18:04:27.336 INFO   [530FDF\85975F] Fanout pass #6 on board 'ad34f3e2534c5c054ae8e436dd41da16' completed in 2.97 seconds with 11 SMD pins fanouted, 62 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=600).
+2026-10-29 18:04:27.337 INFO   Fanout stopped after 6 passes: no progress for 3 consecutive passes.
+2026-10-29 18:04:27.673 INFO   [530FDF\85975F] Fanout stage completed: started with 149 total SMD pins, completed in 30.38 seconds, escaped pins: 112/149 (75.2%), using 29.64 total CPU seconds, 36.10 GB total allocated, and 254.2 MB peak heap usage.
+2026-10-29 18:04:27.716 INFO   [530FDF\85975F] Auto-routing stage started on board 'ad34f3e2534c5c054ae8e436dd41da16' for 47 unrouted items.
+2026-10-29 18:04:54.389 INFO   [530FDF\85975F] Auto-routing pass #1 on board 'ad34f3e2534c5c054ae8e436dd41da16' was completed in 25.65 seconds with score 609.79 (43 unrouted and 64 violations), using 55.59 CPU seconds and the job allocated 71.96 GB of memory so far.
+2026-10-29 18:05:26.460 INFO   [530FDF\85975F] Auto-routing pass #2 on board 'acf3935a1b88b57dc31d812d42d43e49' was completed in 31.26 seconds with score 672.72 (34 unrouted and 64 violations), using 86.98 CPU seconds and the job allocated 118.70 GB of memory so far.
+2026-10-29 18:05:53.452 INFO   [530FDF\85975F] Auto-routing pass #3 on board 'cf8c63523b50b6fd3c8e9da77f60c706' was completed in 26.08 seconds with score 707.69 (29 unrouted and 64 violations), using 113.72 CPU seconds and the job allocated 158.40 GB of memory so far.
+2026-10-29 18:06:15.991 INFO   [530FDF\85975F] Auto-routing pass #4 on board '229b0b712b632bbdbc036d20e7a1960a' was completed in 21.57 seconds with score 707.69 (29 unrouted and 64 violations), using 135.52 CPU seconds and the job allocated 191.50 GB of memory so far.
+2026-10-29 18:06:35.070 INFO   [530FDF\85975F] Auto-routing pass #5 on board 'e49ffef249696f49812a54dc8eace841' was completed in 18.20 seconds with score 728.66 (26 unrouted and 64 violations), using 155.36 CPU seconds and the job allocated 221.36 GB of memory so far.
+2026-10-29 18:06:56.614 INFO   [530FDF\85975F] Auto-routing pass #6 on board '0a82575cd5ee8e22d6aea53a1c070f42' was completed in 20.70 seconds with score 763.63 (21 unrouted and 64 violations), using 176.17 CPU seconds and the job allocated 255.12 GB of memory so far.
+2026-10-29 18:07:20.577 INFO   [530FDF\85975F] Auto-routing pass #7 on board 'ee823f98b4fd8be5b6bc7fd9758d89be' was completed in 22.88 seconds with score 770.62 (20 unrouted and 64 violations), using 199.53 CPU seconds and the job allocated 290.49 GB of memory so far.
+2026-10-29 18:07:41.613 INFO   [530FDF\85975F] Auto-routing pass #8 on board 'f3a1cf12a75cc0ae448386bb13211b06' was completed in 19.73 seconds with score 770.62 (20 unrouted and 64 violations), using 220.38 CPU seconds and the job allocated 324.37 GB of memory so far.
+2026-10-29 18:08:01.835 INFO   [530FDF\85975F] Auto-routing pass #9 on board '91f71976e573663ba958eb32ade2b2bb' was completed in 18.85 seconds with score 777.61 (19 unrouted and 64 violations), using 240.23 CPU seconds and the job allocated 356.50 GB of memory so far.
+2026-10-29 18:08:21.575 INFO   [530FDF\85975F] Auto-routing pass #10 on board 'b50488438e3756f2b083b2f20d33af90' was completed in 18.49 seconds with score 777.61 (19 unrouted and 64 violations), using 260.14 CPU seconds and the job allocated 388.77 GB of memory so far.
+2026-10-29 18:08:43.690 INFO   [530FDF\85975F] Auto-routing pass #11 on board 'cc99e0cc08c5bb4561f5481a693d3852' was completed in 20.69 seconds with score 777.61 (19 unrouted and 64 violations), using 281.69 CPU seconds and the job allocated 420.25 GB of memory so far.
+2026-10-29 18:09:05.958 INFO   [530FDF\85975F] Auto-routing pass #12 on board 'b50488438e3756f2b083b2f20d33af90' was completed in 0.00 seconds with score 777.61 (19 unrouted and 64 violations), using 303.47 CPU seconds and the job allocated 452.71 GB of memory so far.
+2026-10-29 18:09:26.196 INFO   [530FDF\85975F] Auto-routing pass #13 on board 'b50488438e3756f2b083b2f20d33af90' was completed in 19.52 seconds with score 777.61 (19 unrouted and 64 violations), using 323.14 CPU seconds and the job allocated 482.93 GB of memory so far.
+2026-10-29 18:09:45.377 INFO   [530FDF\85975F] Auto-routing pass #14 on board '0d95a16ce4867f3aa179f616ac53c78c' was completed in 17.97 seconds with score 777.61 (19 unrouted and 64 violations), using 342.98 CPU seconds and the job allocated 515.91 GB of memory so far.
+2026-10-29 18:10:05.831 INFO   [530FDF\85975F] Auto-routing pass #15 on board '294697bf7bfd495293d5c56c21ccc825' was completed in 18.58 seconds with score 777.61 (19 unrouted and 64 violations), using 362.88 CPU seconds and the job allocated 549.22 GB of memory so far.
+2026-10-29 18:10:26.839 INFO   [530FDF\85975F] Auto-routing pass #16 on board '294697bf7bfd495293d5c56c21ccc825' was completed in 0.00 seconds with score 777.61 (19 unrouted and 64 violations), using 383.70 CPU seconds and the job allocated 581.97 GB of memory so far.
+2026-10-29 18:10:46.831 INFO   [530FDF\85975F] Auto-routing pass #17 on board '294697bf7bfd495293d5c56c21ccc825' was completed in 19.33 seconds with score 777.61 (19 unrouted and 64 violations), using 403.30 CPU seconds and the job allocated 614.11 GB of memory so far.
+2026-10-29 18:11:07.029 INFO   [530FDF\85975F] Auto-routing pass #18 on board '9196eb7339d6ac65a8b3eba5e67aed9e' was completed in 18.80 seconds with score 777.61 (19 unrouted and 64 violations), using 423.09 CPU seconds and the job allocated 645.73 GB of memory so far.
+2026-10-29 18:11:27.206 INFO   [530FDF\85975F] Auto-routing pass #19 on board 'd8ce9fab1c4b5e3c32d921d2c2ecfa51' was completed in 18.52 seconds with score 777.61 (19 unrouted and 64 violations), using 442.70 CPU seconds and the job allocated 677.03 GB of memory so far.
+2026-10-29 18:11:27.296 INFO   [530FDF\85975F] The router's best score (777.61) has not improved by more than 0.5 points since pass #9. Stopping the auto-router after 19 passes (19 items still unconnected).
+The following connections could not be routed -- please review your design (e.g. check pad clearances, trace width rules, and available routing space):
+  Net 'GND' (11 unrouted connections):
+    - via  ->  U6-2
+    - U4-9  ->  U4-11
+    - U2-9  ->  U2-11
+    - C4-2  ->  C3-2
+    - C7-2  ->  U2-9
+    - U4-11  ->  U4-18
+    - C4-2  ->  C5-2
+    - U2-1  ->  U2-9
+    - C14-2  ->  U4-18
+    - C2-2  ->  U5-2
+    - C5-2  ->  SW1-2@1
+  Net '+3V3' (4 unrouted connections):
+    - C4-1  ->  via
+    - U4-8  ->  U4-13
+    - U2-8  ->  TP1-1
+    - C11-1  ->  R6-1
+  Net 'USB_DP' (1 unrouted connection):
+    - via  ->  U6-4
+  Net 'USB_DM' (2 unrouted connections):
+    - via  ->  U6-6
+    - J1-A7  ->  J1-B7
+  Net 'IMU1_INT' (1 unrouted connection):
+    - TP7-1  ->  U2-12
+2026-10-29 18:11:29.764 INFO   [530FDF\85975F] Auto-routing stage completed: started with 97 unrouted nets, completed in 452.16 seconds, final score: 777.61 (19 unrouted and 64 violations), using 445.64 total CPU seconds, 681.78 GB total allocated, and 399.0 MB peak heap usage.
+2026-10-29 18:11:30.362 INFO   [530FDF\85975F] Optimization stage started on board '9d328b0f0f998e7a43f1b2c0489d9966' with score 777.61 (19 unrouted and 64 violations).
+2026-10-29 18:12:44.453 INFO   [530FDF\85975F] Stopping optimization pass #1 early after 50 consecutive items could not be improved.
+2026-10-29 18:12:45.162 INFO   [530FDF\85975F] Optimizer pass #1 on board '6d8c36f90fa4ca847a36d02f5cffad35' was completed in 72.74 seconds with the score of 777.61 (19 unrouted and 64 violations).
+2026-10-29 18:12:45.760 INFO   [530FDF\85975F] Stopping optimizer because the improvement in this pass (0.0000%) is below the threshold (1.00%).
+2026-10-29 18:12:46.368 INFO   [530FDF\85975F] Optimization stage completed: started with score 777.61 (19 unrouted and 64 violations), completed in 75.40 seconds, final score: 777.61 (19 unrouted and 64 violations), using 74.89 total CPU seconds, 125.07 GB total allocated, and 403.7 MB peak heap usage.
+2026-10-29 18:12:46.395 INFO   [530FDF\85975F] Job '530FDF\85975F' finished with state: COMPLETED (elapsed: 8 minutes 49.61 seconds, finished at UTC: 2026-10-29T10:12:46.393039700Z).
+2026-10-29 18:12:46.514 INFO   Saving output file 'D:\Antigravity\Projects\SHM-Capstone\PCB Files\GPT Build - PCB\reports\reference_corrected\SHM_Node_R2.ses' (SES)...
+2026-10-29 18:12:46.520 INFO   Successfully saved output file 'D:\Antigravity\Projects\SHM-Capstone\PCB Files\GPT Build - PCB\reports\reference_corrected\SHM_Node_R2.ses' (29535 bytes).

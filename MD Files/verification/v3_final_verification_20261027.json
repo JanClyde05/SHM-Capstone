@@ -1,0 +1,210 @@
+{
+  "recorded_at": "2026-10-28 00:30:54 +08:00",
+  "project": "SHM-Capstone",
+  "candidate_status": "separate review candidate; not approved replacement for v2",
+  "artifacts": {
+    "approved_v2": {
+      "path": "Documents/The Real Research Paper/GPT Paper/SHM_Research_Aligned_Revision_Draft_v2.docx",
+      "sha256": "B09C741309444DAB16ACA6957250217CB776E310C20459820547AA747264CB42",
+      "status": "unchanged"
+    },
+    "candidate_v3": {
+      "path": "Documents/The Real Research Paper/GPT Paper/SHM_Research_Aligned_Revision_Draft_v3.docx",
+      "sha256": "EC2EF0C01090CF57D9AEA343E1F981ED151784C9858E4CD6D8CC86E4D01ADA4F",
+      "status": "final layout-checked review candidate; not approved replacement for v2",
+      "bytes": 894902
+    },
+    "qa_pdf": {
+      "path": "temporary file: %TEMP%/shm_v3_final_20261028.pdf",
+      "sha256": "3DDFD786D8DA9E6052340597FEEB0DCEA578F5BAFCF30378A9BC84C68DB143A3",
+      "bytes": 1276704,
+      "status": "internal Word 16.0 QA export; not a project deliverable"
+    }
+  },
+  "document_qa": {
+    "word_version": "Microsoft Word 16.0",
+    "pdf_pages": 76,
+    "near_blank_pages": [],
+    "chapter_and_references_pages": {
+      "chapter_I": {
+        "physical_pdf_page": 10,
+        "printed_page": 1
+      },
+      "chapter_II": {
+        "physical_pdf_page": 22,
+        "printed_page": 13
+      },
+      "chapter_III": {
+        "physical_pdf_page": 41,
+        "printed_page": 32
+      },
+      "chapter_IV": {
+        "physical_pdf_page": 65,
+        "printed_page": 56
+      },
+      "chapter_V": {
+        "physical_pdf_page": 66,
+        "printed_page": 57
+      },
+      "references": {
+        "physical_pdf_page": 67,
+        "printed_page": 58
+      }
+    },
+    "page_numbering": "Roman front matter; Arabic numbering begins at Chapter I and continues across all chapters without chapter-by-chapter restart.",
+    "layout_findings": [
+      "Chapters I through V begin on separate physical pages; main Arabic numbering begins at Chapter I and remains continuous across chapters.",
+      "Glossary fits on printed page 12; Chapter II begins separately on printed page 13.",
+      "Cover rule is horizontal and does not cross title text.",
+      "Static List of Tables matches Table 1 p. 36, Table 2 p. 39, Table 3 p. 42, and Table 4 p. 44.",
+      "Static List of Figures matches Figure 1.1 p. 6, Figure 1.2 p. 10, Figure 3.1 p. 37, and Figure 3.2 p. 49.",
+      "Table 2 begins at the top of its caption page; Table 3 ends on p. 43 without a lone final row; Table 4 spans pp. 44–45.",
+      "Two missing review-band math objects were restored from approved V2; traffic-rate formula is present as explicit text.",
+      "Bibliography remains left-aligned with hanging indents; 100 entries are present. Full claim-to-source audit remains incomplete."
+    ],
+    "render_and_visual_review": {
+      "attempted_skill_renderer": "render_docx.py could not run because LibreOffice soffice.exe was unavailable.",
+      "fallback": "Word 16.0 export, then Poppler rasterization.",
+      "poppler_version": "pdftoppm 26.07.0",
+      "all_pages_rendered": true,
+      "all_pages_visual_contact_sheet_reviewed": true,
+      "full_document_render_dpi": 75,
+      "higher_resolution_pages_reviewed_dpi": 130,
+      "higher_resolution_pages": [
+        7,
+        45,
+        48,
+        51,
+        52,
+        53,
+        54,
+        59
+      ]
+    },
+    "pdf_text_check": {
+      "python_version": "3.12.14",
+      "pypdf_version": "6.10.0",
+      "result": "Targeted text checks verified the page map, corrected table/figure list page numbers, and restored review-band equations. Full-document blank-page threshold was not rerun; all 76 pages were visually reviewed at contact-sheet scale."
+    }
+  },
+  "reference_structure": {
+    "bibliography_entries": 100,
+    "doi_bearing_entries": 76,
+    "unique_doi_strings": 76,
+    "duplicate_doi_strings": [],
+    "entries_without_doi": 24,
+    "entries_with_url": 99,
+    "status": "structural checks only; no complete 100-source metadata or claim-support audit"
+  },
+  "reference_repairs_and_limits": [
+    {
+      "item": "MPU-6000/MPU-6050 datasheet",
+      "change": "Replaced old InvenSense URL with TDK Product Center PDF locator.",
+      "source": "https://product.tdk.com/system/files/dam/doc/product/sensor/mortion-inertial/imu/data_sheet/mpu-6000-datasheet1.pdf",
+      "status": "Official TDK search page lists specification revision 3.4; direct PDF retrieval timed out in the web reader, so direct access is partially verified."
+    },
+    {
+      "item": "Peeters and De Roeck (2001)",
+      "change": "Replaced malformed/failed DOI URL with publisher landing page.",
+      "source": "https://onlinelibrary.wiley.com/doi/abs/10.1002/1096-9845%28200102%2930%3A2%3C149%3A%3AAID-EQE1%3E3.0.CO%3B2-Z",
+      "status": "Visible Wiley metadata matched the citation."
+    },
+    {
+      "item": "Cabagan 2025 bridge-collapse report",
+      "change": "Replaced the PNA page that returned 404 with Patinio's Inquirer News republication.",
+      "source": "https://newsinfo.inquirer.net/2039139/dpwh-assessment-underway-on-cause-of-isabela-bridge-collapse",
+      "status": "Used for attributed reporting; no cause is asserted."
+    },
+    {
+      "item": "Piggatan 2025 bridge event",
+      "change": "Replaced the PNA page that returned 404 with the Presidential Communications Office release.",
+      "source": "https://pco.gov.ph/news_releases/piggatan-detour-bridge-in-cagayan-opens-on-pbbms-orders/",
+      "status": "Used for event context; conflicting load-limit values are omitted."
+    },
+    {
+      "item": "Buntun bridge local context",
+      "change": "Removed redundant PNA page that returned 404; retained PIA feature.",
+      "source": "https://pia.gov.ph/features/buntun-bridge-the-steel-giant-of-cagayans-lifeline/",
+      "status": "Supports bounded bridge context, not field validation of this study."
+    },
+    {
+      "item": "Sohn et al. (2004), LA-13976-MS",
+      "change": "No replacement URL applied.",
+      "status": "ResearchGate page returned 403. Report metadata is present in indexed copies; an official LANL URL surfaced in search but direct access was unavailable. Access-limited, not proven dead; full-text verification remains open."
+    }
+  ],
+  "reviewer_arrow_dispositions": {
+    "C20": "10-minute duration labeled study-defined; Oth and Picozzi cited only as one-minute-window precedent; duration adequacy remains unverified.",
+    "C21": "Five sessions per traffic group labeled practical target, not statistical power/sample-size justification.",
+    "C22": "FHWA 2022a cited narrowly for traffic-count fields; it does not prescribe the project's vibration session duration or all metadata.",
+    "shared_limit": "Exact arrow intent remains ambiguous; related protocol and owner decisions remain open."
+  },
+  "not_performed_or_not_established": [
+    "Full-text claim-to-source audit of all 100 references.",
+    "Physical PCB, sensor, sampling, calibration, storage, or bridge-field validation.",
+    "Firmware or KiCad edits, builds, ERC/DRC reruns.",
+    "Bridge/site permission, safety approval, or institutional ethics/privacy determination.",
+    "Turnitin similarity report or AI-writing review."
+  ],
+  "project_logs_updated": [
+    "MD Files/00_README.md",
+    "MD Files/08_PROJECT_MAP_AND_SOURCE_OF_TRUTH.md",
+    "MD Files/09_VERIFICATION_LEDGER.md",
+    "MD Files/10_RESEARCH_REFERENCE_AUDIT.md",
+    "MD Files/12_EXECUTION_PLAN.md",
+    "MD Files/18_RRL_SUPPORT_AND_GAP_SEARCH.md",
+    "MD Files/19_ENGR_MAY_ANNE_VALENCIA_CORRECTION_LOG.md",
+    "MD Files/20_V3_REVIEW_CANDIDATE_AND_RRL_BATCH.md",
+    "MD Files/verification/v3_final_verification_20261027.json",
+    "MD Files/13_PROJECT_FILE_INVENTORY.md"
+  ],
+  "latest_layout_recheck_20261028": {
+    "final_docx_sha256": "EC2EF0C01090CF57D9AEA343E1F981ED151784C9858E4CD6D8CC86E4D01ADA4F",
+    "qa_pdf_sha256": "3DDFD786D8DA9E6052340597FEEB0DCEA578F5BAFCF30378A9BC84C68DB143A3",
+    "pdf_pages": 76,
+    "word_version": "16.0",
+    "poppler_version": "26.07.0",
+    "visual_review": "All 76 pages rendered at 75 dpi and visually reviewed; pages 7, 45, 48, 51–54, and 59 reviewed at 130 dpi.",
+    "verified_layout_changes": [
+      "restored horizontal cover rule",
+      "moved final glossary definition onto printed page 12 while Chapter II begins separately on p. 13",
+      "started Table 2 cleanly on p. 39",
+      "compacted Table 3 to pp. 42–43",
+      "corrected Table 1 list entry to p. 36",
+      "synchronized static figure/table page references",
+      "restored review-band equations x-bar plus/minus k_review s and k_review=2"
+    ],
+    "page_map": {
+      "chapter_I": "1 (PDF 10)",
+      "chapter_II": "13 (PDF 22)",
+      "chapter_III": "32 (PDF 41)",
+      "chapter_IV": "56 (PDF 65)",
+      "chapter_V": "57 (PDF 66)",
+      "references": "58 (PDF 67)",
+      "tables": {
+        "1": 36,
+        "2": 39,
+        "3": 42,
+        "4": 44
+      },
+      "figures": {
+        "1.1": 6,
+        "1.2": 10,
+        "3.1": 37,
+        "3.2": 49
+      }
+    },
+    "open_limits": [
+      "V3 not approved; v2 remains approved",
+      "100-source full-text claim-support audit incomplete",
+      "committee placeholders remain",
+      "firmware/method conflicts unresolved",
+      "no field/physical/site/safety/ethics/privacy/Turnitin/AI validation"
+    ],
+    "retained_superseded_intermediate": {
+      "path": "Documents/The Real Research Paper/GPT Paper/SHM_Research_Aligned_Revision_Draft_v3.repacked.docx",
+      "sha256": "453E6E24F665B43869BD38512DC1CB4FB4AA5981CD5763A1F2A682886A6C0469",
+      "status": "superseded intermediate; removal rejected by filesystem tool policy; do not treat as source of truth"
+    }
+  }
+}

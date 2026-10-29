@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09090b">
+  <meta name="color-scheme" content="dark">
+  <title>Structural Frequency Monitor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#live" aria-label="Structural Frequency Monitor home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none">
+            <path d="M5 29h30M8 29V14l12-7 12 7v15M13 29V18h14v11M17 18v11m6-11v11" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M4 21h7l3-5 4 10 4-8 3 3h11" stroke="#60a5fa" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span class="brand-copy">
+          <strong>STRUCTURAL FREQUENCY</strong>
+          <small>BUNTUN BRIDGE · LOCAL NODE</small>
+        </span>
+      </a>
+
+      <div class="topbar-right">
+        <span id="nodeStatus" class="connection-pill is-offline" role="status" aria-live="polite">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span id="nodeStatusText">NODE DISCONNECTED</span>
+        </span>
+        <span class="header-divider" aria-hidden="true"></span>
+        <span class="revision-label">FIRMWARE <b id="firmwareVersion">—</b></span>
+      </div>
+    </header>
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <button class="nav-button is-active" type="button" data-view="live" aria-current="page">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h4l2.2-6 4.6 12 2.2-6H21"/></svg>
+        <span>LIVE</span>
+      </button>
+      <button class="nav-button" type="button" data-view="sessions">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M8 3v4m8-4v4M4 10h16M8 14h3m2 0h3"/></svg>
+        <span>SESSION</span>
+      </button>
+      <button class="nav-button" type="button" data-view="data">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19V5m0 14h15M8 16l3-4 3 2 5-7"/></svg>
+        <span>RECORDS</span>
+      </button>
+      <button class="nav-button" type="button" data-view="baseline">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18h16M6 15V9m4 6V5m4 10v-4m4 4V7"/></svg>
+        <span>BASELINE</span>
+      </button>
+    </nav>
+
+    <main class="main-content">
+      <section id="view-live" class="view is-visible" aria-labelledby="liveTitle">
+        <div class="page-heading">
+          <div>
+            <p class="eyebrow">MONITORING NODE <span class="eyebrow-separator">/</span> LIVE VIEW</p>
+            <h1 id="liveTitle">Frequency overview</h1>
+            <p class="page-description">Per-axis dominant frequency from the three redundant sensors.</p>
+          </div>
+          <div class="heading-meta">
+            <span class="meta-label">ACQUISITION</span>
+            <strong id="acquisitionState" class="mono">AWAITING DATA</strong>
+          </div>
+        </div>
+
+        <div class="live-grid">
+          <section class="panel frequency-panel" aria-labelledby="frequencyTitle">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">MEASURED RESPONSE</p>
+                <h2 id="frequencyTitle">Dominant frequency</h2>
+              </div>
+              <span id="frequencyQuality" class="micro-badge">NO VALID PEAK</span>
+            </div>
+            <div class="axis-readouts" aria-live="polite">
+              <div class="axis-readout">
+                <span class="axis-name">AXIS X</span>
+                <strong id="freqX" class="axis-value">—<small> Hz</small></strong>
+                <span id="snrX" class="axis-detail">SNR — dB</span>
+              </div>
+              <div class="axis-readout">
+                <span class="axis-name">AXIS Y</span>
+                <strong id="freqY" class="axis-value">—<small> Hz</small></strong>
+                <span id="snrY" class="axis-detail">SNR — dB</span>
+              </div>
+              <div class="axis-readout">
+                <span class="axis-name">AXIS Z <span class="axis-tag">VERTICAL</span></span>
+                <strong id="freqZ" class="axis-value">—<small> Hz</small></strong>
+                <span id="snrZ" class="axis-detail">SNR — dB</span>
+              </div>
+            </div>
+            <p class="panel-footnote">Values remain blank until a valid spectrum is received.</p>
+          </section>
+
+          <section class="panel acquisition-panel" aria-labelledby="acquisitionTitle">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">SENSOR INPUT</p>
+                <h2 id="acquisitionTitle">Acquisition status</h2>
+              </div>
+              <span class="icon-frame" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 3v3m0 12v3M3 12h3m12 0h3M6.3 6.3l2.1 2.1m7.2 7.2 2.1 2.1m0-11.4-2.1 2.1m-7.2 7.2-2.1 2.1"/><circle cx="12" cy="12" r="4"/></svg>
+              </span>
+            </div>
+            <div class="sensor-list">
+              <div class="sensor-row"><span class="sensor-name"><i class="sensor-indicator" id="sensorDot1"></i>SENSOR 01</span><span class="sensor-value" id="sensorRate1">— Hz</span></div>
+              <div class="sensor-row"><span class="sensor-name"><i class="sensor-indicator" id="sensorDot2"></i>SENSOR 02</span><span class="sensor-value" id="sensorRate2">— Hz</span></div>
+              <div class="sensor-row"><span class="sensor-name"><i class="sensor-indicator" id="sensorDot3"></i>SENSOR 03</span><span class="sensor-value" id="sensorRate3">— Hz</span></div>
+            </div>
+            <div class="acquisition-summary">
+              <span class="meta-label">MEASURED SAMPLE RATE</span>
+              <strong id="sampleRateSummary" class="mono">— Hz</strong>
+            </div>
+          </section>
+
+          <section class="panel spectrum-panel" aria-labelledby="spectrumTitle">
+            <div class="panel-heading spectrum-heading">
+              <div>
+                <p class="eyebrow">WELCH POWER SPECTRAL DENSITY</p>
+                <h2 id="spectrumTitle">Live spectrum</h2>
+              </div>
+              <div class="axis-switch" role="group" aria-label="Select spectrum axis">
+                <button type="button" class="axis-switch-button is-active" data-axis="x" aria-pressed="true">X</button>
+                <button type="button" class="axis-switch-button" data-axis="y" aria-pressed="false">Y</button>
+                <button type="button" class="axis-switch-button" data-axis="z" aria-pressed="false">Z</button>
+              </div>
+            </div>
+            <div class="chart-wrap">
+              <canvas id="spectrumChart" aria-label="Live frequency spectrum chart" role="img"></canvas>
+              <div id="chartEmpty" class="chart-empty">NO SPECTRUM DATA</div>
+            </div>
+            <div class="chart-axis-labels"><span>0 Hz</span><span>5 Hz</span><span>10 Hz</span><span>15 Hz</span><span>20 Hz</span></div>
+            <div class="chart-caption"><span>FREQUENCY</span><span>POWER / G² PER HZ</span><span id="bandLabel">ANALYSIS BAND 0.5–20 Hz · NOT FROZEN</span></div>
+          </section>
+
+          <section class="panel live-baseline-panel" aria-labelledby="liveBaselineTitle">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">REFERENCE RANGE</p>
+                <h2 id="liveBaselineTitle">Baseline status</h2>
+              </div>
+            </div>
+            <div class="baseline-axis-list">
+              <div class="baseline-axis-row"><span>AXIS X</span><span id="baselineStateX" class="baseline-state">NO BASELINE YET</span></div>
+              <div class="baseline-axis-row"><span>AXIS Y</span><span id="baselineStateY" class="baseline-state">NO BASELINE YET</span></div>
+              <div class="baseline-axis-row"><span>AXIS Z</span><span id="baselineStateZ" class="baseline-state">NO BASELINE YET</span></div>
+            </div>
+            <p class="panel-footnote">The reference is internal to this node and site.</p>
+            <button class="text-button" type="button" data-view-link="baseline">VIEW BASELINE DETAILS <span aria-hidden="true">→</span></button>
+          </section>
+
+          <section class="panel current-session-panel" aria-labelledby="currentSessionTitle">
+            <div class="session-summary-copy">
+              <p class="eyebrow">FIELD RECORD</p>
+              <h2 id="currentSessionTitle">Current session</h2>
+              <p id="currentSessionText" class="muted-copy">No session is active.</p>
+            </div>
+            <div class="session-summary-meta">
+              <span class="meta-label">TRAFFIC LEVEL</span>
+              <strong id="currentTrafficLevel" class="mono">—</strong>
+            </div>
+            <button class="button button-secondary" type="button" data-view-link="sessions">OPEN SESSION</button>
+          </section>
+        </div>
+      </section>
+
+      <section id="view-sessions" class="view" aria-labelledby="sessionPageTitle" hidden>
+        <div class="page-heading">
+          <div>
+            <p class="eyebrow">FIELD RECORD</p>
+            <h1 id="sessionPageTitle">Session setup</h1>
+            <p class="page-description">Record one continuous run under a single observed traffic level.</p>
+          </div>
+          <span id="sessionPageState" class="micro-badge">NODE DISCONNECTED</span>
+        </div>
+        <form id="sessionForm" class="panel session-form">
+          <div class="form-intro">
+            <p class="eyebrow">NEW MEASUREMENT</p>
+            <h2>Session details</h2>
+            <p class="muted-copy">Keep the sensor in the same position and orientation for the campaign.</p>
+          </div>
+          <div class="form-grid">
+            <label class="form-field">
+              <span>TRAFFIC LEVEL</span>
+              <select name="traffic_level" required>
+                <option value="" selected disabled>Select a level</option>
+                <option value="NEAR_ZERO">NEAR ZERO</option>
+                <option value="MEDIUM">MEDIUM</option>
+                <option value="HEAVY">HEAVY</option>
+              </select>
+            </label>
+            <label class="form-field">
+              <span>OPERATOR</span>
+              <input name="operator" type="text" autocomplete="name" placeholder="Enter operator name" required>
+            </label>
+            <label class="form-field form-field-wide">
+              <span>WEATHER / EVENT NOTES</span>
+              <textarea name="notes" rows="3" placeholder="Enter weather or notable events"></textarea>
+            </label>
+          </div>
+          <div class="form-actions">
+            <p class="form-note">The node time will be set from this device when the session begins.</p>
+            <div class="button-row">
+              <button id="precheckButton" class="button button-secondary" type="button" disabled>RUN PRECHECK</button>
+              <button id="startSessionButton" class="button button-primary" type="submit" disabled>START SESSION</button>
+              <button id="stopSessionButton" class="button button-outline" type="button" disabled>STOP SESSION</button>
+            </div>
+          </div>
+          <p id="sessionMessage" class="inline-message" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+
+      <section id="view-data" class="view" aria-labelledby="recordsTitle" hidden>
+        <div class="page-heading">
+          <div>
+            <p class="eyebrow">RETAINED MEASUREMENTS</p>
+            <h1 id="recordsTitle">Session records</h1>
+            <p class="page-description">Download the raw record and summary for offline analysis.</p>
+          </div>
+          <span id="recordCount" class="micro-badge">0 RECORDS</span>
+        </div>
+        <section class="panel records-panel" aria-label="Saved session records">
+          <div class="records-header"><span>SESSION</span><span>LEVEL</span><span>STATE</span><span>DURATION</span><span>FILES</span></div>
+          <div id="recordsList" class="records-list">
+            <p class="empty-state">No saved sessions are available.</p>
+          </div>
+        </section>
+      </section>
+
+      <section id="view-baseline" class="view" aria-labelledby="baselineTitle" hidden>
+        <div class="page-heading">
+          <div>
+            <p class="eyebrow">INTERNAL REFERENCE</p>
+            <h1 id="baselineTitle">Baseline summary</h1>
+            <p class="page-description">Dominant-frequency statistics by axis and traffic level.</p>
+          </div>
+          <span class="micro-badge">MINIMUM 5 ACCEPTED SESSIONS / LEVEL</span>
+        </div>
+        <section class="panel baseline-table-panel" aria-label="Baseline values">
+          <div class="baseline-table-wrap">
+            <table>
+              <thead><tr><th>AXIS</th><th>TRAFFIC LEVEL</th><th>SESSIONS</th><th>MEAN</th><th>SD</th><th>CV</th><th>STATE</th></tr></thead>
+              <tbody id="baselineRows"><tr><td colspan="7" class="empty-cell">NO BASELINE YET</td></tr></tbody>
+            </table>
+          </div>
+          <p class="panel-footnote">Mean ± standard deviation is descriptive. The configurable review band is shown after settings are frozen.</p>
+        </section>
+      </section>
+
+      <footer class="page-footer">
+        <span>FREQUENCY MONITORING ONLY</span>
+        <span>INTERNAL BASELINE · SINGLE SITE</span>
+        <span id="footerHardwareRevision">HARDWARE REVISION —</span>
+      </footer>
+    </main>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js" defer></script>
+</body>
+</html>

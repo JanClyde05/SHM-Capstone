@@ -1,0 +1,12 @@
+{
+  "status": "SUPERSEDED",
+  "reason": "Used incorrect parent Thesis.kicad_pcb outline (16 edge primitives, ~83.6mm) instead of approved SHM_PCB_New reference (12 edge primitives, 79.50 x 50.45mm).",
+  "archived_date": "2026-10-29",
+  "active_design_location": "PCB Files/GPT Build - PCB/design/",
+  "superseded_files": {
+    "SHM_Node_R2_superseded_83mm.kicad_pcb": "DA80B01E83B4625F8C970DF54883DBA27B5402EBCA027CB8A6274129E32A0E54",
+    "SHM_Node_R2_drc_clean_checkpoint.kicad_pcb": "DA80B01E83B4625F8C970DF54883DBA27B5402EBCA027CB8A6274129E32A0E54"
+  },
+  "previews_archived": "previews/",
+  "notice_for_ai": "Do not treat files in this folder as the current hardware design. Read ../00_README_ACTIVE_DESIGN.md for the active source of truth."
+}

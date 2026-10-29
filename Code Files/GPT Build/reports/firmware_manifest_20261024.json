@@ -1,0 +1,116 @@
+{
+  "recorded_at_utc": "2026-10-24T13:55:51.409154+00:00",
+  "scope": "Implemented prototype; no hardware upload or physical accuracy validation",
+  "firmware_version": "0.2.0-fft-prototype",
+  "arduino_cli": "1.1.1",
+  "arduino_core": "3.3.5",
+  "ArduinoJson": "7.4.2",
+  "fqbn": "esp32:esp32:esp32s3:USBMode=hwcdc,CDCOnBoot=cdc,UploadMode=default,FlashMode=qio,FlashSize=16M,PSRAM=opi,PartitionScheme=custom,CPUFreq=240,LoopCore=1,EventsCore=1,EraseFlash=none",
+  "sketch_usage_bytes": 1115179,
+  "static_dynamic_memory_bytes": 55704,
+  "principal_psram_allocations_bytes": 6688144,
+  "generated_partitions": [
+    {
+      "name": "nvs",
+      "type": 1,
+      "subtype": 2,
+      "offset": 36864,
+      "size": 20480,
+      "end": 57344
+    },
+    {
+      "name": "otadata",
+      "type": 1,
+      "subtype": 0,
+      "offset": 57344,
+      "size": 8192,
+      "end": 65536
+    },
+    {
+      "name": "app0",
+      "type": 0,
+      "subtype": 0,
+      "offset": 65536,
+      "size": 3145728,
+      "end": 3211264
+    },
+    {
+      "name": "spiffs",
+      "type": 1,
+      "subtype": 130,
+      "offset": 3211264,
+      "size": 13565952,
+      "end": 16777216
+    }
+  ],
+  "generated_artifacts": {
+    "SHM_Capstone.ino.bin": {
+      "bytes": 1115328,
+      "sha256": "c7a341ea089148d9108855067a33b06fb469e38bbc9c7e263fb77079fcc25821",
+      "temporary_build_path": "C:\\Users\\Jan Clyde Talosig\\AppData\\Local\\Temp\\shm-firmware-build\\SHM_Capstone.ino.bin"
+    },
+    "SHM_Capstone.ino.partitions.bin": {
+      "bytes": 3072,
+      "sha256": "27ddc167a996f988be1a5bfd5f0f107176f8052ba97b384b6a79b2806f945644",
+      "temporary_build_path": "C:\\Users\\Jan Clyde Talosig\\AppData\\Local\\Temp\\shm-firmware-build\\SHM_Capstone.ino.partitions.bin"
+    },
+    "SHM_Capstone.ino.bootloader.bin": {
+      "bytes": 20224,
+      "sha256": "d9263d09dd8c95efe3761bd53613848f3a7f05824720f71c8a44b8cdfec788e3",
+      "temporary_build_path": "C:\\Users\\Jan Clyde Talosig\\AppData\\Local\\Temp\\shm-firmware-build\\SHM_Capstone.ino.bootloader.bin"
+    }
+  },
+  "source_sha256": {
+    "firmware/SHM_Capstone/acquisition.cpp": "473e68d53dd8e2e59f5d6e2749ca7000887f73a5677a92cbe64053c06667cf71",
+    "firmware/SHM_Capstone/acquisition.h": "f5af87eca8d81edf8877bab8edcf16b184de7029d28178d3729834e9a0e305c1",
+    "firmware/SHM_Capstone/app.cpp": "c0f6b9173ab41a232998dff9c03741b1128ea321efc20f6e78af16241cdca813",
+    "firmware/SHM_Capstone/app.h": "8437d71b489de135dcabbb39f2e6d109b4a7da2f02d9238a764fc4a923624188",
+    "firmware/SHM_Capstone/baseline.cpp": "5cbd98ff9340f044858c1a81f2c5a0a5eba4556690f3a9e3513623a05663e0af",
+    "firmware/SHM_Capstone/baseline.h": "3badcd0dee0ccc9410191fcb2d8d55a214fe1cb489ac291519869d746f54c875",
+    "firmware/SHM_Capstone/config.h": "68ef69368f52158ec20f6cdefd7c5efa8124b80419f38c1d4b58e8f46baec39e",
+    "firmware/SHM_Capstone/dsp.cpp": "3cd06e0ca44be798c1e8142dcf4d498ce86ec3f305b3689fbf35761565116691",
+    "firmware/SHM_Capstone/dsp.h": "54ef4ac4b9e381e68d3a39bb929e905b31699aa9f2a6d8611ce5a7319ae5451a",
+    "firmware/SHM_Capstone/hardware_profile.h": "7fcea7ed88d258d07dfb7a497c5b677c27c4c9da0c4598d0edabeea11717b46d",
+    "firmware/SHM_Capstone/imu_mpu6050.cpp": "bf59bfd2e14f8aa91b899026866587bed65397ab7ffe0ca22b09a7fec7058c3a",
+    "firmware/SHM_Capstone/imu_mpu6050.h": "1f432ef81e1720469983011267da51096a2caac6e34ec6a76588af4a59bca23f",
+    "firmware/SHM_Capstone/measurement_types.h": "98d88a259026d9de990e23c718f9d685475ab229770ae67181a7837dc10ebba6",
+    "firmware/SHM_Capstone/partitions.csv": "6e900f42729b14e87e5b14cf54e20fb4020782b02d0f920d056b615b1fce4817",
+    "firmware/SHM_Capstone/README.md": "ad08ac00f91412b12af0ed91094aafcef45362e067da8866bac736c5c868e097",
+    "firmware/SHM_Capstone/session.cpp": "481d2f05d20c0fbfa6294b3842b59659d9fa88316fdcc5a40a8e8352af400d54",
+    "firmware/SHM_Capstone/session.h": "6b12994396b9388c4c1519d64c24f1b9e359d91376ba093c7cc45afac2ada6a5",
+    "firmware/SHM_Capstone/SHM_Capstone.ino": "bc08aafb977798edb9535b611dd6c34958dddbe6c9a7de1a5b91a7589a634abb",
+    "firmware/SHM_Capstone/storage.cpp": "eb9db0410a41043180f26f5e579adf37003af38fd9d02b217ff73cb36ac0adfd",
+    "firmware/SHM_Capstone/storage.h": "6a82f06c0799123011bfefc1bb9925d415312e9658eca12c485a2c6c26392b5c",
+    "firmware/SHM_Capstone/timebase.cpp": "c5232d210dafc15a895c64d3268468070ac28ee07f3ee001521abc30895a9da2",
+    "firmware/SHM_Capstone/timebase.h": "bb56ce25567288d03ac3d2bbddbb53cdf1cebbca2927f33eae6d8811a6cf5744",
+    "firmware/SHM_Capstone/ui_assets.h": "522110da01deb4b9d8bfbf1c6ecbc6f3009017afae03365135606def63d92889",
+    "firmware/SHM_Capstone/version.h": "e600d259130899a4073add685e599a68b60af5e8f315bf3c7d5835deb0ec9e58",
+    "firmware/SHM_Capstone/web_server.cpp": "3328d3fe59a363e5a578658cec42d8f87f601540522b362297b53284d84016e9",
+    "firmware/SHM_Capstone/web_server.h": "918517acfa71756bf5289d9c7d90c7170dabff07d612b9708772f43e4dd405fc",
+    "firmware/SHM_Capstone/wifi_manager.cpp": "1fe4904b72329a738e998be750093fa379caf3e7f8e5418f1d5873fd8e7031a2",
+    "firmware/SHM_Capstone/wifi_manager.h": "714a56fe080129b93c47853c1ec71150dcbf41f3f71a952af5e6102385300e78",
+    "tools/analyze_campaign.py": "c5046b5dd9caca6ecb6c1141f9ee209b1cedec9d36d721d6b415bff7639dc06c",
+    "tools/analyze_session.py": "79e938e830ba10e00e82f394046d7621046f900ac4a093e7aaf24b1861a0b428",
+    "tools/derive_traffic_cutoffs.py": "d2c1600822adb52a7035cf97e230366bd6b010ee62df1c63220b8aae26bfabdd",
+    "tools/native_math_check.cpp": "8cffd279c1737dd07435c52be56dcc858bf15326eb2a010617d0f0de2c37a3f0",
+    "tools/README.md": "6226f8a71cc839f07d11aee4645de8be74e19cb7e63e08b43477c22cb5f4c532",
+    "tools/reference_math.py": "cf9770972d19fcbea6de7bf56314b07c447079c33455b451f691a2a255df1908",
+    "tools/requirements.txt": "53f09c010b8feb18885716522c9f0fe21eea81905d9e089496e898a1eefc856f",
+    "tools/verify_math.py": "c302bbfc9e0c2b34f028b7762add9433d244c09494dd42de85be123010507d85",
+    "tools/verify_raw_pipeline.py": "1b1e2b78939d428f486b8548e7a2f1252f40484e6c8956fe595c1167aa73eb40",
+    "tools/verify_traffic_workflow.py": "ad8a21b157bf3fb3841a92a58eecde8b21684e334e11faed4af876c80bcaa23c",
+    ".clang-format": "42c745270a095588895f0c311d9b68c2ef01f4513fd1309de8af48a72c158ca4"
+  },
+  "numerical_report_source_hashes_match": true,
+  "verification_evidence_sha256": {
+    "math_verification.json": "2533834d259ca338e9dd3da3f36a24a3dfec8132ef05fb2daf5b9d5df661d49b",
+    "arduino_compile_20261024.txt": "a187c3c080d2787a7dcd5f8ec752ba973779524e5d9861350ac87cd956866430",
+    "raw_pipeline_verification_20261024.txt": "2dc9646cae15e59e7c8f93da53655e9bffe9b6b0d751f9e4ce4b7ca0d4e059f7",
+    "traffic_verification_20261024.txt": "1136f1261b6f25fe0232c2305d45874e84e060b79aa5f03ff73e1466f57398e4"
+  },
+  "paper_docx_reference_hashes": {
+    "SHM_Research_Aligned_Revision_Draft.docx": "23506998b5c65ec0b12a2b10352cb767b1c8910b50c0880f2a69e06adae909f8",
+    "SHM_Research_Aligned_Revision_Draft_v2.docx": "b09c741309444dab16aca6957250217cb776e310c20459820547aa747264cb42",
+    "~$M_Research_Aligned_Revision_Draft_v2.docx": "ab7f24a029314c8511055483d95521d9d472912733172965544fbb8a880680e1"
+  }
+}

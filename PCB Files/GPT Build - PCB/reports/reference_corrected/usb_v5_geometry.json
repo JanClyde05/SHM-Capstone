@@ -1,0 +1,70 @@
+{
+  "time_utc": "2026-10-29T10:04:45.848558+00:00",
+  "board": "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB\\design\\reference_corrected\\SHM_Node_R2_preroute.kicad_pcb",
+  "sha256": "28b1ca0fcb1644092d39127d13734b43030777e352c4f810eaa88b9daa982e18",
+  "paths": {
+    "A_DM": {
+      "planar_track_mm": 24.389421,
+      "via_transitions": 2,
+      "net": "USB_DM",
+      "net_inventory": {
+        "total_track_mm": 26.642262377944633,
+        "via_count": 2
+      }
+    },
+    "B_DM": {
+      "planar_track_mm": 23.060131,
+      "via_transitions": 2,
+      "net": "USB_DM",
+      "net_inventory": {
+        "total_track_mm": 26.642262377944633,
+        "via_count": 2
+      }
+    },
+    "A_DP": {
+      "planar_track_mm": 24.160587,
+      "via_transitions": 4,
+      "net": "USB_DP",
+      "net_inventory": {
+        "total_track_mm": 25.754851329286126,
+        "via_count": 4
+      }
+    },
+    "B_DP": {
+      "planar_track_mm": 22.984851,
+      "via_transitions": 2,
+      "net": "USB_DP",
+      "net_inventory": {
+        "total_track_mm": 25.754851329286126,
+        "via_count": 4
+      }
+    },
+    "MCU_DM": {
+      "planar_track_mm": 2.133429,
+      "via_transitions": 0,
+      "net": "USB_DM_MCU",
+      "net_inventory": {
+        "total_track_mm": 2.133428797280239,
+        "via_count": 0
+      }
+    },
+    "MCU_DP": {
+      "planar_track_mm": 2.287423,
+      "via_transitions": 0,
+      "net": "USB_DP_MCU",
+      "net_inventory": {
+        "total_track_mm": 2.2874228365658285,
+        "via_count": 0
+      }
+    }
+  },
+  "endpoint_planar_mismatch_mm": {
+    "A": 0.07484,
+    "B": -0.078714
+  },
+  "limits": [
+    "Planar tracks only; via barrel depth, pad shapes, resistor internals and coupling excluded.",
+    "Negative mismatch means D+ is longer.",
+    "No USB compliance, electrical delay or 90-ohm impedance established."
+  ]
+}

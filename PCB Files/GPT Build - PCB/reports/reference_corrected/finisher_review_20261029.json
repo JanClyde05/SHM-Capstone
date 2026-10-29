@@ -1,0 +1,21 @@
+{
+  "time_utc": "2026-10-29T04:50:16.255741+00:00",
+  "status": "prepared; not run on routed board",
+  "script": "PCB Files\\GPT Build - PCB\\tools\\finish_corrected_board.py",
+  "sha256": "fce2fb30717e98a0fe2f66b7d83ed1f666a1b7f5f9c29c958784cc1a9984cb56",
+  "changes": [
+    "Check all drilled pad holes and existing via holes regardless of net before placing a via",
+    "Pass actual drill diameter when bridge adds 0.8/0.4 via",
+    "Include schematic parity in every DRC and final success condition",
+    "Preserve per-run reports in unique UTC subdirectory",
+    "Enforce silkscreen-to-edge clearance in auto-placement"
+  ],
+  "checks": [
+    "Python AST parsed",
+    "KiCad10.0.6 read-only GetEffectiveHoleShape/Collide and SHAPE_RECT constructors inspected"
+  ],
+  "limits": [
+    "No final board generated; parent must supply reviewed SES before execution",
+    "No fabricated or physical evidence"
+  ]
+}

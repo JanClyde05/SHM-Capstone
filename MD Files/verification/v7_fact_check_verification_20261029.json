@@ -1,0 +1,140 @@
+{
+  "audit_timestamp": "2026-10-29T20:47:36+08:00",
+  "scope": "Targeted claim/reference fact-check and correction; not exhaustive full-text review",
+  "source_v6": {
+    "path": "Documents\\The Real Research Paper\\GPT Paper\\SHM_Research_Aligned_Revision_Draft_v6.docx",
+    "sha256": "967330865c6980ef4f6c7bb6885ef8fee13b0fd74268d615af744c198a48c9fd"
+  },
+  "final_v7_docx": {
+    "path": "Documents\\The Real Research Paper\\GPT Paper\\SHM_Research_Aligned_Revision_Draft_v7.docx",
+    "bytes": 1930860,
+    "sha256": "1555634592f0c1e9174cc489b70d772c887eb4101a06fffe33cd563e5f30790e",
+    "zip_crc": "passed",
+    "paragraphs_equal_to_pre_f11_snapshot": true
+  },
+  "final_v7_pdf": {
+    "path": "Documents\\The Real Research Paper\\GPT Paper\\SHM_Research_Aligned_Revision_Draft_v7.pdf",
+    "bytes": 1480367,
+    "sha256": "d22e2727cfebf358f2fc0897e7eb04659049cf359c04d2e00113d046ccd90e2b",
+    "page_count": 80,
+    "all_pages_letter": true,
+    "byte_identical_to_pre_f11_snapshot": true
+  },
+  "pre_map_restore_pdf": {
+    "path": "MD Files\\verification\\v7_render\\SHM_Research_Aligned_Revision_Draft_v7_pre_map_restore.pdf",
+    "sha256": "0002e7406d12dc8e6ff0255214c22ca7c4e076c809c415518bb1144c63f8226d",
+    "preserved_for_audit": true
+  },
+  "paragraph_comparison": {
+    "v6_nonempty": 370,
+    "v7_nonempty": 370,
+    "changed_count": 10,
+    "changed_indices": [
+      112,
+      159,
+      169,
+      172,
+      182,
+      214,
+      290,
+      331,
+      340,
+      399
+    ],
+    "final_traffic_claim": "Restored pre-F11 wording; the FHWA 2022 guide explicitly lists 10-minute increments for the specified continuous-count-station AADT procedure."
+  },
+  "reference_structure": {
+    "entry_count": 101,
+    "prior_crossref_screen": "77/77 DOI metadata matches from earlier V4 audit; carried forward only",
+    "fresh_screen": "not completed; a URL-only parser found 75 doi.org URLs and missed Wiley-path DOI links; result rejected"
+  },
+  "media": {
+    "v6_and_v7_media_parts_byte_identical_after_map_restore": true,
+    "part_count": 8,
+    "map_asset_dimensions_px": [
+      1800,
+      860
+    ]
+  },
+  "name_check": {
+    "CRISTOPHER_R_CAPILI": "verified in V7 DOCX front matter",
+    "ENGR_EULOGIO_NEIL_A_MALLILLIN": "verified in V7 DOCX front matter"
+  },
+  "pdf_text_check": [
+    "F01 draft-scoped results sentence",
+    "F02 bounded baseline search",
+    "F08 operator-name disclosure",
+    "F09 revised Chapter IV introduction",
+    "R01 fifth-author correction",
+    "F01 exact sentence checked after whitespace normalization and visual page 9 review"
+  ],
+  "page_map_check": "chapter and figure-caption page labels matched the static lists",
+  "visual_review": {
+    "all_pages": "80 pages rendered at 75 dpi; four contact sheets visually reviewed",
+    "targeted_pages_at_160dpi": [
+      2,
+      9,
+      19,
+      20,
+      21,
+      23,
+      34,
+      49,
+      56,
+      62,
+      67,
+      69,
+      75
+    ],
+    "latest_restored_candidate_pages_at_160dpi": [
+      55,
+      56,
+      57,
+      62,
+      69
+    ]
+  },
+  "tool_versions": {
+    "Microsoft Word": "16.0 (read-only repaginate/export)",
+    "Python": "3.12.14",
+    "pypdf": "6.10.0",
+    "lxml": "6.1.1",
+    "Pillow": "12.3.0",
+    "Poppler": "26.07.0"
+  },
+  "limitations": [
+    "101 reference full texts and all claim-to-passage matches not exhaustively verified",
+    "no institutional ethics/privacy, site permission/safety, physical/field validation, calibration/timing, or Turnitin/AI review",
+    "firmware/method window and valid-window gates remain unresolved",
+    "V7 is an unapproved review candidate; V2 remains the approved source",
+    "A second FHWA source search initially yielded a false negative; direct review of section 3.8.3 resolved it and the F11 rewrite was withdrawn. This source-search failure is logged in MD22.",
+    "A literal PDF sentence assertion was a false negative due to an extraction line break; whitespace-normalized extraction and visual inspection confirmed the sentence. One console print of a mathematical glyph failed encoding; no artifact changed. Both are logged in MD22."
+  ],
+  "fhwa_recheck_adjudication": {
+    "status": "F11 rewrite withdrawn; original F07 claim retained",
+    "source_methodology": "https://www.fhwa.dot.gov/policyinformation/tmguide/tmg_2022/traffic-data-methodologies.cfm#3.8.3",
+    "source_formats": "https://www.fhwa.dot.gov/policyinformation/tmguide/tmg_2022/traffic-data-formats.cfm",
+    "direct_finding": "Section 3.8.3 lists hourly, 10 minutes, 5 minutes, and 1 minute increments for its continuous-count-station AADT calculation; the stated general formula uses equal-length time intervals. Chapter 4 also allows 5-, 10-, 15-, 20-, 30-, or 60-minute formats and says counts should use the shortest feasible interval.",
+    "boundary": "This supports 10 minutes as a traffic-data increment in those traffic-count procedures. It does not validate the study-specific 10-minute vibration/count pairing as an adequate structural-monitoring protocol.",
+    "false_negative_cause": "An exact find query for singular phrase \"10 minute\" missed the source phrasing \"10 minutes\"; the no-match result was incorrectly treated as evidence of absence.",
+    "manuscript_action": "Restored the unchanged pre-F11 V7 paragraph and matching 80-page PDF; no net F11 wording change remains."
+  },
+  "withdrawn_f11_intermediate": {
+    "docx": {
+      "path": "MD Files\\verification\\v7_render\\SHM_Research_Aligned_Revision_Draft_v7_f11_withdrawn_overcorrection.docx",
+      "bytes": 1930903,
+      "sha256": "8cb224bd9485822f36d6f9165fb868b56a4086173e11d2926ffe94dd67b73e7e"
+    },
+    "pdf": {
+      "path": "MD Files\\verification\\v7_render\\SHM_Research_Aligned_Revision_Draft_v7_f11_withdrawn_overcorrection.pdf",
+      "bytes": 1480648,
+      "sha256": "69f02873669a7211acbcc86ca3a385a2e59381cfaffadedb8080eba1e255e070"
+    },
+    "disposition": "Preserved as a rejected intermediate; its F11 prose was based on a false-negative source search and is not the final candidate."
+  },
+  "unicode_display_false_alarm_snapshot": {
+    "path": "MD Files\\verification\\v7_render\\SHM_Research_Aligned_Revision_Draft_v7_f11_unicode_display_false_alarm.pdf",
+    "sha256": "69f02873669a7211acbcc86ca3a385a2e59381cfaffadedb8080eba1e255e070",
+    "disposition": "Duplicate PDF snapshot; raw DOCX codepoint and render show the curly apostrophe was intact. No character correction was applied."
+  }
+}

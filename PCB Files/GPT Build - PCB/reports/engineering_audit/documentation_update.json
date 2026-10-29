@@ -1,0 +1,22 @@
+{
+  "time_utc": "2026-10-29T15:56:23.341385+00:00",
+  "changed_documentation": [
+    "PCB Files\\GPT Build - PCB\\docs\\HANDOFF.md",
+    "PCB Files\\GPT Build - PCB\\docs\\CONTINUATION_PLAN.md",
+    "PCB Files\\GPT Build - PCB\\docs\\PROJECT_MAP.md",
+    "PCB Files\\GPT Build - PCB\\README.md",
+    "PCB Files\\GPT Build - PCB\\docs\\LAYOUT_REVIEW.md",
+    "PCB Files\\GPT Build - PCB\\docs\\AUDIT_ELECTRICAL.md",
+    "MD Files\\00_README.md",
+    "MD Files\\08_PROJECT_MAP_AND_SOURCE_OF_TRUTH.md",
+    "MD Files\\09_VERIFICATION_LEDGER.md",
+    "MD Files\\14_CAD_VALIDATION_SNAPSHOT.md",
+    "MD Files\\12_EXECUTION_PLAN.md",
+    "MD Files\\10_RESEARCH_REFERENCE_AUDIT.md",
+    "PCB Files\\GPT Build - PCB\\docs\\RESEARCH_LEDGER.md",
+    "MD Files\\22_AI_FEEDBACK_AND_MISTAKE_LOG.md",
+    "PCB Files\\GPT Build - PCB\\docs\\ERROR_LOG.md"
+  ],
+  "backup": "PCB Files\\GPT Build - PCB\\reports\\engineering_audit\\documentation_before_audit_followup_20261029.zip",
+  "scope": "Audit documentation only; no CAD, paper or firmware edits"
+}

@@ -1,0 +1,153 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-29T18:14:38",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "SHM_Node_R2.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [+3V3] on F.Cu, length 1.6500 mm",
+                    "pos": {
+                        "x": 111.125,
+                        "y": 65.45
+                    },
+                    "uuid": "4fac0952-5e10-43ba-ac0f-19dd36648b74"
+                },
+                {
+                    "description": "Track [+3V3] on F.Cu, length 1.6250 mm",
+                    "pos": {
+                        "x": 108.4,
+                        "y": 66.2
+                    },
+                    "uuid": "867439e8-3578-4e7c-8a86-121922054d63"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [+3V3] on F.Cu, length 1.6500 mm",
+                    "pos": {
+                        "x": 140.725,
+                        "y": 95.25
+                    },
+                    "uuid": "e015e831-7e45-4209-b812-3a0ef08c8187"
+                },
+                {
+                    "description": "Track [+3V3] on F.Cu, length 0.3444 mm",
+                    "pos": {
+                        "x": 140.8486,
+                        "y": 85.4277
+                    },
+                    "uuid": "0e608de7-9bad-458e-b3c6-f6dcae1e1e57"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [+3V3] on F.Cu, length 1.6250 mm",
+                    "pos": {
+                        "x": 167.9,
+                        "y": 66.2
+                    },
+                    "uuid": "5f11d5c7-f8fb-426a-89e9-1eaa5f22025b"
+                },
+                {
+                    "description": "Pad 1 [+3V3] of R6 on F.Cu",
+                    "pos": {
+                        "x": 150.175,
+                        "y": 70.5
+                    },
+                    "uuid": "4a47ca1e-4214-4a03-8957-5142b9115fed"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [/IMU1_INT] on B.Cu, length 4.4442 mm",
+                    "pos": {
+                        "x": 134.4673,
+                        "y": 87.0575
+                    },
+                    "uuid": "5d6d726e-ded9-436f-95e8-376ca57d6e47"
+                },
+                {
+                    "description": "Pad 12 [/IMU1_INT] of U2 on F.Cu",
+                    "pos": {
+                        "x": 140.0,
+                        "y": 95.975
+                    },
+                    "uuid": "f3be6ebe-671c-4e74-bb48-bcf2b98f3911"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Silkscreen clipped by board edge (board setup constraints silk clearance 0.1000 mm; actual 0.0650 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 155.75,
+                        "y": 53.55
+                    },
+                    "uuid": "669e5d5f-08cd-4db9-b89b-30178e90b03c"
+                },
+                {
+                    "description": "Polygon of U1 on F.Silkscreen",
+                    "pos": {
+                        "x": 129.7,
+                        "y": 54.175
+                    },
+                    "uuid": "cf2d5559-4e62-4ae5-9559-2dadea047d3a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        }
+    ]
+}

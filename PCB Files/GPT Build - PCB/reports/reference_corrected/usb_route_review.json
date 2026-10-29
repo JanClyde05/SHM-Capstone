@@ -1,0 +1,12 @@
+{
+  "U6_position": [
+    133,
+    80.3
+  ],
+  "USB_width_mm": 0.2,
+  "nominal_paired_edge_gap_mm": 0.2,
+  "limitations": [
+    "Actual impedance requires selected stackup.",
+    "Full USB source/power/ESD/physical compliance not established."
+  ]
+}

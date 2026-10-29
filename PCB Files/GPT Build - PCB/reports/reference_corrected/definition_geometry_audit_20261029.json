@@ -1,0 +1,45 @@
+{
+  "date_local": "2026-10-29 Asia/Manila",
+  "tool": "10.0.6",
+  "spec_xml_endpoints": 148,
+  "spec_xml_mismatches": [],
+  "firmware_contract_assertions_passed": true,
+  "firmware_arrays": {
+    "SHM_SDA": [
+      8,
+      10
+    ],
+    "SHM_SCL": [
+      9,
+      11
+    ],
+    "SHM_INT": [
+      4,
+      5,
+      6
+    ],
+    "SHM_BUS": [
+      0,
+      0,
+      1
+    ],
+    "SHM_ADDRESS": [
+      104,
+      105,
+      104
+    ]
+  },
+  "reference_edges_match": true,
+  "edge_count": 12,
+  "source_hashes": {
+    "PCB Files\\GPT Build - PCB\\design\\reference_corrected\\SHM_Node_R2_preroute.kicad_pcb": "212407014e8380ea986323d3e5904849ae98bca8fd8ab42b1992b8467e65bf93",
+    "PCB Files\\GPT Build - PCB\\design\\reference_corrected\\SHM_Node_R2.net": "ad643c71e5de733c26af183d602d11f16227e8b00a680423c35aa2f0c97d17e1",
+    "PCB Files\\GPT Build - PCB\\design\\reference_corrected\\circuit_spec.json": "f5f5a56f9e9b467c1ff75795e55d94ca561eb9770ed3594dd65273ea0006b34b",
+    "Code Files\\GPT Build\\firmware\\SHM_Capstone\\hardware_profile.h": "7fcea7ed88d258d07dfb7a497c5b677c27c4c9da0c4598d0edabeea11717b46d",
+    "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\Reference PCB (OLD Version)\\Thesis\\SHM_PCB_New\\SHM_PCB_New.kicad_pcb": "372996943a9c3eb3c9087c315b7c810df9c0b70a4e0d1b47a99e9ec81b52c23f"
+  },
+  "limits": [
+    "Pre-route geometry and net-definition checks only. Does not establish physical copper connectivity or hardware performance.",
+    "Final board and ERC/DRC remain pending."
+  ]
+}

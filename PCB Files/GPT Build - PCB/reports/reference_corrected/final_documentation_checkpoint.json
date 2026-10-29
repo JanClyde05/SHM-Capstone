@@ -1,0 +1,9 @@
+{
+  "updated_at": "2026-10-29T23:03:32+08:00",
+  "active_pcb_sha256": "0ea352e982e6ccb87134d1d3dcef7bd3adb747efab5ba28b136cd1090f99540e",
+  "validation_manifest": "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB\\reports\\reference_corrected\\validation_20261029T145905461959Z\\manifest.json",
+  "documentation_archive": "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB\\archive\\documentation_before_final_handoff_20261029.zip",
+  "bom_reference_count": 49,
+  "physical_validation": "not performed",
+  "firmware_or_paper_edits": "none in this continuation"
+}

@@ -1,0 +1,18 @@
+# Local build and editor artifacts
+.vscode/
+
+# Local credentials and session data
+**/secrets.h
+*.shmb
+**/data_local/
+
+# Python tooling
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+desktop.ini

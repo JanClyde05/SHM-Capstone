@@ -1,0 +1,8 @@
+# Planned offline-analysis dependencies from docs/04_CODEBASE_PLAN.md.
+# Pin versions when the analysis environment is established.
+numpy
+scipy
+pandas
+matplotlib
+statsmodels
+scikit-posthocs

@@ -1,0 +1,28 @@
+{
+  "time_utc": "2026-10-29T09:55:35.255352+00:00",
+  "proposal_record": "Parent message before edit proposed pre-import placement/locked-copper invariant; parent confirmed acceptance. Existing continuation-plan acceptance already requires retained critical copper/placement.",
+  "acceptance": "Stop before writing final candidate if SES changes any footprint placement or locked copper geometry; preserve separate import_integrity.json per run.",
+  "status": "source implemented; actual corrected SES not yet available",
+  "script_sha256": "7ea76b9b7d5fda0d66405d85c4f485afdba4cbf790c9c57a2d1c2237bf490712",
+  "checks": [
+    {
+      "fixture": "historical root preroute plus root SES loaded read-only",
+      "tool": "KiCad 10.0.6 pcbnew",
+      "locked_before": 12,
+      "locked_after": 12,
+      "missing_locked_geometry": 0,
+      "placements_preserved": true,
+      "files_saved": false
+    },
+    {
+      "scope": "New helper API check on historical root preroute only",
+      "locked_objects": 12,
+      "placements": 53,
+      "result": "passed"
+    }
+  ],
+  "limits": [
+    "Historical fixture check does not validate corrected candidate; runtime report pending.",
+    "No fabrication, electrical, field or physical validation."
+  ]
+}

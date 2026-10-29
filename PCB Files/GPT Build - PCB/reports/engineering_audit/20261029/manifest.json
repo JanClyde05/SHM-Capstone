@@ -1,0 +1,131 @@
+{
+  "time_utc": "2026-10-29T15:58:56.792171+00:00",
+  "scope": "Read-only engineering audit; no new CAD edits, physical tests or fabrication release",
+  "tools": {
+    "KiCad": "10.0.6",
+    "Python_for_geometry": "3.11.5 (main, Jan 23 2026, 07:39:48) [MSC v.1944 64 bit (AMD64)]",
+    "Inkscape": "1.4.2 (f4327f4, 2025-05-13)",
+    "Poppler": "26.07.0"
+  },
+  "commands": [
+    {
+      "command": "C:/Program Files/KiCad/10.0/bin/python.exe tools/audit_engineering_geometry.py --output reports/engineering_audit/20261029",
+      "cwd": "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB",
+      "output_time_utc": "2026-10-29T15:46:37.374081+00:00",
+      "observed_exit_code": 0
+    },
+    {
+      "command": "C:/Program Files/KiCad/10.0/bin/python.exe tools/audit_engineering_math.py",
+      "cwd": "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB",
+      "output_time_utc": "2026-10-29T15:48:19.734973+00:00",
+      "observed_exit_code": 0
+    },
+    {
+      "command": "D:/Inkscape/bin/inkscape.com reports/engineering_audit/20261029/usb_reference_screen.svg --export-filename=reports/engineering_audit/20261029/usb_reference_screen.png",
+      "cwd": "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB",
+      "observed_exit_code": 0
+    },
+    {
+      "command": "pdftoppm -f 6 -l 6 -singlefile -scale-to 1500 -png reports/engineering_audit/sources/AP7361C_rev5_2_mirror.pdf reports/engineering_audit/sources/AP7361C_p6",
+      "cwd": "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB",
+      "observed_exit_code": 0,
+      "stderr": "No display font for Symbol / ArialUnicode; rendered table and footnote visually inspected"
+    }
+  ],
+  "earlier_CAD_manifest": "PCB Files\\GPT Build - PCB\\reports\\reference_corrected\\validation_20261029T145905461959Z\\manifest.json",
+  "earlier_CAD_source_hash_comparison": {
+    "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB\\design\\SHM_Node_R2.kicad_pcb": {
+      "recorded": "0ea352e982e6ccb87134d1d3dcef7bd3adb747efab5ba28b136cd1090f99540e",
+      "current": "0ea352e982e6ccb87134d1d3dcef7bd3adb747efab5ba28b136cd1090f99540e",
+      "matches": true
+    },
+    "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB\\design\\SHM_Node_R2.kicad_sch": {
+      "recorded": "4d93fa95e3c7131072cdac248e71c3a8d98aea8189763aa2578037eab57f4a94",
+      "current": "4d93fa95e3c7131072cdac248e71c3a8d98aea8189763aa2578037eab57f4a94",
+      "matches": true
+    },
+    "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB\\design\\SHM_Node_R2.kicad_pro": {
+      "recorded": "3385c6421c31e40ac077a012399ef9aa61d7139e67994f81e040b26297a4d040",
+      "current": "3385c6421c31e40ac077a012399ef9aa61d7139e67994f81e040b26297a4d040",
+      "matches": true
+    },
+    "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB\\design\\circuit_spec.json": {
+      "recorded": "f5f5a56f9e9b467c1ff75795e55d94ca561eb9770ed3594dd65273ea0006b34b",
+      "current": "f5f5a56f9e9b467c1ff75795e55d94ca561eb9770ed3594dd65273ea0006b34b",
+      "matches": true
+    },
+    "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB\\design\\SHM_Node_R2.net": {
+      "recorded": "ad643c71e5de733c26af183d602d11f16227e8b00a680423c35aa2f0c97d17e1",
+      "current": "ad643c71e5de733c26af183d602d11f16227e8b00a680423c35aa2f0c97d17e1",
+      "matches": true
+    },
+    "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB\\tools\\run_corrected_checks.py": {
+      "recorded": "3b90d8ccc8b7b270bb5f9dbea553d126e65645df50358bc4c0a9580f3c0d3c2a",
+      "current": "3b90d8ccc8b7b270bb5f9dbea553d126e65645df50358bc4c0a9580f3c0d3c2a",
+      "matches": true
+    },
+    "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB\\tools\\verify_corrected_board.py": {
+      "recorded": "f56936ac3f16d65f5272e981400fbd8090b14751c03a01d92c45b40a4eab6a16",
+      "current": "f56936ac3f16d65f5272e981400fbd8090b14751c03a01d92c45b40a4eab6a16",
+      "matches": true
+    }
+  },
+  "sources_unchanged_since_engineering_read": {
+    "design\\SHM_Node_R2.kicad_pcb": {
+      "recorded": "0ea352e982e6ccb87134d1d3dcef7bd3adb747efab5ba28b136cd1090f99540e",
+      "current": "0ea352e982e6ccb87134d1d3dcef7bd3adb747efab5ba28b136cd1090f99540e"
+    },
+    "design\\SHM_Node_R2.kicad_pro": {
+      "recorded": "3385c6421c31e40ac077a012399ef9aa61d7139e67994f81e040b26297a4d040",
+      "current": "3385c6421c31e40ac077a012399ef9aa61d7139e67994f81e040b26297a4d040"
+    },
+    "design\\SHM_Node_R2.kicad_sch": {
+      "recorded": "4d93fa95e3c7131072cdac248e71c3a8d98aea8189763aa2578037eab57f4a94",
+      "current": "4d93fa95e3c7131072cdac248e71c3a8d98aea8189763aa2578037eab57f4a94"
+    },
+    "design\\circuit_spec.json": {
+      "recorded": "f5f5a56f9e9b467c1ff75795e55d94ca561eb9770ed3594dd65273ea0006b34b",
+      "current": "f5f5a56f9e9b467c1ff75795e55d94ca561eb9770ed3594dd65273ea0006b34b"
+    }
+  },
+  "audit_file_sha256": {
+    "PCB Files\\GPT Build - PCB\\reports\\engineering_audit\\20261029\\geometry.json": "93659945d8895f4ccdb945070f34b1bf65c3f52a644bec06dbd41146744ac4a2",
+    "PCB Files\\GPT Build - PCB\\reports\\engineering_audit\\20261029\\math.json": "a06754bff5b08239e2c4d89167c5c36edb4e54b2532f22db095d17541623b94e",
+    "PCB Files\\GPT Build - PCB\\reports\\engineering_audit\\20261029\\usb_reference_screen.png": "bb534582eb7917ee50d677305775041eb101866e6f24ff80e34ef03e2802752b",
+    "PCB Files\\GPT Build - PCB\\reports\\engineering_audit\\20261029\\usb_reference_screen.svg": "4a76c6297e798e815484188c181d1184710b74c2c0e093489bd9eb8ceb63a023",
+    "PCB Files\\GPT Build - PCB\\tools\\audit_engineering_geometry.py": "c914b8f1d7edbfa4cd523e362f1649f5fd91cd4637d9e499df0bd94218610cf9",
+    "PCB Files\\GPT Build - PCB\\tools\\audit_engineering_math.py": "757806209aa394ae6ff56134ab573c341c98d1156765e60cc1f6fa6747e1bf49",
+    "PCB Files\\GPT Build - PCB\\docs\\ENGINEERING_AUDIT_PLAN.md": "ca378e303a4ad636316cc953b4dea2edd32bc5042cf88ead4e677748085d38fe",
+    "PCB Files\\GPT Build - PCB\\docs\\ENGINEERING_AUDIT_20261029.md": "c4c009a6f29e84bbd18b467ab32866e2bd581e4f67b86bd2b7ea0952d7d82a79",
+    "PCB Files\\GPT Build - PCB\\reports\\engineering_audit\\sources\\AP7361C_rev5_2_mirror.pdf": "9b64f49c5975b2baf2360248a75212599bde8bf083d315d936e4f1c93b2e1f92"
+  },
+  "relative_link_targets_checked": [
+    "PCB Files\\GPT Build - PCB\\docs\\ENGINEERING_AUDIT_PLAN.md",
+    "PCB Files\\GPT Build - PCB\\tools\\audit_engineering_geometry.py",
+    "PCB Files\\GPT Build - PCB\\reports\\engineering_audit\\20261029\\geometry.json",
+    "PCB Files\\GPT Build - PCB\\tools\\audit_engineering_math.py",
+    "PCB Files\\GPT Build - PCB\\reports\\engineering_audit\\20261029\\math.json",
+    "PCB Files\\GPT Build - PCB\\reports\\engineering_audit\\20261029\\manifest.json",
+    "PCB Files\\GPT Build - PCB\\reports\\engineering_audit\\20261029\\usb_reference_screen.png"
+  ],
+  "results": {
+    "geometry_script_completed": true,
+    "math_script_completed": true,
+    "CAD_sources_unchanged": true,
+    "engineering_signoff": false,
+    "finding_register": "ENG-01 through ENG-13 in docs/ENGINEERING_AUDIT_20261029.md"
+  },
+  "limits": [
+    "No stackup/field solver or electrical-delay proof",
+    "No powered USB/ESD/RF/I2C/EN/thermal/frequency measurements",
+    "No selected enclosure/fixture or complete DFM/MPN qualification",
+    "Diodes official PDF failed access; manufacturer-authored rev5-2 mirror inspected, revision freshness unresolved",
+    "ST official web reader succeeded; local PDF download timed out twice",
+    "Parallel agents did not complete due to usage limit; no independent-team signoff"
+  ],
+  "manual_QA": [
+    "USB route/reference-screen PNG inspected",
+    "Regulator manufacturer-authored p6 thermal table and footnote visually read",
+    "Audit relative links and numeric report/table identities checked"
+  ]
+}

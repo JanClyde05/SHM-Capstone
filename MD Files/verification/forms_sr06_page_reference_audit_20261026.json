@@ -1,0 +1,168 @@
+{
+  "record_id": "forms_sr06_page_reference_audit_20261026",
+  "recorded_at_manila": "2026-10-26 17:22:16 +08:00",
+  "artifact": "Documents/Forms/Forms Edited - GPT/Personalized Copies/COE-SR06-Comment-Sheet - SHM-Capstone.docx",
+  "change_scope": "Added page and section-paragraph locator fields to the user's corrected SR06 layout. Updated only word/document.xml in the DOCX package; preserved the corrected layout and one-page-per-panelist order.",
+  "hash_lineage": {
+    "original_classmate_form": "Documents/Forms/COE-SR06-Comment-Sheet-fixed.docx",
+    "original_classmate_form_sha256": "a9758805b8a83f50cb91f78b5703bd9b5c6333893eb687abe8447c86d505b2d6",
+    "previous_generated_personalized_sr06_sha256": "ce710e5ee9ab24fe085c2171cd4217b8e9065933c6b2646b0df1ab51a6797167",
+    "user_corrected_pre_edit_sha256": "6518b3b6466581bd943d0738d698a3f5d22283e8f7d37f87294f62de91fd9be8",
+    "current_sr06_sha256": "e8222101f8701cc6bfab7210e1795ff24c54114437b48b9ba2dd8e07b2e92fc9",
+    "changed_ooxml_package_parts": [
+      "word/document.xml"
+    ]
+  },
+  "reference_basis": {
+    "document": "Documents/The Real Research Paper/GPT Paper/SHM_Research_Aligned_Revision_Draft_v2.docx",
+    "sha256": "b09c741309444dab16aca6957250217cb776e310c20459820547aa747264cb42",
+    "approval_handoff_date": "2026-10-24",
+    "rendered_by": "Microsoft Word 16.0",
+    "render_pdf_page_count": 65,
+    "printed_page_mapping": "The cited numbers are printed manuscript pages (Chapter I printed page 1 begins at PDF page 11); page ranges were matched against the Word-rendered v2 PDF dated 2026-10-26.",
+    "paragraph_convention": "Section-relative paragraph numbers, counting the first body paragraph after the heading as paragraph 1; figures and numbered data-gathering steps are cited by label.",
+    "status": "Retrospective topic-based cross-references to the current approved draft, not contemporaneous panelist annotations or an independently verified transcript/minutes. User-provided descriptions establish what was reportedly asked; no original page/paragraph citations or official minutes were present in the user history and selected files reviewed for this update."
+  },
+  "comment_sheet": {
+    "panelist_sheet_count": 7,
+    "blank_no_comment_sheets": [
+      "Engr. Lovely Grace S. Campos",
+      "Engr. Melowin M. Peña",
+      "Engr. Eulogio Neil A. Mallillin",
+      "Engr. Cristopher R. Capili"
+    ],
+    "comments": [
+      {
+        "panelist": "Engr. Leomar D. Juliano",
+        "user_reported_comment": "Suggested testing location and narrowing the study toward civil-engineering technical aspects.",
+        "mapped_rows": [
+          {
+            "printed_pages": "29–30",
+            "location": "§3.2 ¶1–2",
+            "topic": "Proposed roadway-deck station and site selection"
+          },
+          {
+            "printed_pages": "9–10",
+            "location": "§1.6 ¶2,4–5",
+            "topic": "Single-site scope and study delimitations"
+          }
+        ]
+      },
+      {
+        "panelist": "Engr. Harold Rodriguez",
+        "user_reported_comment": "Asked how the system works and is set up, and where the device would be placed; user reports that Juliano answered the placement question.",
+        "mapped_rows": [
+          {
+            "printed_pages": "31–33",
+            "location": "§3.4 ¶1–2; Figure 3",
+            "topic": "System architecture and block diagram"
+          },
+          {
+            "printed_pages": "35–36",
+            "location": "§3.7 steps 1–3",
+            "topic": "Pre-field preparation, site inspection, and board installation"
+          },
+          {
+            "printed_pages": "29–30, 34–35",
+            "location": "§3.2 ¶1–2; §3.6 ¶2",
+            "topic": "Proposed bridge station and authorized board installation"
+          }
+        ]
+      },
+      {
+        "panelist": "Engr. Oliver P. Cagumbay",
+        "user_reported_comment": "Asked about hardware/device operation and whether the system could be developed within the available timeline.",
+        "mapped_rows": [
+          {
+            "printed_pages": "31–33",
+            "location": "§3.4 ¶1–2; Figure 3",
+            "topic": "Preliminary hardware and system architecture"
+          },
+          {
+            "printed_pages": "N/A",
+            "location": "No time-plan paragraph in current v2 draft",
+            "topic": "Feasibility within the available development timeline; no manuscript page/paragraph locator assigned"
+          }
+        ]
+      }
+    ],
+    "no_comment_fields": "The four no-comment sheets retain the panelist name and leave all comment and locator rows empty."
+  },
+  "verification": {
+    "input_and_final_table_count": 28,
+    "table_grid_row_cell_and_paragraph_geometry": "Verified unchanged between the user-corrected pre-edit copy and current file.",
+    "classmate_residue_scan": "Passed for known classmate names and watermelon-study identifiers.",
+    "layout": "Microsoft Word 16.0 export remained 7 pages; Poppler 26.07.0 rasterized all pages at 110 dpi; all seven were visually inspected, with close review of comment-bearing pages 1, 3, and 4.",
+    "documents_skill_audits": {
+      "section_audit": 0,
+      "style_lint": 0,
+      "heading_audit": 0,
+      "images_audit": 0,
+      "fields_report": 0,
+      "footnotes_report": 0,
+      "content_controls": 0
+    },
+    "pdf_text_extraction_note": "PDF text extraction substituted some Unicode dash characters; page/locator assertions were verified against OOXML and the rendered page images.",
+    "scope_limit": "This checks file contents, cross-reference placement, and render. It does not verify that the panelists made these comments, that the oral comments referred to these exact v2 passages, or that any meeting/minutes were institutionally accepted."
+  },
+  "personalized_folder_snapshot_before_and_after_locator_update": {
+    "recorded_at_manila": "2026-10-26 17:24:24 +08:00",
+    "context": "The user reported correcting the form format. All six personalized-copy files had last-write timestamps before this follow-up began and hashes differing from the previous generated set. The five companion forms were not modified or rendered in this follow-up. Only SR06 received page/section-paragraph cross-references; this file hash is after that edit.",
+    "files": [
+      {
+        "file": "Documents/Forms/Forms Edited - GPT/Personalized Copies/COE-SR01-Research-Topic-Pre-Reg - SHM-Capstone.docx",
+        "bytes": 2681777,
+        "last_write_manila": "2026-10-26T16:09:17+08:00",
+        "sha256": "c5bd13e89f16f2f56ebaa4cbe6350c4245693e9e5575fda6f4326be25049e5d9",
+        "previous_generated_hash": "9e90be6801fdc1504e760dcf1e871c7382a53b1baae6ad9fcd6aa507f283c67c",
+        "hash_differs_from_previous_generated_set": true,
+        "modified_in_this_followup": false
+      },
+      {
+        "file": "Documents/Forms/Forms Edited - GPT/Personalized Copies/COE-SR02-Adviser-Selection - SHM-Capstone.docx",
+        "bytes": 2682625,
+        "last_write_manila": "2026-10-26T16:12:09+08:00",
+        "sha256": "9b5c1d30902f5642545cfbf46c25924e0b4de71aecc943644329087f34cea819",
+        "previous_generated_hash": "ea59c8a62b6c3e668f4af819418227164e2171a4ad4b909abf4616df5fb4dd3a",
+        "hash_differs_from_previous_generated_set": true,
+        "modified_in_this_followup": false
+      },
+      {
+        "file": "Documents/Forms/Forms Edited - GPT/Personalized Copies/COE-SR03-Adviser-Acceptance - SHM-Capstone.docx",
+        "bytes": 2118501,
+        "last_write_manila": "2026-10-26T16:13:43+08:00",
+        "sha256": "c4f5f2043a8c9e5b3c876144399486bdeb6ec339e6a4f0645e09d86f895977dd",
+        "previous_generated_hash": "48815c3fc72aeed034c8a27c183a5d07018332e21ffdfb4a3b2ec4537c971d96",
+        "hash_differs_from_previous_generated_set": true,
+        "modified_in_this_followup": false
+      },
+      {
+        "file": "Documents/Forms/Forms Edited - GPT/Personalized Copies/COE-SR04-Adviser-Consultation-Form - SHM-Capstone.docx",
+        "bytes": 2680260,
+        "last_write_manila": "2026-10-26T16:15:13+08:00",
+        "sha256": "5b38875ee0017bcfb05f5b51c05d52a691a6af2d2430f0a2164a733487d0861a",
+        "previous_generated_hash": "2b046b4fe76bb649a04c3df3be009581bfd8336c580a6f3678eddf8a8ffaeb38",
+        "hash_differs_from_previous_generated_set": true,
+        "modified_in_this_followup": false
+      },
+      {
+        "file": "Documents/Forms/Forms Edited - GPT/Personalized Copies/COE-SR05-Defense-Endorsement - SHM-Capstone.docx",
+        "bytes": 2677239,
+        "last_write_manila": "2026-10-26T16:16:52+08:00",
+        "sha256": "8819658a2c15427c2be6e82787a66609e5463e70752f1cac6cfdd0866e97e5a5",
+        "previous_generated_hash": "caa486c3f80b70e94a24496a2e20be039010ad1e18e4e3b10b06fda5bbb4eee2",
+        "hash_differs_from_previous_generated_set": true,
+        "modified_in_this_followup": false
+      },
+      {
+        "file": "Documents/Forms/Forms Edited - GPT/Personalized Copies/COE-SR06-Comment-Sheet - SHM-Capstone.docx",
+        "bytes": 2678539,
+        "last_write_manila": "2026-10-26T16:56:55+08:00",
+        "sha256": "e8222101f8701cc6bfab7210e1795ff24c54114437b48b9ba2dd8e07b2e92fc9",
+        "previous_generated_hash": "ce710e5ee9ab24fe085c2171cd4217b8e9065933c6b2646b0df1ab51a6797167",
+        "hash_differs_from_previous_generated_set": true,
+        "modified_in_this_followup": true
+      }
+    ]
+  }
+}

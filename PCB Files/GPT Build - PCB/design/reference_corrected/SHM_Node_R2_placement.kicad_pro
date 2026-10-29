@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "filename": "SHM_Node_R2.kicad_pro",
+    "version": 1
+  },
+  "board": {
+    "design_settings": {
+      "rules": {
+        "min_clearance": 0.15,
+        "min_track_width": 0.15,
+        "min_via_diameter": 0.6,
+        "min_through_hole_diameter": 0.2,
+        "min_hole_clearance": 0.15,
+        "min_copper_edge_clearance": 0.5,
+        "min_silk_clearance": 0.1
+      }
+    }
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "name": "Default",
+        "clearance": 0.15,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "diff_pair_width": 0.25,
+        "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.25,
+        "wire_width": 6,
+        "bus_width": 12,
+        "line_style": 0,
+        "schematic_color": "rgba(0, 0, 0, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "meta": {
+      "version": 4
+    }
+  }
+}

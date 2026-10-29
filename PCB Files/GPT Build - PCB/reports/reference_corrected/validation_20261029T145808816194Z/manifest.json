@@ -1,0 +1,170 @@
+{
+  "started_utc": "20261029T145808816194Z",
+  "tool": "10.0.6",
+  "tool_version_exit_code": 0,
+  "expected_documented_rules": {
+    "min_clearance": 0.15,
+    "min_track_width": 0.15,
+    "min_via_diameter": 0.6,
+    "min_through_hole_diameter": 0.2,
+    "min_hole_clearance": 0.15,
+    "min_copper_edge_clearance": 0.5,
+    "min_silk_clearance": 0.1
+  },
+  "project_rule_mismatches": {},
+  "scope": "CAD rules/geometry/net definitions and configured-constraint checks only",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+        "sch",
+        "erc",
+        "--format",
+        "json",
+        "--severity-all",
+        "--exit-code-violations",
+        "-o",
+        "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB\\reports\\reference_corrected\\validation_20261029T145808816194Z\\erc.json",
+        "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB\\design\\reference_corrected\\SHM_Node_R2.kicad_sch"
+      ],
+      "started_utc": "2026-10-29T14:58:09.333807+00:00",
+      "finished_utc": "2026-10-29T14:58:23.740347+00:00",
+      "exit_code": 0,
+      "report": "erc.json",
+      "sha256": "9832e2baa09754cc07e2ca498c2f28de5b77ab7bd384251a4609cc0a853eabe4"
+    },
+    {
+      "argv": [
+        "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+        "pcb",
+        "drc",
+        "--format",
+        "json",
+        "--severity-all",
+        "--all-track-errors",
+        "--exit-code-violations",
+        "--refill-zones",
+        "--schematic-parity",
+        "-o",
+        "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB\\reports\\reference_corrected\\validation_20261029T145808816194Z\\drc.json",
+        "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB\\design\\reference_corrected\\SHM_Node_R2.kicad_pcb"
+      ],
+      "started_utc": "2026-10-29T14:58:23.741338+00:00",
+      "finished_utc": "2026-10-29T14:58:37.646335+00:00",
+      "exit_code": 0,
+      "report": "drc.json",
+      "sha256": "5056954a88aa7cbdedd260bb116b73b09aa7a1ed590d6172e16ee33fb234d230"
+    },
+    {
+      "argv": [
+        "C:\\Program Files\\KiCad\\10.0\\bin\\python.exe",
+        "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB\\tools\\verify_corrected_board.py",
+        "--board",
+        "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB\\design\\reference_corrected\\SHM_Node_R2.kicad_pcb",
+        "--output",
+        "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB\\reports\\reference_corrected\\validation_20261029T145808816194Z\\independent_audit.json"
+      ],
+      "started_utc": "2026-10-29T14:58:37.646335+00:00",
+      "finished_utc": "2026-10-29T14:58:39.017700+00:00",
+      "exit_code": 0,
+      "report": "independent_audit.json",
+      "sha256": "0f864beb90fa8000c74581fa973c33160ef781870befbc7ead1ae2e9c4250b62"
+    }
+  ],
+  "sources": {
+    "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB\\design\\reference_corrected\\SHM_Node_R2.kicad_pcb": "0ea352e982e6ccb87134d1d3dcef7bd3adb747efab5ba28b136cd1090f99540e",
+    "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB\\design\\reference_corrected\\SHM_Node_R2.kicad_sch": "4d93fa95e3c7131072cdac248e71c3a8d98aea8189763aa2578037eab57f4a94",
+    "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB\\design\\reference_corrected\\SHM_Node_R2.kicad_pro": "231f78e319d1c273e2486147e453e72ce96cbf17a843a4563ac754b4095e5518",
+    "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB\\design\\reference_corrected\\circuit_spec.json": "f5f5a56f9e9b467c1ff75795e55d94ca561eb9770ed3594dd65273ea0006b34b",
+    "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB\\design\\reference_corrected\\SHM_Node_R2.net": "ad643c71e5de733c26af183d602d11f16227e8b00a680423c35aa2f0c97d17e1",
+    "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB\\tools\\run_corrected_checks.py": "3b90d8ccc8b7b270bb5f9dbea553d126e65645df50358bc4c0a9580f3c0d3c2a",
+    "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB\\tools\\verify_corrected_board.py": "f56936ac3f16d65f5272e981400fbd8090b14751c03a01d92c45b40a4eab6a16"
+  },
+  "allowed_ignored_check_keys": {
+    "erc.json": [
+      "footprint_filter",
+      "four_way_junction",
+      "simulation_model_issue",
+      "single_global_label"
+    ],
+    "drc.json": [
+      "footprint_filters_mismatch",
+      "footprint_type_mismatch",
+      "missing_courtyard",
+      "track_not_centered_on_via",
+      "tuning_profile_track_geometries"
+    ]
+  },
+  "explicit_project_exclusions": [],
+  "results": {
+    "erc.json": {
+      "missing_report_fields": [],
+      "ignored_check_set_changed": false,
+      "ignored_checks": [
+        {
+          "description": "Global label only appears once in the schematic",
+          "key": "single_global_label"
+        },
+        {
+          "description": "Four connection points are joined together",
+          "key": "four_way_junction"
+        },
+        {
+          "description": "SPICE model issue",
+          "key": "simulation_model_issue"
+        },
+        {
+          "description": "Assigned footprint doesn't match footprint filters",
+          "key": "footprint_filter"
+        }
+      ],
+      "severity_coverage_incomplete": false,
+      "tool_version_mismatch": false,
+      "violations_including_exclusions": 0,
+      "malformed_sheet_reports": 0
+    },
+    "drc.json": {
+      "missing_report_fields": [],
+      "ignored_check_set_changed": false,
+      "ignored_checks": [
+        {
+          "description": "Footprint has no courtyard defined",
+          "key": "missing_courtyard"
+        },
+        {
+          "description": "Track endpoint not centered on via",
+          "key": "track_not_centered_on_via"
+        },
+        {
+          "description": "Tuning profile track geometries",
+          "key": "tuning_profile_track_geometries"
+        },
+        {
+          "description": "Footprint doesn't match symbol's footprint filters",
+          "key": "footprint_filters_mismatch"
+        },
+        {
+          "description": "Footprint component type doesn't match footprint pads",
+          "key": "footprint_type_mismatch"
+        }
+      ],
+      "severity_coverage_incomplete": false,
+      "tool_version_mismatch": false,
+      "violations": 0,
+      "unconnected_items": 0,
+      "schematic_parity": 0
+    },
+    "independent_audit.json": {
+      "missing_report_fields": [],
+      "failures": 0
+    }
+  },
+  "source_unchanged_during_checks": true,
+  "limits": [
+    "No bench/field validation",
+    "No fabricator stackup or controlled-impedance proof",
+    "No thermal/ESD/USB compliance claim",
+    "The five DRC and four ERC baseline ignored categories remain disabled and are listed explicitly; this is not all possible checks enabled"
+  ],
+  "cad_gate_passed": true
+}

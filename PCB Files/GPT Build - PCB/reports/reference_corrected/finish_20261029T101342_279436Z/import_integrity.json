@@ -1,0 +1,56 @@
+{
+  "placement_preserved": true,
+  "restored_one_nm_rounding": [
+    {
+      "ref": "R2",
+      "before": [
+        131199999,
+        85300000,
+        90.0,
+        false
+      ],
+      "imported": [
+        131200000,
+        85300000,
+        90.0,
+        false
+      ],
+      "unit": "KiCad IU = 1 nm"
+    },
+    {
+      "ref": "R1",
+      "before": [
+        131199999,
+        75700000,
+        90.0,
+        false
+      ],
+      "imported": [
+        131200000,
+        75700000,
+        90.0,
+        false
+      ],
+      "unit": "KiCad IU = 1 nm"
+    },
+    {
+      "ref": "H3",
+      "before": [
+        133199999,
+        98500000,
+        0.0,
+        false
+      ],
+      "imported": [
+        133200000,
+        98500000,
+        0.0,
+        false
+      ],
+      "unit": "KiCad IU = 1 nm"
+    }
+  ],
+  "locked_copper_before": 105,
+  "locked_copper_after": 105,
+  "missing_locked_copper": []
+}

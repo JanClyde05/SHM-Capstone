@@ -1,0 +1,921 @@
+{
+  "schema": 1,
+  "project": "SHM_Node_R2",
+  "revision": "R2 prototype",
+  "schematic_uuid": "ff179cf3-f4ff-5003-81cd-e6008a2d518d",
+  "components": [
+    {
+      "ref": "U2",
+      "value": "MPU-6050",
+      "lib_id": "Sensor_Motion:MPU-6050",
+      "footprint": "SHM_Local:MPU6050_QFN24_NoCenterPad",
+      "pins": {
+        "1": "GND",
+        "8": "+3V3",
+        "9": "GND",
+        "10": "IMU1_REGOUT",
+        "11": "GND",
+        "12": "IMU1_INT",
+        "13": "+3V3",
+        "18": "GND",
+        "20": "IMU1_CPOUT",
+        "23": "I2C0_SCL",
+        "24": "I2C0_SDA"
+      },
+      "uuid": "32996d5a-66b7-5fe6-b4ff-3887486c08cc",
+      "schematic_mm": [
+        76.2,
+        57.15
+      ],
+      "properties": {}
+    },
+    {
+      "ref": "C6",
+      "value": "100nF",
+      "lib_id": "Device:C",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "uuid": "522692e3-f4cf-5971-91ad-0ec026e77e93",
+      "schematic_mm": [
+        25.400000000000002,
+        102.87
+      ],
+      "properties": {
+        "Voltage": "25V",
+        "Dielectric": "X7R",
+        "Tolerance": "10% or better"
+      }
+    },
+    {
+      "ref": "C7",
+      "value": "10nF",
+      "lib_id": "Device:C",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "uuid": "4d4350ee-2872-5795-b881-fb4810620b0c",
+      "schematic_mm": [
+        54.61,
+        102.87
+      ],
+      "properties": {
+        "Voltage": "25V",
+        "Dielectric": "X7R",
+        "Tolerance": "10% or better"
+      }
+    },
+    {
+      "ref": "C8",
+      "value": "100nF",
+      "lib_id": "Device:C",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "IMU1_REGOUT",
+        "2": "GND"
+      },
+      "uuid": "ec2540bc-80d0-5689-b7dd-29c44316fd6d",
+      "schematic_mm": [
+        83.82000000000001,
+        102.87
+      ],
+      "properties": {
+        "Voltage": "25V",
+        "Dielectric": "X7R",
+        "Tolerance": "10% or better"
+      }
+    },
+    {
+      "ref": "C9",
+      "value": "2.2nF",
+      "lib_id": "Device:C",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "IMU1_CPOUT",
+        "2": "GND"
+      },
+      "uuid": "ad3a2769-ed2a-5b97-a5d8-4ac391a056f9",
+      "schematic_mm": [
+        113.03,
+        102.87
+      ],
+      "properties": {
+        "Voltage": "50V",
+        "Dielectric": "X7R",
+        "Tolerance": "10% or better"
+      }
+    },
+    {
+      "ref": "U3",
+      "value": "MPU-6050",
+      "lib_id": "Sensor_Motion:MPU-6050",
+      "footprint": "SHM_Local:MPU6050_QFN24_NoCenterPad",
+      "pins": {
+        "1": "GND",
+        "8": "+3V3",
+        "9": "+3V3",
+        "10": "IMU2_REGOUT",
+        "11": "GND",
+        "12": "IMU2_INT",
+        "13": "+3V3",
+        "18": "GND",
+        "20": "IMU2_CPOUT",
+        "23": "I2C0_SCL",
+        "24": "I2C0_SDA"
+      },
+      "uuid": "be746da7-9e06-5845-ac6e-1621f6dc5ad6",
+      "schematic_mm": [
+        209.55,
+        57.15
+      ],
+      "properties": {}
+    },
+    {
+      "ref": "C10",
+      "value": "100nF",
+      "lib_id": "Device:C",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "uuid": "2e7e1f3f-02e7-56e5-99b9-6994e1e80f4f",
+      "schematic_mm": [
+        158.75,
+        102.87
+      ],
+      "properties": {
+        "Voltage": "25V",
+        "Dielectric": "X7R",
+        "Tolerance": "10% or better"
+      }
+    },
+    {
+      "ref": "C11",
+      "value": "10nF",
+      "lib_id": "Device:C",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "uuid": "f7b21a82-8169-512e-b2d3-126ff82c5980",
+      "schematic_mm": [
+        187.96,
+        102.87
+      ],
+      "properties": {
+        "Voltage": "25V",
+        "Dielectric": "X7R",
+        "Tolerance": "10% or better"
+      }
+    },
+    {
+      "ref": "C12",
+      "value": "100nF",
+      "lib_id": "Device:C",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "IMU2_REGOUT",
+        "2": "GND"
+      },
+      "uuid": "c05054b0-a448-5bdf-8de0-2854c9d9c79d",
+      "schematic_mm": [
+        217.17000000000002,
+        102.87
+      ],
+      "properties": {
+        "Voltage": "25V",
+        "Dielectric": "X7R",
+        "Tolerance": "10% or better"
+      }
+    },
+    {
+      "ref": "C13",
+      "value": "2.2nF",
+      "lib_id": "Device:C",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "IMU2_CPOUT",
+        "2": "GND"
+      },
+      "uuid": "18a35e46-a66e-5f93-92ad-1b629439f0e7",
+      "schematic_mm": [
+        246.38,
+        102.87
+      ],
+      "properties": {
+        "Voltage": "50V",
+        "Dielectric": "X7R",
+        "Tolerance": "10% or better"
+      }
+    },
+    {
+      "ref": "U4",
+      "value": "MPU-6050",
+      "lib_id": "Sensor_Motion:MPU-6050",
+      "footprint": "SHM_Local:MPU6050_QFN24_NoCenterPad",
+      "pins": {
+        "1": "GND",
+        "8": "+3V3",
+        "9": "GND",
+        "10": "IMU3_REGOUT",
+        "11": "GND",
+        "12": "IMU3_INT",
+        "13": "+3V3",
+        "18": "GND",
+        "20": "IMU3_CPOUT",
+        "23": "I2C1_SCL",
+        "24": "I2C1_SDA"
+      },
+      "uuid": "4696a2f2-6189-51a9-bce9-2856e5938535",
+      "schematic_mm": [
+        342.9,
+        57.15
+      ],
+      "properties": {}
+    },
+    {
+      "ref": "C14",
+      "value": "100nF",
+      "lib_id": "Device:C",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "uuid": "1d3f62ae-b3d9-526d-ab69-6cd6cf85d2d2",
+      "schematic_mm": [
+        292.09999999999997,
+        102.87
+      ],
+      "properties": {
+        "Voltage": "25V",
+        "Dielectric": "X7R",
+        "Tolerance": "10% or better"
+      }
+    },
+    {
+      "ref": "C15",
+      "value": "10nF",
+      "lib_id": "Device:C",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "uuid": "a4604233-9155-545d-bb30-063582256ca3",
+      "schematic_mm": [
+        321.30999999999995,
+        102.87
+      ],
+      "properties": {
+        "Voltage": "25V",
+        "Dielectric": "X7R",
+        "Tolerance": "10% or better"
+      }
+    },
+    {
+      "ref": "C16",
+      "value": "100nF",
+      "lib_id": "Device:C",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "IMU3_REGOUT",
+        "2": "GND"
+      },
+      "uuid": "61d46d2c-fcdd-590c-8fe4-7e66be583804",
+      "schematic_mm": [
+        350.52,
+        102.87
+      ],
+      "properties": {
+        "Voltage": "25V",
+        "Dielectric": "X7R",
+        "Tolerance": "10% or better"
+      }
+    },
+    {
+      "ref": "C17",
+      "value": "2.2nF",
+      "lib_id": "Device:C",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "IMU3_CPOUT",
+        "2": "GND"
+      },
+      "uuid": "a4cbf237-2db3-5b5d-b04a-43946ed2d473",
+      "schematic_mm": [
+        379.72999999999996,
+        102.87
+      ],
+      "properties": {
+        "Voltage": "50V",
+        "Dielectric": "X7R",
+        "Tolerance": "10% or better"
+      }
+    },
+    {
+      "ref": "J1",
+      "value": "USB4105-GF-A",
+      "lib_id": "Connector:USB_C_Receptacle_USB2.0_16P",
+      "footprint": "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+      "pins": {
+        "A1": "GND",
+        "A4": "VBUS_USB",
+        "A5": "CC1",
+        "A6": "USB_DP",
+        "A7": "USB_DM",
+        "A9": "VBUS_USB",
+        "A12": "GND",
+        "B1": "GND",
+        "B4": "VBUS_USB",
+        "B5": "CC2",
+        "B6": "USB_DP",
+        "B7": "USB_DM",
+        "B9": "VBUS_USB",
+        "B12": "GND",
+        "SH": "GND"
+      },
+      "uuid": "ed695b26-7816-593d-8e20-79a4598442f1",
+      "schematic_mm": [
+        35.56,
+        165.1
+      ],
+      "properties": {}
+    },
+    {
+      "ref": "R1",
+      "value": "5.1k 1%",
+      "lib_id": "Device:R",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "CC1",
+        "2": "GND"
+      },
+      "uuid": "97c57fda-7e6f-5b72-a7c9-78c3b3eb8447",
+      "schematic_mm": [
+        88.9,
+        158.75
+      ],
+      "properties": {}
+    },
+    {
+      "ref": "R2",
+      "value": "5.1k 1%",
+      "lib_id": "Device:R",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "CC2",
+        "2": "GND"
+      },
+      "uuid": "d32ab9e4-3612-53e2-bfbc-6cdb38625a10",
+      "schematic_mm": [
+        115.57,
+        158.75
+      ],
+      "properties": {}
+    },
+    {
+      "ref": "U6",
+      "value": "USBLC6-2SC6",
+      "lib_id": "Power_Protection:USBLC6-2SC6",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "pins": {
+        "1": "USB_DM",
+        "2": "GND",
+        "3": "USB_DP",
+        "4": "USB_DP",
+        "5": "VBUS_USB",
+        "6": "USB_DM"
+      },
+      "uuid": "36967baf-a1bc-5ac7-b6c0-4f6b0b74f1cb",
+      "schematic_mm": [
+        109.22,
+        194.31
+      ],
+      "properties": {}
+    },
+    {
+      "ref": "F1",
+      "value": "0.75A HOLD",
+      "lib_id": "Device:Polyfuse",
+      "footprint": "Fuse:Fuse_1206_3216Metric",
+      "pins": {
+        "1": "VBUS_USB",
+        "2": "+5V_FUSED"
+      },
+      "uuid": "16f2b6f0-e27e-538f-915a-d1ac7ff29e7a",
+      "schematic_mm": [
+        46.99,
+        207.01
+      ],
+      "properties": {
+        "MPN": "1206L075/16WR",
+        "Datasheet": "https://www.littelfuse.com/assetdocs/littelfuse-ptc-1206l-datasheet?assetguid=2b6a1515-d4ee-4c83-8bd4-152b4901b8f5"
+      }
+    },
+    {
+      "ref": "U5",
+      "value": "AP7361C-33E-13",
+      "lib_id": "Regulator_Linear:AP7361C-33E",
+      "footprint": "Package_TO_SOT_SMD:SOT-223-3_TabPin2",
+      "pins": {
+        "1": "+5V_FUSED",
+        "2": "GND",
+        "3": "+3V3"
+      },
+      "uuid": "b79ac9f7-28c7-562b-b6ac-f1e751d3bcf0",
+      "schematic_mm": [
+        46.99,
+        238.76
+      ],
+      "properties": {
+        "Datasheet": "https://www.diodes.com/datasheet/download/AP7361C.pdf"
+      }
+    },
+    {
+      "ref": "C1",
+      "value": "4.7uF",
+      "lib_id": "Device:C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "+5V_FUSED",
+        "2": "GND"
+      },
+      "uuid": "b97fe709-80df-58cb-acbb-933ae4f45e82",
+      "schematic_mm": [
+        92.71,
+        238.76
+      ],
+      "properties": {
+        "Voltage": "16V",
+        "Dielectric": "X7R",
+        "Tolerance": "10% or better"
+      }
+    },
+    {
+      "ref": "C2",
+      "value": "10uF",
+      "lib_id": "Device:C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "uuid": "f3750d88-f250-55e8-b02a-45bdcdbbb333",
+      "schematic_mm": [
+        119.38,
+        238.76
+      ],
+      "properties": {
+        "Voltage": "16V",
+        "Dielectric": "X7R",
+        "Tolerance": "10% or better"
+      }
+    },
+    {
+      "ref": "U1",
+      "value": "ESP32-S3-WROOM-1-N16R8",
+      "lib_id": "RF_Module:ESP32-S3-WROOM-1",
+      "footprint": "SHM_Local:ESP32-S3-WROOM-1_Overhang",
+      "pins": {
+        "1": "GND",
+        "2": "+3V3",
+        "3": "EN",
+        "4": "IMU1_INT",
+        "5": "IMU2_INT",
+        "6": "IMU3_INT",
+        "12": "I2C0_SDA",
+        "13": "USB_DM_MCU",
+        "14": "USB_DP_MCU",
+        "17": "I2C0_SCL",
+        "18": "I2C1_SDA",
+        "19": "I2C1_SCL",
+        "27": "BOOT",
+        "36": "UART_RX",
+        "37": "UART_TX",
+        "40": "GND",
+        "41": "GND"
+      },
+      "uuid": "8c82d426-d116-5f0d-8312-97ad4228ab6d",
+      "schematic_mm": [
+        208.28,
+        180.34
+      ],
+      "properties": {}
+    },
+    {
+      "ref": "C3",
+      "value": "10uF",
+      "lib_id": "Device:C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "uuid": "eb669ca4-c591-507a-b683-bbc0876468eb",
+      "schematic_mm": [
+        163.83,
+        237.49
+      ],
+      "properties": {
+        "Voltage": "16V",
+        "Dielectric": "X7R",
+        "Tolerance": "10% or better"
+      }
+    },
+    {
+      "ref": "C4",
+      "value": "100nF",
+      "lib_id": "Device:C",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "uuid": "95a76abd-1a66-5417-94c8-3dcff7843105",
+      "schematic_mm": [
+        193.04,
+        237.49
+      ],
+      "properties": {
+        "Voltage": "25V",
+        "Dielectric": "X7R",
+        "Tolerance": "10% or better"
+      }
+    },
+    {
+      "ref": "J2",
+      "value": "UART DEBUG (3V3 LOGIC)",
+      "lib_id": "Connector_Generic:Conn_01x03",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "pins": {
+        "1": "GND",
+        "2": "UART_TX",
+        "3": "UART_RX"
+      },
+      "uuid": "68bdfe72-90fa-538b-9925-7543426e1bce",
+      "schematic_mm": [
+        247.65,
+        238.76
+      ],
+      "properties": {}
+    },
+    {
+      "ref": "R5",
+      "value": "10k",
+      "lib_id": "Device:R",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "EN"
+      },
+      "uuid": "d2cda5f2-0423-568d-a0ae-61e472fa3d35",
+      "schematic_mm": [
+        289.56,
+        154.94
+      ],
+      "properties": {}
+    },
+    {
+      "ref": "C5",
+      "value": "1uF",
+      "lib_id": "Device:C",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "EN",
+        "2": "GND"
+      },
+      "uuid": "f98e1164-4aa9-5205-b635-748992d1cac0",
+      "schematic_mm": [
+        326.39,
+        154.94
+      ],
+      "properties": {
+        "Voltage": "25V",
+        "Dielectric": "X7R",
+        "Tolerance": "10% or better"
+      }
+    },
+    {
+      "ref": "SW1",
+      "value": "RESET",
+      "lib_id": "Switch:SW_Push",
+      "footprint": "Button_Switch_SMD:SW_SPST_TL3342",
+      "pins": {
+        "1": "EN",
+        "2": "GND"
+      },
+      "uuid": "189c4431-29aa-50e5-b4c7-1684c664f1cc",
+      "schematic_mm": [
+        378.46,
+        154.94
+      ],
+      "properties": {}
+    },
+    {
+      "ref": "R6",
+      "value": "10k",
+      "lib_id": "Device:R",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "BOOT"
+      },
+      "uuid": "136875d0-6d20-5a0a-90d7-07a6c4fe06a2",
+      "schematic_mm": [
+        289.56,
+        185.42
+      ],
+      "properties": {}
+    },
+    {
+      "ref": "SW2",
+      "value": "BOOT",
+      "lib_id": "Switch:SW_Push",
+      "footprint": "Button_Switch_SMD:SW_SPST_TL3342",
+      "pins": {
+        "1": "BOOT",
+        "2": "GND"
+      },
+      "uuid": "26f4bd5e-fd13-54c3-9de1-012b7dd2e28d",
+      "schematic_mm": [
+        378.46,
+        185.42
+      ],
+      "properties": {}
+    },
+    {
+      "ref": "R7",
+      "value": "2.2k",
+      "lib_id": "Device:R",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "I2C0_SDA"
+      },
+      "uuid": "d06e468f-3a03-5864-be5c-d4b07047fc25",
+      "schematic_mm": [
+        289.56,
+        215.9
+      ],
+      "properties": {}
+    },
+    {
+      "ref": "R8",
+      "value": "2.2k",
+      "lib_id": "Device:R",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "I2C0_SCL"
+      },
+      "uuid": "fd2c2f7a-170d-5169-a83e-af5cc07dd771",
+      "schematic_mm": [
+        320.04,
+        215.9
+      ],
+      "properties": {}
+    },
+    {
+      "ref": "R9",
+      "value": "2.2k",
+      "lib_id": "Device:R",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "I2C1_SDA"
+      },
+      "uuid": "0a0ddcb8-8261-50af-b542-a55b46fbfc54",
+      "schematic_mm": [
+        350.52,
+        215.9
+      ],
+      "properties": {}
+    },
+    {
+      "ref": "R10",
+      "value": "2.2k",
+      "lib_id": "Device:R",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "I2C1_SCL"
+      },
+      "uuid": "4e8024ba-7dff-5794-9214-d7fdd048ed6d",
+      "schematic_mm": [
+        381.0,
+        215.9
+      ],
+      "properties": {}
+    },
+    {
+      "ref": "R3",
+      "value": "22R",
+      "lib_id": "Device:R",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "USB_DM",
+        "2": "USB_DM_MCU"
+      },
+      "uuid": "698d0a91-2386-554a-b930-a6654d5bc78d",
+      "schematic_mm": [
+        304.8,
+        243.84
+      ],
+      "properties": {}
+    },
+    {
+      "ref": "R4",
+      "value": "22R",
+      "lib_id": "Device:R",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "USB_DP",
+        "2": "USB_DP_MCU"
+      },
+      "uuid": "8a28cbf6-d996-5256-ae45-4f3fcd39fa6b",
+      "schematic_mm": [
+        369.57,
+        243.84
+      ],
+      "properties": {}
+    },
+    {
+      "ref": "TP1",
+      "value": "+3V3",
+      "lib_id": "Connector:TestPoint",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "+3V3"
+      },
+      "uuid": "05861b4e-b4e0-54a9-bb0f-a9aad384e52f",
+      "schematic_mm": [
+        25.4,
+        275.59
+      ],
+      "properties": {}
+    },
+    {
+      "ref": "TP2",
+      "value": "GND",
+      "lib_id": "Connector:TestPoint",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "GND"
+      },
+      "uuid": "90451a22-2405-5f5c-83e6-cc387185ff44",
+      "schematic_mm": [
+        50.8,
+        275.59
+      ],
+      "properties": {}
+    },
+    {
+      "ref": "TP3",
+      "value": "I2C0_SDA",
+      "lib_id": "Connector:TestPoint",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "I2C0_SDA"
+      },
+      "uuid": "9448d3de-71a7-5b43-95d6-1b0f73f0c3f5",
+      "schematic_mm": [
+        76.19999999999999,
+        275.59
+      ],
+      "properties": {}
+    },
+    {
+      "ref": "TP4",
+      "value": "I2C0_SCL",
+      "lib_id": "Connector:TestPoint",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "I2C0_SCL"
+      },
+      "uuid": "c4830249-6aa2-5664-8099-998acbfe1142",
+      "schematic_mm": [
+        101.6,
+        275.59
+      ],
+      "properties": {}
+    },
+    {
+      "ref": "TP5",
+      "value": "I2C1_SDA",
+      "lib_id": "Connector:TestPoint",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "I2C1_SDA"
+      },
+      "uuid": "1f695c47-875b-56bf-a735-731122c38be5",
+      "schematic_mm": [
+        127.0,
+        275.59
+      ],
+      "properties": {}
+    },
+    {
+      "ref": "TP6",
+      "value": "I2C1_SCL",
+      "lib_id": "Connector:TestPoint",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "I2C1_SCL"
+      },
+      "uuid": "a9778efc-21b8-5b58-b59a-e1af7eec8a2f",
+      "schematic_mm": [
+        152.4,
+        275.59
+      ],
+      "properties": {}
+    },
+    {
+      "ref": "TP7",
+      "value": "IMU1_INT",
+      "lib_id": "Connector:TestPoint",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "IMU1_INT"
+      },
+      "uuid": "c8137c2e-57f9-551d-bc4c-520f2caf913e",
+      "schematic_mm": [
+        177.79999999999998,
+        275.59
+      ],
+      "properties": {}
+    },
+    {
+      "ref": "TP8",
+      "value": "IMU2_INT",
+      "lib_id": "Connector:TestPoint",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "IMU2_INT"
+      },
+      "uuid": "9fedd523-33aa-5fbb-bb9b-ba55690c1405",
+      "schematic_mm": [
+        203.2,
+        275.59
+      ],
+      "properties": {}
+    },
+    {
+      "ref": "TP9",
+      "value": "IMU3_INT",
+      "lib_id": "Connector:TestPoint",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "IMU3_INT"
+      },
+      "uuid": "6b5432b5-e3f1-52db-a7a4-b2f2cec1335e",
+      "schematic_mm": [
+        228.6,
+        275.59
+      ],
+      "properties": {}
+    },
+    {
+      "ref": "TP10",
+      "value": "UART_TX",
+      "lib_id": "Connector:TestPoint",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "UART_TX"
+      },
+      "uuid": "604e700a-4e2f-5502-ac19-69e0a1cff428",
+      "schematic_mm": [
+        254.0,
+        275.59
+      ],
+      "properties": {}
+    },
+    {
+      "ref": "TP11",
+      "value": "UART_RX",
+      "lib_id": "Connector:TestPoint",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "UART_RX"
+      },
+      "uuid": "0ec6f7ec-529d-57e8-b401-d582d22d8846",
+      "schematic_mm": [
+        279.4,
+        275.59
+      ],
+      "properties": {}
+    }
+  ],
+  "notes": [
+    "Pin keys are PACKAGE pin numbers, not GPIO numbers.",
+    "No center copper/paste pad on MPU-6050 footprint.",
+    "USBLC6 pins 1/6 share DM; pins 3/4 share DP. Route through protection footprint.",
+    "C1 4.7uF input, C2 10uF output; qualify effective capacitance, inrush and thermal rise."
+  ]
+}

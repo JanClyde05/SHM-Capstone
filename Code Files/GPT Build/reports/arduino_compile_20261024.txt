@@ -1,0 +1,16 @@
+Sketch uses 1115179 bytes (6%) of program storage space. Maximum is 16777216 bytes.
+Global variables use 55704 bytes (16%) of dynamic memory, leaving 271976 bytes for local variables. Maximum is 327680 bytes.
+
+Used library Version Path
+FS           3.3.5   C:\Users\Jan Clyde Talosig\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.5\libraries\FS
+Wire         3.3.5   C:\Users\Jan Clyde Talosig\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.5\libraries\Wire
+ArduinoJson  7.4.2   C:\Users\Jan Clyde Talosig\Documents\Arduino\libraries\ArduinoJson
+LittleFS     3.3.5   C:\Users\Jan Clyde Talosig\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.5\libraries\LittleFS
+Preferences  3.3.5   C:\Users\Jan Clyde Talosig\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.5\libraries\Preferences
+WebServer    3.3.5   C:\Users\Jan Clyde Talosig\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.5\libraries\WebServer
+Networking   3.3.5   C:\Users\Jan Clyde Talosig\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.5\libraries\Network
+WiFi         3.3.5   C:\Users\Jan Clyde Talosig\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.5\libraries\WiFi
+Hash         3.3.5   C:\Users\Jan Clyde Talosig\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.5\libraries\Hash
+
+Used platform Version Path
+esp32:esp32   3.3.5   C:\Users\Jan Clyde Talosig\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.5

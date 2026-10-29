@@ -1,0 +1,84 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-29T22:57:13",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "SHM_Node_R2.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0939 mm)",
+            "items": [
+                {
+                    "description": "Segment of U1 on F.Silkscreen",
+                    "pos": {
+                        "x": 129.7,
+                        "y": 73.15
+                    },
+                    "uuid": "0f236a49-8f4a-44c7-b913-43446c7c8934"
+                },
+                {
+                    "description": "Reference field of R1",
+                    "pos": {
+                        "x": 131.199999,
+                        "y": 73.8
+                    },
+                    "uuid": "7cf6fdc7-8759-41f7-bdea-dcd72fe79314"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R1",
+                    "pos": {
+                        "x": 131.199999,
+                        "y": 73.8
+                    },
+                    "uuid": "7cf6fdc7-8759-41f7-bdea-dcd72fe79314"
+                },
+                {
+                    "description": "Pad 15 [unconnected-(U1-IO3-Pad15)] of U1 on F.Cu",
+                    "pos": {
+                        "x": 131.915,
+                        "y": 72.7
+                    },
+                    "uuid": "2c35d0e4-723a-4782-acc4-579b673feb83"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

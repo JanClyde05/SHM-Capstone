@@ -1,0 +1,77 @@
+{
+  "scope": "Straight pad-center distances only, not actual routed lengths or electrical measurements",
+  "rows": [
+    {
+      "capacitor": "C6",
+      "imu": "U2",
+      "imu_pad": 13,
+      "straight_pad_center_distance_mm": 1.65
+    },
+    {
+      "capacitor": "C7",
+      "imu": "U2",
+      "imu_pad": 8,
+      "straight_pad_center_distance_mm": 1.625
+    },
+    {
+      "capacitor": "C8",
+      "imu": "U2",
+      "imu_pad": 10,
+      "straight_pad_center_distance_mm": 2.2457
+    },
+    {
+      "capacitor": "C9",
+      "imu": "U2",
+      "imu_pad": 20,
+      "straight_pad_center_distance_mm": 1.625
+    },
+    {
+      "capacitor": "C10",
+      "imu": "U3",
+      "imu_pad": 13,
+      "straight_pad_center_distance_mm": 1.65
+    },
+    {
+      "capacitor": "C11",
+      "imu": "U3",
+      "imu_pad": 8,
+      "straight_pad_center_distance_mm": 1.625
+    },
+    {
+      "capacitor": "C12",
+      "imu": "U3",
+      "imu_pad": 10,
+      "straight_pad_center_distance_mm": 2.2457
+    },
+    {
+      "capacitor": "C13",
+      "imu": "U3",
+      "imu_pad": 20,
+      "straight_pad_center_distance_mm": 1.625
+    },
+    {
+      "capacitor": "C14",
+      "imu": "U4",
+      "imu_pad": 13,
+      "straight_pad_center_distance_mm": 1.65
+    },
+    {
+      "capacitor": "C15",
+      "imu": "U4",
+      "imu_pad": 8,
+      "straight_pad_center_distance_mm": 1.625
+    },
+    {
+      "capacitor": "C16",
+      "imu": "U4",
+      "imu_pad": 10,
+      "straight_pad_center_distance_mm": 2.2457
+    },
+    {
+      "capacitor": "C17",
+      "imu": "U4",
+      "imu_pad": 20,
+      "straight_pad_center_distance_mm": 1.625
+    }
+  ]
+}

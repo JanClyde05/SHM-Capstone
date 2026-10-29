@@ -1,0 +1,75 @@
+{
+  "time_utc": "2026-10-29T15:48:19.734973+00:00",
+  "script_sha256": "757806209aa394ae6ff56134ab573c341c98d1156765e60cc1f6fa6747e1bf49",
+  "spec_sha256": "f5f5a56f9e9b467c1ff75795e55d94ca561eb9770ed3594dd65273ea0006b34b",
+  "EQ_P01_P02": {
+    "Vin_V_assumed": 5.0,
+    "Vout_V_nominal": 3.3,
+    "theta_C_per_W_reference_test_board_only": 110,
+    "cases": [
+      {
+        "load_A_hypothetical": 0.3,
+        "dissipation_W_excluding_ground_current": 0.51,
+        "rise_C_if_theta_110_C_per_W": 56.1,
+        "Tj_C_if_ambient_25C_and_theta_110": 81.1,
+        "Tj_C_if_ambient_50C_and_theta_110": 106.1
+      },
+      {
+        "load_A_hypothetical": 0.5,
+        "dissipation_W_excluding_ground_current": 0.85,
+        "rise_C_if_theta_110_C_per_W": 93.5,
+        "Tj_C_if_ambient_25C_and_theta_110": 118.5,
+        "Tj_C_if_ambient_50C_and_theta_110": 143.5
+      },
+      {
+        "load_A_hypothetical": 1.0,
+        "dissipation_W_excluding_ground_current": 1.7,
+        "rise_C_if_theta_110_C_per_W": 187.0,
+        "Tj_C_if_ambient_25C_and_theta_110": 212.0,
+        "Tj_C_if_ambient_50C_and_theta_110": 237.0
+      }
+    ],
+    "limits": "Load/ambient are illustrative, not measured or selected limits. Ignd term excluded. Extrapolation above thermal shutdown is not a physically sustainable junction temperature."
+  },
+  "EQ_I01_I02": {
+    "rise_coefficient_exact": 0.8472978603872037,
+    "rise_coefficient_source_rounded": 0.8473,
+    "Rp_ohm_nominal": 2200.0,
+    "tr_s_max_Fast_mode": 3e-07,
+    "Cb_pF_max_nominal": 160.9390255678465,
+    "Cb_pF_max_if_Rp_plus1pct": 159.34556986915496,
+    "tr_ns_if_Cb_100pF": 186.40600000000003,
+    "limits": "1% resistor tolerance is only proposed in BOM; no MPN selected. Actual capacitance includes ICs, PCB, pad, fixture and probe."
+  },
+  "EQ_I03": {
+    "Vdd_V_nominal": 3.3,
+    "Vol_V": 0.4,
+    "Iol_A_source_condition": 0.003,
+    "Rp_min_ohm_at_3_3V": 966.6666666666666,
+    "Rp_min_ohm_at_3_46V": 1020.0,
+    "sink_mA_at_3_3V_and_0_4V": 1.3181818181818181,
+    "sink_mA_at_3_46V_and_Rp_minus1pct": 1.4049586776859506,
+    "four_lines_low_mA_at_3_3V_Vol0": 5.999999999999999,
+    "limits": "MPU datasheet labels this primary-I2C table Typical; this is not a guaranteed all-temperature bound. ESP GPIO sink capability must also be respected."
+  },
+  "EQ_R01_R02": {
+    "R_ohm": 10000,
+    "C_F": 1e-06,
+    "tau_ms": 10.0,
+    "time_to_75pct_ms_illustrative_threshold": 13.862943611198906,
+    "limits": "75% is an illustrative threshold for the formula, not an asserted actual EN trip point. Component tolerance, DC bias, leakage and supply ramp excluded."
+  },
+  "EQ_P03": {
+    "ESP_documented_peak_condition_mA": 355,
+    "three_MPU_typical_gyro_accel_and_logic_mA": 11.7,
+    "four_I2C_low_lines_mA": 6,
+    "illustrative_subtotal_mA": 372.7,
+    "limits": "Mixed test conditions; excludes other loads, startup, actual PSRAM/flash activity and margin. Not a guaranteed peak, continuous current or measured budget."
+  },
+  "EQ_P04": {
+    "Vout_at_nominal_plus_1pct_V": 3.3329999999999997,
+    "remaining_to_MPU_3_46V_V": 0.12700000000000022,
+    "limits": "1% regulator accuracy applies at specified datasheet conditions; temperature/load/line/ripple/overshoot not bounded by this arithmetic."
+  },
+  "status": "verified arithmetic under stated inputs; actual design operating margin unverified"
+}

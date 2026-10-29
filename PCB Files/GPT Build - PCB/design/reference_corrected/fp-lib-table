@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "SHM_Local")(type "KiCad")(uri "${KIPRJMOD}/SHM_Local.pretty")(options "")(descr "Project-local verified MPU6050 land pattern")))

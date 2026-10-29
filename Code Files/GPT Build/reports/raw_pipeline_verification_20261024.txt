@@ -1,0 +1,1 @@
+PASS: synthetic 180000-record/90-axis-window pipeline; CRC corruption, jitter and index gap detected; ten-window median and unclassified pilot checked

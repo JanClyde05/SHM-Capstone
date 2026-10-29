@@ -1,0 +1,638 @@
+{
+  "time_utc": "2026-10-29T14:56:28.293570+00:00",
+  "tool": "10.0.6",
+  "board": "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB\\design\\reference_corrected\\SHM_Node_R2.kicad_pcb",
+  "board_sha256": "c73aba22209b8da664aa73817da1dfa7c9c84ca27fcf69eabc29dcbad7be8f1e",
+  "reference": "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\Reference PCB (OLD Version)\\Thesis\\SHM_PCB_New\\SHM_PCB_New.kicad_pcb",
+  "reference_sha256": "372996943a9c3eb3c9087c315b7c810df9c0b70a4e0d1b47a99e9ec81b52c23f",
+  "netlist_sha256": "ad643c71e5de733c26af183d602d11f16227e8b00a680423c35aa2f0c97d17e1",
+  "spec_sha256": "f5f5a56f9e9b467c1ff75795e55d94ca561eb9770ed3594dd65273ea0006b34b",
+  "checked_numbered_pads": 233,
+  "spec_endpoints_checked": 148,
+  "firmware_sha256": "7fcea7ed88d258d07dfb7a497c5b677c27c4c9da0c4598d0edabeea11717b46d",
+  "firmware_arrays": {
+    "SHM_SDA": [
+      8,
+      10
+    ],
+    "SHM_SCL": [
+      9,
+      11
+    ],
+    "SHM_INT": [
+      4,
+      5,
+      6
+    ],
+    "SHM_BUS": [
+      0,
+      0,
+      1
+    ],
+    "SHM_ADDRESS": [
+      104,
+      105,
+      104
+    ]
+  },
+  "outline_matches_correct_reference": true,
+  "outline_valid": true,
+  "rule_area_checks": [
+    {
+      "name": "U2 die: no tracks or vias; ground plane allowed",
+      "geometry_matches": true,
+      "flags": {
+        "tracks": true,
+        "vias": true,
+        "zone_fills": false,
+        "pads": false
+      },
+      "layers": [
+        0,
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "name": "U3 die: no tracks or vias; ground plane allowed",
+      "geometry_matches": true,
+      "flags": {
+        "tracks": true,
+        "vias": true,
+        "zone_fills": false,
+        "pads": false
+      },
+      "layers": [
+        0,
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "name": "U4 die: no tracks or vias; ground plane allowed",
+      "geometry_matches": true,
+      "flags": {
+        "tracks": true,
+        "vias": true,
+        "zone_fills": false,
+        "pads": false
+      },
+      "layers": [
+        0,
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "name": "Antenna region and surrounding clearance",
+      "geometry_matches": true,
+      "flags": {
+        "tracks": true,
+        "vias": true,
+        "zone_fills": true,
+        "pads": true
+      },
+      "layers": [
+        0,
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "name": "M3 fastener copper clearance H1",
+      "geometry_matches": true,
+      "flags": {
+        "tracks": true,
+        "vias": true,
+        "zone_fills": true,
+        "pads": false
+      },
+      "layers": [
+        0,
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "name": "M3 fastener copper clearance H2",
+      "geometry_matches": true,
+      "flags": {
+        "tracks": true,
+        "vias": true,
+        "zone_fills": true,
+        "pads": false
+      },
+      "layers": [
+        0,
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "name": "M3 fastener copper clearance H3",
+      "geometry_matches": true,
+      "flags": {
+        "tracks": true,
+        "vias": true,
+        "zone_fills": true,
+        "pads": false
+      },
+      "layers": [
+        0,
+        2,
+        4,
+        6
+      ]
+    }
+  ],
+  "native_usb_contract": {
+    "U1": {
+      "13": "USB_DM_MCU",
+      "14": "USB_DP_MCU"
+    },
+    "R3": {
+      "1": "USB_DM",
+      "2": "USB_DM_MCU"
+    },
+    "R4": {
+      "1": "USB_DP",
+      "2": "USB_DP_MCU"
+    },
+    "U6": {
+      "1": "USB_DM",
+      "6": "USB_DM",
+      "3": "USB_DP",
+      "4": "USB_DP",
+      "2": "GND",
+      "5": "VBUS_USB"
+    },
+    "J1": {
+      "A6": "USB_DP",
+      "B6": "USB_DP",
+      "A7": "USB_DM",
+      "B7": "USB_DM"
+    }
+  },
+  "reserved_module_pads_checked": [
+    "28",
+    "29",
+    "30"
+  ],
+  "reference_edge_geometry": [
+    {
+      "shape": "2",
+      "start": [
+        109.15,
+        74.2
+      ],
+      "end": [
+        109.15,
+        54.2
+      ],
+      "mid": [
+        99.15,
+        64.2
+      ]
+    },
+    {
+      "shape": "0",
+      "start": [
+        122.05,
+        53.55
+      ],
+      "end": [
+        109.15,
+        54.2
+      ]
+    },
+    {
+      "shape": "0",
+      "start": [
+        122.05,
+        74.85
+      ],
+      "end": [
+        109.15,
+        74.2
+      ]
+    },
+    {
+      "shape": "0",
+      "start": [
+        155.75,
+        53.55
+      ],
+      "end": [
+        122.05,
+        53.55
+      ]
+    },
+    {
+      "shape": "0",
+      "start": [
+        122.05,
+        74.85
+      ],
+      "end": [
+        122.05,
+        85.55
+      ]
+    },
+    {
+      "shape": "2",
+      "start": [
+        148.75,
+        94.0
+      ],
+      "end": [
+        128.75,
+        94.0
+      ],
+      "mid": [
+        138.75,
+        104.0
+      ]
+    },
+    {
+      "shape": "0",
+      "start": [
+        122.05,
+        85.55
+      ],
+      "end": [
+        128.75,
+        94.0
+      ]
+    },
+    {
+      "shape": "0",
+      "start": [
+        155.75,
+        85.55
+      ],
+      "end": [
+        148.75,
+        94.0
+      ]
+    },
+    {
+      "shape": "0",
+      "start": [
+        155.75,
+        85.55
+      ],
+      "end": [
+        155.75,
+        74.85
+      ]
+    },
+    {
+      "shape": "0",
+      "start": [
+        155.75,
+        53.55
+      ],
+      "end": [
+        168.65,
+        54.2
+      ]
+    },
+    {
+      "shape": "2",
+      "start": [
+        168.65,
+        54.2
+      ],
+      "end": [
+        168.65,
+        74.2
+      ],
+      "mid": [
+        178.65,
+        64.2
+      ]
+    },
+    {
+      "shape": "0",
+      "start": [
+        155.75,
+        74.85
+      ],
+      "end": [
+        168.65,
+        74.2
+      ]
+    }
+  ],
+  "failures": [],
+  "net_copper_inventory": {
+    "/CC2": {
+      "track_length_mm": 9.0423,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ]
+    },
+    "GND": {
+      "track_length_mm": 54.0748,
+      "via_count": 51,
+      "layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2,
+        0.25,
+        0.6
+      ]
+    },
+    "/IMU1_CPOUT": {
+      "track_length_mm": 1.625,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ]
+    },
+    "+3V3": {
+      "track_length_mm": 176.498,
+      "via_count": 13,
+      "layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.15,
+        0.2,
+        0.25,
+        0.65
+      ]
+    },
+    "/BOOT": {
+      "track_length_mm": 19.8304,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ]
+    },
+    "/EN": {
+      "track_length_mm": 20.3992,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ]
+    },
+    "/I2C1_SCL": {
+      "track_length_mm": 63.5745,
+      "via_count": 3,
+      "layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ]
+    },
+    "/IMU1_REGOUT": {
+      "track_length_mm": 2.6713,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ]
+    },
+    "/VBUS_USB": {
+      "track_length_mm": 19.4491,
+      "via_count": 4,
+      "layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.15,
+        0.2,
+        0.4,
+        0.65
+      ]
+    },
+    "/CC1": {
+      "track_length_mm": 6.2191,
+      "via_count": 2,
+      "layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ]
+    },
+    "/USB_DP": {
+      "track_length_mm": 25.7554,
+      "via_count": 4,
+      "layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ]
+    },
+    "/USB_DM": {
+      "track_length_mm": 26.6428,
+      "via_count": 2,
+      "layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ]
+    },
+    "/I2C1_SDA": {
+      "track_length_mm": 59.0255,
+      "via_count": 3,
+      "layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ]
+    },
+    "/IMU2_REGOUT": {
+      "track_length_mm": 2.6713,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ]
+    },
+    "/IMU2_INT": {
+      "track_length_mm": 101.912,
+      "via_count": 2,
+      "layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ]
+    },
+    "/IMU2_CPOUT": {
+      "track_length_mm": 1.625,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ]
+    },
+    "/I2C0_SCL": {
+      "track_length_mm": 78.6305,
+      "via_count": 4,
+      "layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ]
+    },
+    "/I2C0_SDA": {
+      "track_length_mm": 89.0856,
+      "via_count": 3,
+      "layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ]
+    },
+    "/USB_DM_MCU": {
+      "track_length_mm": 2.1334,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ]
+    },
+    "/IMU1_INT": {
+      "track_length_mm": 64.2206,
+      "via_count": 2,
+      "layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ]
+    },
+    "/IMU3_INT": {
+      "track_length_mm": 66.2915,
+      "via_count": 1,
+      "layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ]
+    },
+    "/USB_DP_MCU": {
+      "track_length_mm": 2.2874,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ]
+    },
+    "/UART_RX": {
+      "track_length_mm": 51.504,
+      "via_count": 1,
+      "layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.15,
+        0.2
+      ]
+    },
+    "/UART_TX": {
+      "track_length_mm": 57.176,
+      "via_count": 0,
+      "layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ]
+    },
+    "/+5V_FUSED": {
+      "track_length_mm": 38.55,
+      "via_count": 4,
+      "layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.65
+      ]
+    },
+    "/IMU3_REGOUT": {
+      "track_length_mm": 2.6713,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ]
+    },
+    "/IMU3_CPOUT": {
+      "track_length_mm": 1.625,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ]
+    }
+  },
+  "limits": [
+    "Net membership, CAD constraints and reference geometry only; connectivity must also pass KiCad DRC.",
+    "MPU core check rejects pad/artwork copper and paste inside the documented 3.08mm square; planes are allowed, track/via exclusion is additionally checked by KiCad DRC.",
+    "Ground-zone presence does not establish continuous return paths.",
+    "Track-length totals count all branches, not terminal-to-terminal electrical lengths.",
+    "No impedance/current-capacity, physical assembly, thermal, RF, timing or field performance claim."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "time_utc": "2026-10-29T10:00:12.859705+00:00",
+  "status": "proposed before source edit; routed-board runtime pending",
+  "source": "docs/ELECTRICAL_DECISIONS.md E-04; AP7361C manufacturer source SRC-06",
+  "observed_tab": {
+    "reference": "U5",
+    "pad": "2",
+    "net": "GND",
+    "center_mm": [
+      151.15,
+      80.3
+    ],
+    "size_mm": [
+      2.0,
+      3.8
+    ]
+  },
+  "gap": "Generic local-GND loop attempts only one nearby via; solid top pour alone does not demonstrate adequate thermal dissipation.",
+  "proposed_geometry": {
+    "via_diameter_mm": 0.6,
+    "drill_mm": 0.3,
+    "top_link_width_mm": 0.6,
+    "target_count": 8,
+    "minimum_layout_count": 4,
+    "positions": "Two columns outside tab right edge, each four vias at 0.8mm pitch. Exact geometry derived from current tab."
+  },
+  "acceptance": [
+    "All additions pass existing copper/edge/keepout/hole geometric guards and final KiCad DRC.",
+    "Report every created/rejected candidate and actual count; fewer than four leaves unresolved layout gate.",
+    "Review tab copper and plane connection visually; temperature testing remains required."
+  ],
+  "qualification": "Counts/positions are engineering design choices, not manufacturer-specified guarantees of thermal performance."
+}

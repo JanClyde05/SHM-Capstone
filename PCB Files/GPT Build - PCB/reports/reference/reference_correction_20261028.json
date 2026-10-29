@@ -1,0 +1,694 @@
+{
+  "checked_local_date": "2026-10-28",
+  "tool": "KiCad10 pcbnew read-only",
+  "boards": [
+    {
+      "path": "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\Reference PCB (OLD Version)\\Thesis\\SHM_PCB_New\\SHM_PCB_New.kicad_pcb",
+      "sha256": "372996943a9c3eb3c9087c315b7c810df9c0b70a4e0d1b47a99e9ec81b52c23f",
+      "bbox_including_stroke_mm": [
+        99.1,
+        53.5,
+        79.6,
+        50.55
+      ],
+      "layers": 2,
+      "footprints": [
+        {
+          "ref": "C1",
+          "value": "22uF",
+          "position_mm": [
+            138.8,
+            76.2725
+          ],
+          "orientation_deg": 90.0
+        },
+        {
+          "ref": "U1",
+          "value": "ESP32-S3-WROOM-1",
+          "position_mm": [
+            138.9,
+            60.55
+          ],
+          "orientation_deg": 0.0
+        },
+        {
+          "ref": "C2",
+          "value": "10uF",
+          "position_mm": [
+            138.8,
+            80.2225
+          ],
+          "orientation_deg": 90.0
+        },
+        {
+          "ref": "U4",
+          "value": "MPU-6050",
+          "position_mm": [
+            168.65,
+            64.2
+          ],
+          "orientation_deg": 0.0
+        },
+        {
+          "ref": "U5",
+          "value": "MPU-6050",
+          "position_mm": [
+            109.15,
+            64.2
+          ],
+          "orientation_deg": 0.0
+        },
+        {
+          "ref": "U3",
+          "value": "AMS1117-3.3",
+          "position_mm": [
+            144.3,
+            78.55
+          ],
+          "orientation_deg": 0.0
+        },
+        {
+          "ref": "C3",
+          "value": "22uF",
+          "position_mm": [
+            127.95,
+            55.9625
+          ],
+          "orientation_deg": 90.0
+        },
+        {
+          "ref": "R4",
+          "value": "5.1k",
+          "position_mm": [
+            131.03,
+            83.52
+          ],
+          "orientation_deg": -90.0
+        },
+        {
+          "ref": "U2",
+          "value": "MPU-6050",
+          "position_mm": [
+            138.726098,
+            93.999244
+          ],
+          "orientation_deg": 0.0
+        },
+        {
+          "ref": "R3",
+          "value": "5.1k",
+          "position_mm": [
+            131.02,
+            79.27
+          ],
+          "orientation_deg": 90.0
+        },
+        {
+          "ref": "J1",
+          "value": "USB_C_Receptacle_USB2.0_16P",
+          "position_mm": [
+            124.635,
+            80.36
+          ],
+          "orientation_deg": -90.0
+        }
+      ],
+      "edges": [
+        {
+          "type": 2,
+          "start_mm": [
+            109.15,
+            74.2
+          ],
+          "end_mm": [
+            109.15,
+            54.2
+          ],
+          "mid_mm": [
+            99.15,
+            64.2
+          ],
+          "width_mm": 0.1
+        },
+        {
+          "type": 0,
+          "start_mm": [
+            122.05,
+            74.85
+          ],
+          "end_mm": [
+            109.15,
+            74.2
+          ],
+          "mid_mm": null,
+          "width_mm": 0.1
+        },
+        {
+          "type": 0,
+          "start_mm": [
+            155.75,
+            85.55
+          ],
+          "end_mm": [
+            148.75,
+            94.0
+          ],
+          "mid_mm": null,
+          "width_mm": 0.1
+        },
+        {
+          "type": 0,
+          "start_mm": [
+            155.75,
+            53.55
+          ],
+          "end_mm": [
+            122.05,
+            53.55
+          ],
+          "mid_mm": null,
+          "width_mm": 0.1
+        },
+        {
+          "type": 0,
+          "start_mm": [
+            122.05,
+            74.85
+          ],
+          "end_mm": [
+            122.05,
+            85.55
+          ],
+          "mid_mm": null,
+          "width_mm": 0.1
+        },
+        {
+          "type": 0,
+          "start_mm": [
+            155.75,
+            53.55
+          ],
+          "end_mm": [
+            168.65,
+            54.2
+          ],
+          "mid_mm": null,
+          "width_mm": 0.1
+        },
+        {
+          "type": 0,
+          "start_mm": [
+            155.75,
+            85.55
+          ],
+          "end_mm": [
+            155.75,
+            74.85
+          ],
+          "mid_mm": null,
+          "width_mm": 0.1
+        },
+        {
+          "type": 2,
+          "start_mm": [
+            168.65,
+            54.2
+          ],
+          "end_mm": [
+            168.65,
+            74.2
+          ],
+          "mid_mm": [
+            178.65,
+            64.2
+          ],
+          "width_mm": 0.1
+        },
+        {
+          "type": 0,
+          "start_mm": [
+            122.05,
+            53.55
+          ],
+          "end_mm": [
+            109.15,
+            54.2
+          ],
+          "mid_mm": null,
+          "width_mm": 0.1
+        },
+        {
+          "type": 0,
+          "start_mm": [
+            155.75,
+            74.85
+          ],
+          "end_mm": [
+            168.65,
+            74.2
+          ],
+          "mid_mm": null,
+          "width_mm": 0.1
+        },
+        {
+          "type": 0,
+          "start_mm": [
+            122.05,
+            85.55
+          ],
+          "end_mm": [
+            128.75,
+            94.0
+          ],
+          "mid_mm": null,
+          "width_mm": 0.1
+        },
+        {
+          "type": 2,
+          "start_mm": [
+            148.75,
+            94.0
+          ],
+          "end_mm": [
+            128.75,
+            94.0
+          ],
+          "mid_mm": [
+            138.75,
+            104.0
+          ],
+          "width_mm": 0.1
+        }
+      ]
+    },
+    {
+      "path": "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB\\design\\SHM_Node_R2.kicad_pcb",
+      "sha256": "da80b01e83b4625f8c970df54883dba27b5402ebca027cb8a6274129e32a0e54",
+      "bbox_including_stroke_mm": [
+        92.291243,
+        41.836793,
+        83.608663,
+        83.118463
+      ],
+      "layers": 4,
+      "footprints": [
+        {
+          "ref": "H2",
+          "value": "M3 NPTH",
+          "position_mm": [
+            169.0,
+            60.0
+          ],
+          "orientation_deg": 0.0
+        },
+        {
+          "ref": "U3",
+          "value": "MPU-6050",
+          "position_mm": [
+            163.0,
+            54.0
+          ],
+          "orientation_deg": 0.0
+        },
+        {
+          "ref": "SW1",
+          "value": "RESET",
+          "position_mm": [
+            118.6,
+            76.0
+          ],
+          "orientation_deg": 0.0
+        },
+        {
+          "ref": "U5",
+          "value": "AP7361C-33E-13",
+          "position_mm": [
+            148.0,
+            89.0
+          ],
+          "orientation_deg": 0.0
+        },
+        {
+          "ref": "H1",
+          "value": "M3 NPTH",
+          "position_mm": [
+            128.0,
+            119.0
+          ],
+          "orientation_deg": 0.0
+        },
+        {
+          "ref": "U6",
+          "value": "USBLC6-2SC6",
+          "position_mm": [
+            123.7,
+            91.0
+          ],
+          "orientation_deg": 0.0
+        },
+        {
+          "ref": "R4",
+          "value": "22R",
+          "position_mm": [
+            123.6,
+            82.2
+          ],
+          "orientation_deg": 0.0
+        },
+        {
+          "ref": "J1",
+          "value": "USB4105-GF-A",
+          "position_mm": [
+            116.0,
+            91.0
+          ],
+          "orientation_deg": -90.0
+        },
+        {
+          "ref": "C1",
+          "value": "4.7uF",
+          "position_mm": [
+            141.8,
+            86.7
+          ],
+          "orientation_deg": 0.0
+        },
+        {
+          "ref": "C3",
+          "value": "10uF",
+          "position_mm": [
+            121.8,
+            65.8
+          ],
+          "orientation_deg": 180.0
+        },
+        {
+          "ref": "C2",
+          "value": "10uF",
+          "position_mm": [
+            141.8,
+            91.3
+          ],
+          "orientation_deg": 180.0
+        },
+        {
+          "ref": "R3",
+          "value": "22R",
+          "position_mm": [
+            123.6,
+            79.8
+          ],
+          "orientation_deg": 0.0
+        },
+        {
+          "ref": "H4",
+          "value": "M3 NPTH",
+          "position_mm": [
+            150.0,
+            98.0
+          ],
+          "orientation_deg": 0.0
+        },
+        {
+          "ref": "U1",
+          "value": "ESP32-S3-WROOM-1-N16R8",
+          "position_mm": [
+            135.0,
+            70.0
+          ],
+          "orientation_deg": 0.0
+        },
+        {
+          "ref": "J2",
+          "value": "UART DEBUG (3V3 LOGIC)",
+          "position_mm": [
+            151.0,
+            67.0
+          ],
+          "orientation_deg": 0.0
+        },
+        {
+          "ref": "U2",
+          "value": "MPU-6050",
+          "position_mm": [
+            135.0,
+            114.0
+          ],
+          "orientation_deg": 0.0
+        },
+        {
+          "ref": "SW2",
+          "value": "BOOT",
+          "position_mm": [
+            150.0,
+            77.5
+          ],
+          "orientation_deg": 0.0
+        },
+        {
+          "ref": "H3",
+          "value": "M3 NPTH",
+          "position_mm": [
+            99.0,
+            60.0
+          ],
+          "orientation_deg": 0.0
+        },
+        {
+          "ref": "U4",
+          "value": "MPU-6050",
+          "position_mm": [
+            105.0,
+            54.0
+          ],
+          "orientation_deg": 0.0
+        }
+      ],
+      "edges": [
+        {
+          "type": 2,
+          "start_mm": [
+            106.287521,
+            69.71145
+          ],
+          "end_mm": [
+            120.113155,
+            54.574901
+          ],
+          "mid_mm": [
+            95.959599,
+            46.395574
+          ],
+          "width_mm": 0.05
+        },
+        {
+          "type": 0,
+          "start_mm": [
+            113.441107,
+            67.105153
+          ],
+          "end_mm": [
+            106.287521,
+            69.71145
+          ],
+          "mid_mm": null,
+          "width_mm": 0.05
+        },
+        {
+          "type": 0,
+          "start_mm": [
+            113.441107,
+            67.105153
+          ],
+          "end_mm": [
+            113.441107,
+            99.105153
+          ],
+          "mid_mm": null,
+          "width_mm": 0.05
+        },
+        {
+          "type": 2,
+          "start_mm": [
+            118.441141,
+            104.105153
+          ],
+          "end_mm": [
+            113.441107,
+            99.105153
+          ],
+          "mid_mm": [
+            114.905573,
+            102.640687
+          ],
+          "width_mm": 0.05
+        },
+        {
+          "type": 0,
+          "start_mm": [
+            118.441141,
+            104.105153
+          ],
+          "end_mm": [
+            129.111107,
+            104.105153
+          ],
+          "mid_mm": null,
+          "width_mm": 0.05
+        },
+        {
+          "type": 0,
+          "start_mm": [
+            118.65,
+            62.105
+          ],
+          "end_mm": [
+            150.905573,
+            62.081433
+          ],
+          "mid_mm": null,
+          "width_mm": 0.05
+        },
+        {
+          "type": 0,
+          "start_mm": [
+            120.113155,
+            54.574901
+          ],
+          "end_mm": [
+            118.65,
+            62.105
+          ],
+          "mid_mm": null,
+          "width_mm": 0.05
+        },
+        {
+          "type": 0,
+          "start_mm": [
+            129.111107,
+            104.105153
+          ],
+          "end_mm": [
+            120.708007,
+            110.661099
+          ],
+          "mid_mm": null,
+          "width_mm": 0.05
+        },
+        {
+          "type": 0,
+          "start_mm": [
+            139.771107,
+            104.105153
+          ],
+          "end_mm": [
+            148.933758,
+            110.769864
+          ],
+          "mid_mm": null,
+          "width_mm": 0.05
+        },
+        {
+          "type": 0,
+          "start_mm": [
+            139.771107,
+            104.105153
+          ],
+          "end_mm": [
+            150.441141,
+            104.105153
+          ],
+          "mid_mm": null,
+          "width_mm": 0.05
+        },
+        {
+          "type": 2,
+          "start_mm": [
+            148.025231,
+            55.833075
+          ],
+          "end_mm": [
+            163.161661,
+            69.658761
+          ],
+          "mid_mm": [
+            171.341107,
+            45.505153
+          ],
+          "width_mm": 0.05
+        },
+        {
+          "type": 2,
+          "start_mm": [
+            148.933758,
+            110.769864
+          ],
+          "end_mm": [
+            120.708007,
+            110.661099
+          ],
+          "mid_mm": [
+            134.766107,
+            124.930153
+          ],
+          "width_mm": 0.05
+        },
+        {
+          "type": 0,
+          "start_mm": [
+            150.905573,
+            62.081433
+          ],
+          "end_mm": [
+            148.025231,
+            55.833075
+          ],
+          "mid_mm": null,
+          "width_mm": 0.05
+        },
+        {
+          "type": 0,
+          "start_mm": [
+            155.441107,
+            67.105153
+          ],
+          "end_mm": [
+            155.441107,
+            99.105187
+          ],
+          "mid_mm": null,
+          "width_mm": 0.05
+        },
+        {
+          "type": 0,
+          "start_mm": [
+            155.441107,
+            67.105153
+          ],
+          "end_mm": [
+            163.161661,
+            69.658761
+          ],
+          "mid_mm": null,
+          "width_mm": 0.05
+        },
+        {
+          "type": 2,
+          "start_mm": [
+            155.441107,
+            99.105187
+          ],
+          "end_mm": [
+            150.441141,
+            104.105153
+          ],
+          "mid_mm": [
+            153.976641,
+            102.640687
+          ],
+          "width_mm": 0.05
+        }
+      ]
+    }
+  ]
+}

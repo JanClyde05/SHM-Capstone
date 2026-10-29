@@ -1,0 +1,577 @@
+{
+  "started_utc": "2026-10-29T10:24:53.893891+00:00",
+  "tool": "10.0.6",
+  "input": "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB\\design\\reference_corrected\\SHM_Node_R2_before_final_gap.kicad_pcb",
+  "input_sha256": "0bd79e2b7609be282397d7d506c7bc8114323d8eea7d048ab98c0e252ea3ab5e",
+  "netlist_sha256": "ad643c71e5de733c26af183d602d11f16227e8b00a680423c35aa2f0c97d17e1",
+  "ground_vias": [
+    {
+      "ref": "R2",
+      "pad": "2",
+      "xy_mm": [
+        131.4588,
+        83.5091
+      ]
+    },
+    {
+      "ref": "C9",
+      "pad": "2",
+      "xy_mm": [
+        140.3,
+        88.825
+      ]
+    },
+    {
+      "ref": "C8",
+      "pad": "2",
+      "xy_mm": [
+        141.35,
+        99.175
+      ]
+    },
+    {
+      "ref": "C5",
+      "pad": "2",
+      "xy_mm": [
+        128.5821,
+        61.5727
+      ]
+    },
+    {
+      "ref": "J1",
+      "pad": "A1",
+      "xy_mm": [
+        128.0872,
+        76.7
+      ]
+    },
+    {
+      "ref": "J1",
+      "pad": "A12",
+      "xy_mm": [
+        129.4728,
+        83.9
+      ]
+    },
+    {
+      "ref": "C14",
+      "pad": "2",
+      "xy_mm": [
+        115.3642,
+        64.85
+      ]
+    },
+    {
+      "ref": "C15",
+      "pad": "2",
+      "xy_mm": [
+        109.2,
+        69.375
+      ]
+    },
+    {
+      "ref": "U3",
+      "pad": "1",
+      "xy_mm": [
+        165.875,
+        62.95
+      ]
+    },
+    {
+      "ref": "U3",
+      "pad": "18",
+      "xy_mm": [
+        171.425,
+        62.95
+      ]
+    },
+    {
+      "ref": "C6",
+      "pad": "2",
+      "xy_mm": [
+        144.725,
+        95.25
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "1",
+      "xy_mm": [
+        130.95,
+        54.94
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "40",
+      "xy_mm": [
+        148.45,
+        54.94
+      ]
+    },
+    {
+      "ref": "SW2",
+      "pad": "2",
+      "xy_mm": [
+        151.25,
+        66.6072
+      ]
+    },
+    {
+      "ref": "SW2",
+      "pad": "2",
+      "xy_mm": [
+        157.95,
+        67.3
+      ]
+    },
+    {
+      "ref": "C10",
+      "pad": "2",
+      "xy_mm": [
+        174.625,
+        65.45
+      ]
+    },
+    {
+      "ref": "C13",
+      "pad": "2",
+      "xy_mm": [
+        170.2,
+        59.025
+      ]
+    },
+    {
+      "ref": "C7",
+      "pad": "2",
+      "xy_mm": [
+        138.8,
+        99.175
+      ]
+    },
+    {
+      "ref": "U5",
+      "pad": "2",
+      "xy_mm": [
+        145.65,
+        80.3
+      ]
+    },
+    {
+      "ref": "U5",
+      "pad": "2",
+      "xy_mm": [
+        151.95,
+        80.3
+      ]
+    },
+    {
+      "ref": "C11",
+      "pad": "2",
+      "xy_mm": [
+        168.7,
+        69.375
+      ]
+    },
+    {
+      "ref": "C1",
+      "pad": "2",
+      "xy_mm": [
+        140.0841,
+        79.7387
+      ]
+    },
+    {
+      "ref": "U4",
+      "pad": "1",
+      "xy_mm": [
+        106.375,
+        62.95
+      ]
+    },
+    {
+      "ref": "U4",
+      "pad": "18",
+      "xy_mm": [
+        112.025,
+        61.3912
+      ]
+    },
+    {
+      "ref": "U2",
+      "pad": "1",
+      "xy_mm": [
+        135.975,
+        92.75
+      ]
+    },
+    {
+      "ref": "U2",
+      "pad": "18",
+      "xy_mm": [
+        141.525,
+        92.75
+      ]
+    },
+    {
+      "ref": "SW1",
+      "pad": "2",
+      "xy_mm": [
+        120.65,
+        67.9
+      ]
+    },
+    {
+      "ref": "SW1",
+      "pad": "2",
+      "xy_mm": [
+        126.95,
+        67.9
+      ]
+    },
+    {
+      "ref": "C17",
+      "pad": "2",
+      "xy_mm": [
+        110.7,
+        59.025
+      ]
+    },
+    {
+      "ref": "R1",
+      "pad": "2",
+      "xy_mm": [
+        131.9727,
+        75.0821
+      ]
+    },
+    {
+      "ref": "C4",
+      "pad": "2",
+      "xy_mm": [
+        125.825,
+        58.6928
+      ]
+    },
+    {
+      "ref": "C3",
+      "pad": "2",
+      "xy_mm": [
+        126.65,
+        55.8
+      ]
+    },
+    {
+      "ref": "C2",
+      "pad": "2",
+      "xy_mm": [
+        139.75,
+        82.6
+      ]
+    },
+    {
+      "ref": "TP2",
+      "pad": "1",
+      "xy_mm": [
+        132.6,
+        87.8928
+      ]
+    }
+  ],
+  "ground_unresolved": [
+    {
+      "ref": "U3",
+      "pad": "11",
+      "xy_mm": [
+        169.4,
+        66.2
+      ]
+    },
+    {
+      "ref": "U4",
+      "pad": "9",
+      "xy_mm": [
+        108.9,
+        66.2
+      ]
+    },
+    {
+      "ref": "U4",
+      "pad": "11",
+      "xy_mm": [
+        109.9,
+        66.2
+      ]
+    },
+    {
+      "ref": "U2",
+      "pad": "9",
+      "xy_mm": [
+        138.5,
+        96.0
+      ]
+    },
+    {
+      "ref": "U2",
+      "pad": "11",
+      "xy_mm": [
+        139.5,
+        96.0
+      ]
+    }
+  ],
+  "power_bridges": [
+    {
+      "net": "+3V3",
+      "grid_points": [
+        [
+          108.75,
+          67.75,
+          0
+        ],
+        [
+          108.75,
+          67.75,
+          2
+        ],
+        [
+          109.0,
+          67.5,
+          2
+        ],
+        [
+          109.25,
+          67.25,
+          2
+        ],
+        [
+          109.5,
+          67.0,
+          2
+        ],
+        [
+          109.75,
+          66.75,
+          2
+        ],
+        [
+          110.0,
+          66.75,
+          2
+        ],
+        [
+          110.25,
+          66.5,
+          2
+        ],
+        [
+          110.5,
+          66.5,
+          2
+        ],
+        [
+          110.75,
+          66.25,
+          2
+        ],
+        [
+          111.0,
+          66.25,
+          2
+        ],
+        [
+          111.25,
+          66.25,
+          2
+        ],
+        [
+          111.5,
+          66.0,
+          2
+        ],
+        [
+          111.75,
+          66.0,
+          2
+        ],
+        [
+          112.0,
+          65.75,
+          2
+        ],
+        [
+          112.25,
+          65.5,
+          2
+        ],
+        [
+          112.25,
+          65.5,
+          0
+        ]
+      ],
+      "width_mm": 0.25,
+      "vias": 2,
+      "search_steps": 1083
+    }
+  ],
+  "power_unresolved": [],
+  "silk_unresolved": [],
+  "thermal_layout_unresolved": [],
+  "scope": "CAD geometry/connectivity only; no electrical or physical performance validation",
+  "import_integrity": {
+    "placement_preserved": true,
+    "restored_one_nm_rounding": [],
+    "locked_copper_before": 105,
+    "locked_copper_after": 105,
+    "missing_locked_copper": []
+  },
+  "removed_unlocked_ground_items": 71,
+  "regulator_thermal_vias": {
+    "reference": "U5",
+    "pad": "2",
+    "tab_center_mm": [
+      151.15,
+      80.3
+    ],
+    "via_diameter_mm": 0.6,
+    "drill_mm": 0.3,
+    "top_link_width_mm": 0.6,
+    "target_count": 8,
+    "minimum_layout_count": 4,
+    "created": [
+      {
+        "xy_mm": [
+          154.25,
+          79.1
+        ],
+        "anchor_mm": [
+          152.05,
+          79.1
+        ],
+        "link_length_mm": 2.2
+      },
+      {
+        "xy_mm": [
+          154.25,
+          79.9
+        ],
+        "anchor_mm": [
+          152.05,
+          79.9
+        ],
+        "link_length_mm": 2.2
+      },
+      {
+        "xy_mm": [
+          154.25,
+          80.7
+        ],
+        "anchor_mm": [
+          152.05,
+          80.7
+        ],
+        "link_length_mm": 2.2
+      },
+      {
+        "xy_mm": [
+          154.25,
+          81.5
+        ],
+        "anchor_mm": [
+          152.05,
+          81.5
+        ],
+        "link_length_mm": 2.2
+      },
+      {
+        "xy_mm": [
+          154.65,
+          78.7
+        ],
+        "anchor_mm": [
+          152.05,
+          78.7
+        ],
+        "link_length_mm": 2.6
+      },
+      {
+        "xy_mm": [
+          154.65,
+          79.5
+        ],
+        "anchor_mm": [
+          152.05,
+          79.5
+        ],
+        "link_length_mm": 2.6
+      },
+      {
+        "xy_mm": [
+          154.65,
+          80.3
+        ],
+        "anchor_mm": [
+          152.05,
+          80.3
+        ],
+        "link_length_mm": 2.6
+      },
+      {
+        "xy_mm": [
+          154.65,
+          81.1
+        ],
+        "anchor_mm": [
+          152.05,
+          81.1
+        ],
+        "link_length_mm": 2.6
+      }
+    ],
+    "rejected": [
+      [
+        152.65,
+        79.1
+      ],
+      [
+        152.65,
+        79.9
+      ],
+      [
+        152.65,
+        80.7
+      ],
+      [
+        152.65,
+        81.5
+      ],
+      [
+        153.45,
+        79.1
+      ],
+      [
+        153.45,
+        79.9
+      ],
+      [
+        153.45,
+        80.7
+      ],
+      [
+        153.45,
+        81.5
+      ]
+    ],
+    "qualification": "Engineering layout target only; no measured thermal-performance claim.",
+    "created_count": 8
+  },
+  "output": "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB\\design\\reference_corrected\\SHM_Node_R2.kicad_pcb",
+  "output_sha256": "804d5b67af300bfd1435103ec163e99917812b64a9055980df44e0cca97d3ee5",
+  "drc_report": "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB\\reports\\reference_corrected\\finish_20261029T102453_893891Z\\drc_corrected_final.json",
+  "unconnected_count": 0,
+  "violation_count": 223,
+  "schematic_parity_count": 0,
+  "run_directory": "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\GPT Build - PCB\\reports\\reference_corrected\\finish_20261029T102453_893891Z",
+  "finished_utc": "2026-10-29T10:26:00.075939+00:00"
+}

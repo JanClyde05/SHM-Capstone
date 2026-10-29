@@ -1,0 +1,7894 @@
+[
+  {
+    "source": "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\Reference PCB (OLD Version)\\Thesis\\Thesis.kicad_pcb",
+    "sha256": "bdd5b94be4d650010bce2ac0608f235da86944739f75d2bb82517f9246092c25",
+    "edge_stroke_bbox_mm": [
+      92.291243,
+      41.836793,
+      83.608663,
+      83.118463
+    ],
+    "footprint_count": 36,
+    "track_via_count": 480,
+    "copper_layer_count": 2,
+    "thickness_mm": 1.6,
+    "edges": [
+      {
+        "shape": 0,
+        "start_mm": [
+          118.65,
+          62.105
+        ],
+        "end_mm": [
+          150.905573,
+          62.081433
+        ],
+        "mid_mm": null,
+        "width_mm": 0.05
+      },
+      {
+        "shape": 0,
+        "start_mm": [
+          155.441107,
+          67.105153
+        ],
+        "end_mm": [
+          155.441107,
+          99.105187
+        ],
+        "mid_mm": null,
+        "width_mm": 0.05
+      },
+      {
+        "shape": 0,
+        "start_mm": [
+          139.771107,
+          104.105153
+        ],
+        "end_mm": [
+          150.441141,
+          104.105153
+        ],
+        "mid_mm": null,
+        "width_mm": 0.05
+      },
+      {
+        "shape": 0,
+        "start_mm": [
+          155.441107,
+          67.105153
+        ],
+        "end_mm": [
+          163.161661,
+          69.658761
+        ],
+        "mid_mm": null,
+        "width_mm": 0.05
+      },
+      {
+        "shape": 0,
+        "start_mm": [
+          150.905573,
+          62.081433
+        ],
+        "end_mm": [
+          148.025231,
+          55.833075
+        ],
+        "mid_mm": null,
+        "width_mm": 0.05
+      },
+      {
+        "shape": 2,
+        "start_mm": [
+          148.025231,
+          55.833075
+        ],
+        "end_mm": [
+          163.161661,
+          69.658761
+        ],
+        "mid_mm": [
+          171.341107,
+          45.505153
+        ],
+        "width_mm": 0.05
+      },
+      {
+        "shape": 0,
+        "start_mm": [
+          113.441107,
+          67.105153
+        ],
+        "end_mm": [
+          106.287521,
+          69.71145
+        ],
+        "mid_mm": null,
+        "width_mm": 0.05
+      },
+      {
+        "shape": 0,
+        "start_mm": [
+          139.771107,
+          104.105153
+        ],
+        "end_mm": [
+          148.933758,
+          110.769864
+        ],
+        "mid_mm": null,
+        "width_mm": 0.05
+      },
+      {
+        "shape": 0,
+        "start_mm": [
+          118.441141,
+          104.105153
+        ],
+        "end_mm": [
+          129.111107,
+          104.105153
+        ],
+        "mid_mm": null,
+        "width_mm": 0.05
+      },
+      {
+        "shape": 2,
+        "start_mm": [
+          148.933758,
+          110.769864
+        ],
+        "end_mm": [
+          120.708007,
+          110.661099
+        ],
+        "mid_mm": [
+          134.766107,
+          124.930153
+        ],
+        "width_mm": 0.05
+      },
+      {
+        "shape": 0,
+        "start_mm": [
+          113.441107,
+          67.105153
+        ],
+        "end_mm": [
+          113.441107,
+          99.105153
+        ],
+        "mid_mm": null,
+        "width_mm": 0.05
+      },
+      {
+        "shape": 0,
+        "start_mm": [
+          120.113155,
+          54.574901
+        ],
+        "end_mm": [
+          118.65,
+          62.105
+        ],
+        "mid_mm": null,
+        "width_mm": 0.05
+      },
+      {
+        "shape": 2,
+        "start_mm": [
+          155.441107,
+          99.105187
+        ],
+        "end_mm": [
+          150.441141,
+          104.105153
+        ],
+        "mid_mm": [
+          153.976641,
+          102.640687
+        ],
+        "width_mm": 0.05
+      },
+      {
+        "shape": 2,
+        "start_mm": [
+          118.441141,
+          104.105153
+        ],
+        "end_mm": [
+          113.441107,
+          99.105153
+        ],
+        "mid_mm": [
+          114.905573,
+          102.640687
+        ],
+        "width_mm": 0.05
+      },
+      {
+        "shape": 2,
+        "start_mm": [
+          106.287521,
+          69.71145
+        ],
+        "end_mm": [
+          120.113155,
+          54.574901
+        ],
+        "mid_mm": [
+          95.959599,
+          46.395574
+        ],
+        "width_mm": 0.05
+      },
+      {
+        "shape": 0,
+        "start_mm": [
+          129.111107,
+          104.105153
+        ],
+        "end_mm": [
+          120.708007,
+          110.661099
+        ],
+        "mid_mm": null,
+        "width_mm": 0.05
+      }
+    ],
+    "footprints": [
+      {
+        "ref": "U1",
+        "value": "ESP32-S3-WROOM-1",
+        "library_id": "RF_Module:ESP32-S3-WROOM-1",
+        "position_mm": [
+          135.05,
+          68.5
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "",
+            "net": "",
+            "size_mm": [
+              0.9,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "",
+            "net": "",
+            "size_mm": [
+              0.9,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "",
+            "net": "",
+            "size_mm": [
+              0.9,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "",
+            "net": "",
+            "size_mm": [
+              0.9,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "",
+            "net": "",
+            "size_mm": [
+              0.9,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "",
+            "net": "",
+            "size_mm": [
+              0.9,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "",
+            "net": "",
+            "size_mm": [
+              0.9,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "",
+            "net": "",
+            "size_mm": [
+              0.9,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "",
+            "net": "",
+            "size_mm": [
+              0.9,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "1",
+            "net": "GND",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "+3V3",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "3",
+            "net": "EN",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "4",
+            "net": "IMU-AD0X1",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "5",
+            "net": "IMU-AD0Y1",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "6",
+            "net": "IMU-AD0Z1",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "7",
+            "net": "unconnected-(U1-IO7-Pad7)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "8",
+            "net": "unconnected-(U1-IO15-Pad8)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "9",
+            "net": "unconnected-(U1-IO16-Pad9)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "10",
+            "net": "unconnected-(U1-IO17-Pad10)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "11",
+            "net": "unconnected-(U1-IO18-Pad11)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "12",
+            "net": "unconnected-(U1-IO8-Pad12)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "13",
+            "net": "D-",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "14",
+            "net": "D+",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "15",
+            "net": "unconnected-(U1-IO3-Pad15)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "16",
+            "net": "unconnected-(U1-IO46-Pad16)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "17",
+            "net": "unconnected-(U1-IO9-Pad17)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "18",
+            "net": "unconnected-(U1-IO10-Pad18)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "19",
+            "net": "unconnected-(U1-IO11-Pad19)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "20",
+            "net": "unconnected-(U1-IO12-Pad20)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "21",
+            "net": "unconnected-(U1-IO13-Pad21)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "22",
+            "net": "unconnected-(U1-IO14-Pad22)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "23",
+            "net": "unconnected-(U1-IO21-Pad23)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "24",
+            "net": "unconnected-(U1-IO47-Pad24)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "25",
+            "net": "unconnected-(U1-IO48-Pad25)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "26",
+            "net": "unconnected-(U1-IO45-Pad26)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "27",
+            "net": "BOOT",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "28",
+            "net": "IMU-SCL",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "29",
+            "net": "IMU-SDA",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "30",
+            "net": "unconnected-(U1-IO37-Pad30)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "31",
+            "net": "unconnected-(U1-IO38-Pad31)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "32",
+            "net": "unconnected-(U1-IO39-Pad32)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "33",
+            "net": "unconnected-(U1-IO40-Pad33)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "34",
+            "net": "unconnected-(U1-IO41-Pad34)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "35",
+            "net": "unconnected-(U1-IO42-Pad35)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "36",
+            "net": "unconnected-(U1-RXD0-Pad36)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "37",
+            "net": "unconnected-(U1-TXD0-Pad37)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "38",
+            "net": "unconnected-(U1-IO2-Pad38)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "39",
+            "net": "unconnected-(U1-IO1-Pad39)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "40",
+            "net": "GND",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "41",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              0.6
+            ],
+            "drill_mm": [
+              0.2,
+              0.2
+            ]
+          },
+          {
+            "number": "41",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              0.6
+            ],
+            "drill_mm": [
+              0.2,
+              0.2
+            ]
+          },
+          {
+            "number": "41",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              0.6
+            ],
+            "drill_mm": [
+              0.2,
+              0.2
+            ]
+          },
+          {
+            "number": "41",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              0.6
+            ],
+            "drill_mm": [
+              0.2,
+              0.2
+            ]
+          },
+          {
+            "number": "41",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              0.6
+            ],
+            "drill_mm": [
+              0.2,
+              0.2
+            ]
+          },
+          {
+            "number": "41",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              0.6
+            ],
+            "drill_mm": [
+              0.2,
+              0.2
+            ]
+          },
+          {
+            "number": "41",
+            "net": "GND",
+            "size_mm": [
+              3.9,
+              3.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "41",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              0.6
+            ],
+            "drill_mm": [
+              0.2,
+              0.2
+            ]
+          },
+          {
+            "number": "41",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              0.6
+            ],
+            "drill_mm": [
+              0.2,
+              0.2
+            ]
+          },
+          {
+            "number": "41",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              0.6
+            ],
+            "drill_mm": [
+              0.2,
+              0.2
+            ]
+          },
+          {
+            "number": "41",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              0.6
+            ],
+            "drill_mm": [
+              0.2,
+              0.2
+            ]
+          },
+          {
+            "number": "41",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              0.6
+            ],
+            "drill_mm": [
+              0.2,
+              0.2
+            ]
+          },
+          {
+            "number": "41",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              0.6
+            ],
+            "drill_mm": [
+              0.2,
+              0.2
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "R8",
+        "value": "4.7K",
+        "library_id": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+        "position_mm": [
+          146.5,
+          79.88
+        ],
+        "rotation_deg": 90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+3V3",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "IMU-SCL",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "R13",
+        "value": "4.7K",
+        "library_id": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+        "position_mm": [
+          161.15,
+          59.68
+        ],
+        "rotation_deg": 180.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+3V3",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "Net-(U4-AUX_DA)",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "C5",
+        "value": "1uF",
+        "library_id": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+        "position_mm": [
+          123.925,
+          68.4675
+        ],
+        "rotation_deg": -90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "EN",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "C7",
+        "value": "100nF",
+        "library_id": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+        "position_mm": [
+          131.125,
+          114.3675
+        ],
+        "rotation_deg": 90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+3V3",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "C6",
+        "value": "100nF",
+        "library_id": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+        "position_mm": [
+          119.4875,
+          81.355
+        ],
+        "rotation_deg": 180.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "EN",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "R9",
+        "value": "4.7K",
+        "library_id": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+        "position_mm": [
+          131.95,
+          117.955
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+3V3",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "Net-(U2-AUX_DA)",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "G***",
+        "value": "LOGO",
+        "library_id": "LOGO",
+        "position_mm": [
+          133.6,
+          92.43
+        ],
+        "rotation_deg": 0.0,
+        "pads": []
+      },
+      {
+        "ref": "C11",
+        "value": "100nF",
+        "library_id": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+        "position_mm": [
+          166.6,
+          51.4925
+        ],
+        "rotation_deg": 90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "Net-(U4-REGOUT)",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "R7",
+        "value": "4.7K",
+        "library_id": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+        "position_mm": [
+          146.475,
+          75.88
+        ],
+        "rotation_deg": -90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+3V3",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "IMU-SDA",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "U4",
+        "value": "MPU-6050",
+        "library_id": "Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm",
+        "position_mm": [
+          162.55,
+          54.58
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "unconnected-(U4-NC-Pad2)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "3",
+            "net": "unconnected-(U4-NC-Pad3)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "4",
+            "net": "unconnected-(U4-NC-Pad4)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "5",
+            "net": "unconnected-(U4-NC-Pad5)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "6",
+            "net": "Net-(U4-AUX_DA)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "7",
+            "net": "Net-(U4-AUX_CL)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "8",
+            "net": "+3V3",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "9",
+            "net": "IMU-AD0Y1",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "10",
+            "net": "Net-(U4-REGOUT)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "11",
+            "net": "GND",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "12",
+            "net": "unconnected-(U4-INT-Pad12)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "13",
+            "net": "+3V3",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "14",
+            "net": "unconnected-(U4-NC-Pad14)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "15",
+            "net": "unconnected-(U4-NC-Pad15)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "16",
+            "net": "unconnected-(U4-NC-Pad16)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "17",
+            "net": "unconnected-(U4-NC-Pad17)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "18",
+            "net": "GND",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "19",
+            "net": "unconnected-(U4-RESV-Pad19)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "20",
+            "net": "Net-(U4-CPOUT)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "21",
+            "net": "unconnected-(U4-RESV-Pad21)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "22",
+            "net": "unconnected-(U4-RESV-Pad22)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "23",
+            "net": "IMU-SCL",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "24",
+            "net": "IMU-SDA",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "C12",
+        "value": "220pF",
+        "library_id": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+        "position_mm": [
+          161.1375,
+          50.53
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "Net-(U4-CPOUT)",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "J1",
+        "value": "USB_C_Receptacle_USB2.0_16P",
+        "library_id": "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+        "position_mm": [
+          116.145,
+          91.865
+        ],
+        "rotation_deg": -90.0,
+        "pads": [
+          {
+            "number": "",
+            "net": "",
+            "size_mm": [
+              0.65,
+              0.65
+            ],
+            "drill_mm": [
+              0.65,
+              0.65
+            ]
+          },
+          {
+            "number": "",
+            "net": "",
+            "size_mm": [
+              0.65,
+              0.65
+            ],
+            "drill_mm": [
+              0.65,
+              0.65
+            ]
+          },
+          {
+            "number": "A1",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "A4",
+            "net": "+5V",
+            "size_mm": [
+              0.6,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "A5",
+            "net": "Net-(J1-CC1)",
+            "size_mm": [
+              0.3,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "A6",
+            "net": "D+",
+            "size_mm": [
+              0.3,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "A7",
+            "net": "D-",
+            "size_mm": [
+              0.3,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "A8",
+            "net": "unconnected-(J1-SBU1-PadA8)",
+            "size_mm": [
+              0.3,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "A9",
+            "net": "+5V",
+            "size_mm": [
+              0.6,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "A12",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "B1",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "B4",
+            "net": "+5V",
+            "size_mm": [
+              0.6,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "B5",
+            "net": "Net-(J1-CC2)",
+            "size_mm": [
+              0.3,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "B6",
+            "net": "D+",
+            "size_mm": [
+              0.3,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "B7",
+            "net": "D-",
+            "size_mm": [
+              0.3,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "B8",
+            "net": "unconnected-(J1-SBU2-PadB8)",
+            "size_mm": [
+              0.3,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "B9",
+            "net": "+5V",
+            "size_mm": [
+              0.6,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "B12",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "S1",
+            "net": "GND",
+            "size_mm": [
+              1.0,
+              2.1
+            ],
+            "drill_mm": [
+              0.6,
+              1.7
+            ]
+          },
+          {
+            "number": "S1",
+            "net": "GND",
+            "size_mm": [
+              1.0,
+              1.8
+            ],
+            "drill_mm": [
+              0.6,
+              1.4
+            ]
+          },
+          {
+            "number": "S1",
+            "net": "GND",
+            "size_mm": [
+              1.0,
+              2.1
+            ],
+            "drill_mm": [
+              0.6,
+              1.7
+            ]
+          },
+          {
+            "number": "S1",
+            "net": "GND",
+            "size_mm": [
+              1.0,
+              1.8
+            ],
+            "drill_mm": [
+              0.6,
+              1.4
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "C15",
+        "value": "220pF",
+        "library_id": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+        "position_mm": [
+          106.6875,
+          50.055
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "Net-(U5-CPOUT)",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "U3",
+        "value": "AMS1117-3.3",
+        "library_id": "Package_TO_SOT_SMD:SOT-223-3_TabPin2",
+        "position_mm": [
+          148.8,
+          92.28
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND",
+            "size_mm": [
+              2.0,
+              1.5
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "+3V3",
+            "size_mm": [
+              2.0,
+              1.5
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "+3V3",
+            "size_mm": [
+              2.0,
+              3.8
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "3",
+            "net": "+5V",
+            "size_mm": [
+              2.0,
+              1.5
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "R2",
+        "value": "100R",
+        "library_id": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+        "position_mm": [
+          119.7,
+          102.53
+        ],
+        "rotation_deg": 180.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "BOOT",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "Net-(R2-Pad2)",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "R3",
+        "value": "5.1k",
+        "library_id": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+        "position_mm": [
+          122.575,
+          88.38
+        ],
+        "rotation_deg": 90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "Net-(J1-CC1)",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "R14",
+        "value": "4.7K",
+        "library_id": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+        "position_mm": [
+          165.0,
+          59.43
+        ],
+        "rotation_deg": 180.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+3V3",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "Net-(U4-AUX_CL)",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "S2",
+        "value": "TS-1088-AR02016",
+        "library_id": "TS-1088 (Push Button):SW_TS-1088-AR02016",
+        "position_mm": [
+          119.675,
+          99.58
+        ],
+        "rotation_deg": 180.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "Net-(R2-Pad2)",
+            "size_mm": [
+              1.35,
+              1.8
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.35,
+              1.8
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "C14",
+        "value": "100nF",
+        "library_id": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+        "position_mm": [
+          107.95,
+          58.68
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "Net-(U5-REGOUT)",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "R10",
+        "value": "4.7K",
+        "library_id": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+        "position_mm": [
+          134.9,
+          120.43
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+3V3",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "Net-(U2-AUX_CL)",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "U5",
+        "value": "MPU-6050",
+        "library_id": "Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm",
+        "position_mm": [
+          105.9,
+          54.53
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "unconnected-(U5-NC-Pad2)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "3",
+            "net": "unconnected-(U5-NC-Pad3)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "4",
+            "net": "unconnected-(U5-NC-Pad4)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "5",
+            "net": "unconnected-(U5-NC-Pad5)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "6",
+            "net": "Net-(U5-AUX_DA)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "7",
+            "net": "Net-(U5-AUX_CL)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "8",
+            "net": "+3V3",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "9",
+            "net": "IMU-AD0Z1",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "10",
+            "net": "Net-(U5-REGOUT)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "11",
+            "net": "GND",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "12",
+            "net": "unconnected-(U5-INT-Pad12)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "13",
+            "net": "+3V3",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "14",
+            "net": "unconnected-(U5-NC-Pad14)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "15",
+            "net": "unconnected-(U5-NC-Pad15)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "16",
+            "net": "unconnected-(U5-NC-Pad16)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "17",
+            "net": "unconnected-(U5-NC-Pad17)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "18",
+            "net": "GND",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "19",
+            "net": "unconnected-(U5-RESV-Pad19)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "20",
+            "net": "Net-(U5-CPOUT)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "21",
+            "net": "unconnected-(U5-RESV-Pad21)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "22",
+            "net": "unconnected-(U5-RESV-Pad22)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "23",
+            "net": "IMU-SCL",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "24",
+            "net": "IMU-SDA",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "C13",
+        "value": "100nF",
+        "library_id": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+        "position_mm": [
+          101.85,
+          51.2925
+        ],
+        "rotation_deg": 90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+3V3",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "C8",
+        "value": "100nF",
+        "library_id": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+        "position_mm": [
+          138.05,
+          118.055
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "Net-(U2-REGOUT)",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "C9",
+        "value": "220pF",
+        "library_id": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+        "position_mm": [
+          139.075,
+          114.3175
+        ],
+        "rotation_deg": 90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "Net-(U2-CPOUT)",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "C3",
+        "value": "22uF",
+        "library_id": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+        "position_mm": [
+          121.45,
+          64.4175
+        ],
+        "rotation_deg": -90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+3V3",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "C1",
+        "value": "22uF",
+        "library_id": "Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P_HandSolder",
+        "position_mm": [
+          142.775,
+          89.9275
+        ],
+        "rotation_deg": -90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+3V3",
+            "size_mm": [
+              1.315,
+              1.09
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.315,
+              1.09
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "R4",
+        "value": "5.1k",
+        "library_id": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+        "position_mm": [
+          122.625,
+          95.305
+        ],
+        "rotation_deg": -90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "Net-(J1-CC2)",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "C10",
+        "value": "100nF",
+        "library_id": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+        "position_mm": [
+          166.65,
+          55.4925
+        ],
+        "rotation_deg": 90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+3V3",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "R18",
+        "value": "4.7K",
+        "library_id": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+        "position_mm": [
+          101.9,
+          55.33
+        ],
+        "rotation_deg": -90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+3V3",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "Net-(U5-AUX_CL)",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "R17",
+        "value": "4.7K",
+        "library_id": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+        "position_mm": [
+          103.3,
+          58.705
+        ],
+        "rotation_deg": 180.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+3V3",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "Net-(U5-AUX_DA)",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "R1",
+        "value": "10k",
+        "library_id": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+        "position_mm": [
+          123.9,
+          64.38
+        ],
+        "rotation_deg": -90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+3V3",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "EN",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "S1",
+        "value": "TS-1088-AR02016",
+        "library_id": "TS-1088 (Push Button):SW_TS-1088-AR02016",
+        "position_mm": [
+          119.425,
+          84.33
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "EN",
+            "size_mm": [
+              1.35,
+              1.8
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.35,
+              1.8
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "U2",
+        "value": "MPU-6050",
+        "library_id": "Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm",
+        "position_mm": [
+          135.125,
+          114.005
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "unconnected-(U2-NC-Pad2)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "3",
+            "net": "unconnected-(U2-NC-Pad3)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "4",
+            "net": "unconnected-(U2-NC-Pad4)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "5",
+            "net": "unconnected-(U2-NC-Pad5)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "6",
+            "net": "Net-(U2-AUX_DA)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "7",
+            "net": "Net-(U2-AUX_CL)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "8",
+            "net": "+3V3",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "9",
+            "net": "IMU-AD0X1",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "10",
+            "net": "Net-(U2-REGOUT)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "11",
+            "net": "GND",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "12",
+            "net": "unconnected-(U2-INT-Pad12)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "13",
+            "net": "+3V3",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "14",
+            "net": "unconnected-(U2-NC-Pad14)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "15",
+            "net": "unconnected-(U2-NC-Pad15)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "16",
+            "net": "unconnected-(U2-NC-Pad16)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "17",
+            "net": "unconnected-(U2-NC-Pad17)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "18",
+            "net": "GND",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "19",
+            "net": "unconnected-(U2-RESV-Pad19)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "20",
+            "net": "Net-(U2-CPOUT)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "21",
+            "net": "unconnected-(U2-RESV-Pad21)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "22",
+            "net": "unconnected-(U2-RESV-Pad22)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "23",
+            "net": "IMU-SCL",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "24",
+            "net": "IMU-SDA",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "C4",
+        "value": "100nF",
+        "library_id": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+        "position_mm": [
+          121.425,
+          68.4925
+        ],
+        "rotation_deg": -90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+3V3",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "C2",
+        "value": "10uF",
+        "library_id": "Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P_HandSolder",
+        "position_mm": [
+          142.8,
+          93.9825
+        ],
+        "rotation_deg": 90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+5V",
+            "size_mm": [
+              1.315,
+              1.09
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.315,
+              1.09
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\Reference PCB (OLD Version)\\Thesis\\SHM_PCB_New\\SHM_PCB_New.kicad_pcb",
+    "sha256": "372996943a9c3eb3c9087c315b7c810df9c0b70a4e0d1b47a99e9ec81b52c23f",
+    "edge_stroke_bbox_mm": [
+      99.1,
+      53.5,
+      79.6,
+      50.55
+    ],
+    "footprint_count": 37,
+    "track_via_count": 480,
+    "copper_layer_count": 2,
+    "thickness_mm": 1.6,
+    "edges": [
+      {
+        "shape": 2,
+        "start_mm": [
+          109.15,
+          74.2
+        ],
+        "end_mm": [
+          109.15,
+          54.2
+        ],
+        "mid_mm": [
+          99.15,
+          64.2
+        ],
+        "width_mm": 0.1
+      },
+      {
+        "shape": 0,
+        "start_mm": [
+          122.05,
+          74.85
+        ],
+        "end_mm": [
+          109.15,
+          74.2
+        ],
+        "mid_mm": null,
+        "width_mm": 0.1
+      },
+      {
+        "shape": 0,
+        "start_mm": [
+          155.75,
+          85.55
+        ],
+        "end_mm": [
+          148.75,
+          94.0
+        ],
+        "mid_mm": null,
+        "width_mm": 0.1
+      },
+      {
+        "shape": 0,
+        "start_mm": [
+          155.75,
+          53.55
+        ],
+        "end_mm": [
+          122.05,
+          53.55
+        ],
+        "mid_mm": null,
+        "width_mm": 0.1
+      },
+      {
+        "shape": 0,
+        "start_mm": [
+          122.05,
+          74.85
+        ],
+        "end_mm": [
+          122.05,
+          85.55
+        ],
+        "mid_mm": null,
+        "width_mm": 0.1
+      },
+      {
+        "shape": 0,
+        "start_mm": [
+          155.75,
+          53.55
+        ],
+        "end_mm": [
+          168.65,
+          54.2
+        ],
+        "mid_mm": null,
+        "width_mm": 0.1
+      },
+      {
+        "shape": 0,
+        "start_mm": [
+          155.75,
+          85.55
+        ],
+        "end_mm": [
+          155.75,
+          74.85
+        ],
+        "mid_mm": null,
+        "width_mm": 0.1
+      },
+      {
+        "shape": 2,
+        "start_mm": [
+          168.65,
+          54.2
+        ],
+        "end_mm": [
+          168.65,
+          74.2
+        ],
+        "mid_mm": [
+          178.65,
+          64.2
+        ],
+        "width_mm": 0.1
+      },
+      {
+        "shape": 0,
+        "start_mm": [
+          122.05,
+          53.55
+        ],
+        "end_mm": [
+          109.15,
+          54.2
+        ],
+        "mid_mm": null,
+        "width_mm": 0.1
+      },
+      {
+        "shape": 0,
+        "start_mm": [
+          155.75,
+          74.85
+        ],
+        "end_mm": [
+          168.65,
+          74.2
+        ],
+        "mid_mm": null,
+        "width_mm": 0.1
+      },
+      {
+        "shape": 0,
+        "start_mm": [
+          122.05,
+          85.55
+        ],
+        "end_mm": [
+          128.75,
+          94.0
+        ],
+        "mid_mm": null,
+        "width_mm": 0.1
+      },
+      {
+        "shape": 2,
+        "start_mm": [
+          148.75,
+          94.0
+        ],
+        "end_mm": [
+          128.75,
+          94.0
+        ],
+        "mid_mm": [
+          138.75,
+          104.0
+        ],
+        "width_mm": 0.1
+      }
+    ],
+    "footprints": [
+      {
+        "ref": "C14",
+        "value": "100nF",
+        "library_id": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+        "position_mm": [
+          111.2,
+          69.3625
+        ],
+        "rotation_deg": -90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "Net-(U5-REGOUT)",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "C9",
+        "value": "220pF",
+        "library_id": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+        "position_mm": [
+          142.7,
+          90.8875
+        ],
+        "rotation_deg": 90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "Net-(U2-CPOUT)",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "C1",
+        "value": "22uF",
+        "library_id": "Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P_HandSolder",
+        "position_mm": [
+          138.8,
+          76.2725
+        ],
+        "rotation_deg": 90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+3V3",
+            "size_mm": [
+              1.315,
+              1.09
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.315,
+              1.09
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "G***",
+        "value": "LOGO",
+        "library_id": "LOGO",
+        "position_mm": [
+          118.57,
+          65.61
+        ],
+        "rotation_deg": 180.0,
+        "pads": []
+      },
+      {
+        "ref": "C4",
+        "value": "100nF",
+        "library_id": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+        "position_mm": [
+          125.8,
+          55.9875
+        ],
+        "rotation_deg": 90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+3V3",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "C12",
+        "value": "220pF",
+        "library_id": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+        "position_mm": [
+          168.6625,
+          60.4
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "Net-(U4-CPOUT)",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "U1",
+        "value": "ESP32-S3-WROOM-1",
+        "library_id": "RF_Module:ESP32-S3-WROOM-1",
+        "position_mm": [
+          138.9,
+          60.55
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "",
+            "net": "",
+            "size_mm": [
+              0.9,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "",
+            "net": "",
+            "size_mm": [
+              0.9,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "",
+            "net": "",
+            "size_mm": [
+              0.9,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "",
+            "net": "",
+            "size_mm": [
+              0.9,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "",
+            "net": "",
+            "size_mm": [
+              0.9,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "",
+            "net": "",
+            "size_mm": [
+              0.9,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "",
+            "net": "",
+            "size_mm": [
+              0.9,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "",
+            "net": "",
+            "size_mm": [
+              0.9,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "",
+            "net": "",
+            "size_mm": [
+              0.9,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "1",
+            "net": "GND",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "+3V3",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "3",
+            "net": "EN",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "4",
+            "net": "IMU-AD0X1",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "5",
+            "net": "IMU-AD0Y1",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "6",
+            "net": "IMU-AD0Z1",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "7",
+            "net": "unconnected-(U1-IO7-Pad7)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "8",
+            "net": "unconnected-(U1-IO15-Pad8)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "9",
+            "net": "unconnected-(U1-IO16-Pad9)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "10",
+            "net": "unconnected-(U1-IO17-Pad10)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "11",
+            "net": "unconnected-(U1-IO18-Pad11)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "12",
+            "net": "IMU-SDA",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "13",
+            "net": "D-",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "14",
+            "net": "D+",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "15",
+            "net": "unconnected-(U1-IO3-Pad15)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "16",
+            "net": "unconnected-(U1-IO46-Pad16)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "17",
+            "net": "IMU-SCL",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "18",
+            "net": "unconnected-(U1-IO10-Pad18)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "19",
+            "net": "unconnected-(U1-IO11-Pad19)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "20",
+            "net": "unconnected-(U1-IO12-Pad20)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "21",
+            "net": "unconnected-(U1-IO13-Pad21)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "22",
+            "net": "unconnected-(U1-IO14-Pad22)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "23",
+            "net": "unconnected-(U1-IO21-Pad23)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "24",
+            "net": "unconnected-(U1-IO47-Pad24)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "25",
+            "net": "unconnected-(U1-IO48-Pad25)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "26",
+            "net": "unconnected-(U1-IO45-Pad26)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "27",
+            "net": "BOOT",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "28",
+            "net": "unconnected-(U1-IO35-Pad28)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "29",
+            "net": "unconnected-(U1-IO36-Pad29)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "30",
+            "net": "unconnected-(U1-IO37-Pad30)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "31",
+            "net": "unconnected-(U1-IO38-Pad31)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "32",
+            "net": "unconnected-(U1-IO39-Pad32)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "33",
+            "net": "unconnected-(U1-IO40-Pad33)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "34",
+            "net": "unconnected-(U1-IO41-Pad34)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "35",
+            "net": "unconnected-(U1-IO42-Pad35)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "36",
+            "net": "unconnected-(U1-RXD0-Pad36)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "37",
+            "net": "unconnected-(U1-TXD0-Pad37)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "38",
+            "net": "unconnected-(U1-IO2-Pad38)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "39",
+            "net": "unconnected-(U1-IO1-Pad39)",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "40",
+            "net": "GND",
+            "size_mm": [
+              1.5,
+              0.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "41",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              0.6
+            ],
+            "drill_mm": [
+              0.2,
+              0.2
+            ]
+          },
+          {
+            "number": "41",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              0.6
+            ],
+            "drill_mm": [
+              0.2,
+              0.2
+            ]
+          },
+          {
+            "number": "41",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              0.6
+            ],
+            "drill_mm": [
+              0.2,
+              0.2
+            ]
+          },
+          {
+            "number": "41",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              0.6
+            ],
+            "drill_mm": [
+              0.2,
+              0.2
+            ]
+          },
+          {
+            "number": "41",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              0.6
+            ],
+            "drill_mm": [
+              0.2,
+              0.2
+            ]
+          },
+          {
+            "number": "41",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              0.6
+            ],
+            "drill_mm": [
+              0.2,
+              0.2
+            ]
+          },
+          {
+            "number": "41",
+            "net": "GND",
+            "size_mm": [
+              3.9,
+              3.9
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "41",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              0.6
+            ],
+            "drill_mm": [
+              0.2,
+              0.2
+            ]
+          },
+          {
+            "number": "41",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              0.6
+            ],
+            "drill_mm": [
+              0.2,
+              0.2
+            ]
+          },
+          {
+            "number": "41",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              0.6
+            ],
+            "drill_mm": [
+              0.2,
+              0.2
+            ]
+          },
+          {
+            "number": "41",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              0.6
+            ],
+            "drill_mm": [
+              0.2,
+              0.2
+            ]
+          },
+          {
+            "number": "41",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              0.6
+            ],
+            "drill_mm": [
+              0.2,
+              0.2
+            ]
+          },
+          {
+            "number": "41",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              0.6
+            ],
+            "drill_mm": [
+              0.2,
+              0.2
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "*",
+        "value": "LOGO",
+        "library_id": "LOGO",
+        "position_mm": [
+          159.225985,
+          65.559195
+        ],
+        "rotation_deg": 0.0,
+        "pads": []
+      },
+      {
+        "ref": "C13",
+        "value": "100nF",
+        "library_id": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+        "position_mm": [
+          105.2,
+          64.2625
+        ],
+        "rotation_deg": 90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+3V3",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "C5",
+        "value": "1uF",
+        "library_id": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+        "position_mm": [
+          127.95,
+          59.9125
+        ],
+        "rotation_deg": -90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "EN",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "C10",
+        "value": "100nF",
+        "library_id": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+        "position_mm": [
+          172.55,
+          64.3875
+        ],
+        "rotation_deg": 90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+3V3",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "C2",
+        "value": "10uF",
+        "library_id": "Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P_HandSolder",
+        "position_mm": [
+          138.8,
+          80.2225
+        ],
+        "rotation_deg": 90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+5V",
+            "size_mm": [
+              1.315,
+              1.09
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.315,
+              1.09
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "U4",
+        "value": "MPU-6050",
+        "library_id": "Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm",
+        "position_mm": [
+          168.65,
+          64.2
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "unconnected-(U4-NC-Pad2)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "3",
+            "net": "unconnected-(U4-NC-Pad3)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "4",
+            "net": "unconnected-(U4-NC-Pad4)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "5",
+            "net": "unconnected-(U4-NC-Pad5)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "6",
+            "net": "Net-(U4-AUX_DA)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "7",
+            "net": "Net-(U4-AUX_CL)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "8",
+            "net": "+3V3",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "9",
+            "net": "IMU-AD0Y1",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "10",
+            "net": "Net-(U4-REGOUT)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "11",
+            "net": "GND",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "12",
+            "net": "unconnected-(U4-INT-Pad12)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "13",
+            "net": "+3V3",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "14",
+            "net": "unconnected-(U4-NC-Pad14)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "15",
+            "net": "unconnected-(U4-NC-Pad15)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "16",
+            "net": "unconnected-(U4-NC-Pad16)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "17",
+            "net": "unconnected-(U4-NC-Pad17)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "18",
+            "net": "GND",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "19",
+            "net": "unconnected-(U4-RESV-Pad19)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "20",
+            "net": "Net-(U4-CPOUT)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "21",
+            "net": "unconnected-(U4-RESV-Pad21)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "22",
+            "net": "unconnected-(U4-RESV-Pad22)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "23",
+            "net": "IMU-SCL",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "24",
+            "net": "IMU-SDA",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "R7",
+        "value": "4.7K",
+        "library_id": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+        "position_mm": [
+          150.05,
+          70.7
+        ],
+        "rotation_deg": -90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+3V3",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "IMU-SDA",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "R2",
+        "value": "100R",
+        "library_id": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+        "position_mm": [
+          150.7,
+          61.4
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "BOOT",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "Net-(R2-Pad2)",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "C6",
+        "value": "100nF",
+        "library_id": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+        "position_mm": [
+          126.8125,
+          69.65
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "EN",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "R9",
+        "value": "4.7K",
+        "library_id": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+        "position_mm": [
+          134.85,
+          94.8
+        ],
+        "rotation_deg": 90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+3V3",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "Net-(U2-AUX_DA)",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "R17",
+        "value": "4.7K",
+        "library_id": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+        "position_mm": [
+          106.9,
+          69.3625
+        ],
+        "rotation_deg": 90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+3V3",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "Net-(U5-AUX_DA)",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "C15",
+        "value": "220pF",
+        "library_id": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+        "position_mm": [
+          108.4625,
+          60.35
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "Net-(U5-CPOUT)",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "U5",
+        "value": "MPU-6050",
+        "library_id": "Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm",
+        "position_mm": [
+          109.15,
+          64.2
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "unconnected-(U5-NC-Pad2)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "3",
+            "net": "unconnected-(U5-NC-Pad3)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "4",
+            "net": "unconnected-(U5-NC-Pad4)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "5",
+            "net": "unconnected-(U5-NC-Pad5)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "6",
+            "net": "Net-(U5-AUX_DA)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "7",
+            "net": "Net-(U5-AUX_CL)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "8",
+            "net": "+3V3",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "9",
+            "net": "IMU-AD0Z1",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "10",
+            "net": "Net-(U5-REGOUT)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "11",
+            "net": "GND",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "12",
+            "net": "unconnected-(U5-INT-Pad12)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "13",
+            "net": "+3V3",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "14",
+            "net": "unconnected-(U5-NC-Pad14)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "15",
+            "net": "unconnected-(U5-NC-Pad15)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "16",
+            "net": "unconnected-(U5-NC-Pad16)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "17",
+            "net": "unconnected-(U5-NC-Pad17)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "18",
+            "net": "GND",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "19",
+            "net": "unconnected-(U5-RESV-Pad19)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "20",
+            "net": "Net-(U5-CPOUT)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "21",
+            "net": "unconnected-(U5-RESV-Pad21)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "22",
+            "net": "unconnected-(U5-RESV-Pad22)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "23",
+            "net": "IMU-SCL",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "24",
+            "net": "IMU-SDA",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "C7",
+        "value": "100nF",
+        "library_id": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+        "position_mm": [
+          134.85,
+          90.9375
+        ],
+        "rotation_deg": 90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+3V3",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "R14",
+        "value": "4.7K",
+        "library_id": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+        "position_mm": [
+          166.65,
+          69.45
+        ],
+        "rotation_deg": 90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+3V3",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "Net-(U4-AUX_CL)",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "S1",
+        "value": "TS-1088-AR02016",
+        "library_id": "TS-1088 (Push Button):SW_TS-1088-AR02016",
+        "position_mm": [
+          126.85,
+          65.325
+        ],
+        "rotation_deg": 90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "EN",
+            "size_mm": [
+              1.35,
+              1.8
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.35,
+              1.8
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "S2",
+        "value": "TS-1088-AR02016",
+        "library_id": "TS-1088 (Push Button):SW_TS-1088-AR02016",
+        "position_mm": [
+          150.7,
+          65.625
+        ],
+        "rotation_deg": 90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "Net-(R2-Pad2)",
+            "size_mm": [
+              1.35,
+              1.8
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.35,
+              1.8
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "U3",
+        "value": "AMS1117-3.3",
+        "library_id": "Package_TO_SOT_SMD:SOT-223-3_TabPin2",
+        "position_mm": [
+          144.3,
+          78.55
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND",
+            "size_mm": [
+              2.0,
+              1.5
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "+3V3",
+            "size_mm": [
+              2.0,
+              1.5
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "+3V3",
+            "size_mm": [
+              2.0,
+              3.8
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "3",
+            "net": "+5V",
+            "size_mm": [
+              2.0,
+              1.5
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "C3",
+        "value": "22uF",
+        "library_id": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+        "position_mm": [
+          127.95,
+          55.9625
+        ],
+        "rotation_deg": 90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+3V3",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "R10",
+        "value": "4.7K",
+        "library_id": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+        "position_mm": [
+          135.72,
+          97.83
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+3V3",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "Net-(U2-AUX_CL)",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "R18",
+        "value": "4.7K",
+        "library_id": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+        "position_mm": [
+          109.05,
+          69.3625
+        ],
+        "rotation_deg": 90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+3V3",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "Net-(U5-AUX_CL)",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "R1",
+        "value": "10k",
+        "library_id": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+        "position_mm": [
+          125.85,
+          59.9
+        ],
+        "rotation_deg": 90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+3V3",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "EN",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "R13",
+        "value": "4.7K",
+        "library_id": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+        "position_mm": [
+          168.7,
+          69.45
+        ],
+        "rotation_deg": 90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+3V3",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "Net-(U4-AUX_DA)",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "R4",
+        "value": "5.1k",
+        "library_id": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+        "position_mm": [
+          131.03,
+          83.52
+        ],
+        "rotation_deg": -90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "Net-(J1-CC2)",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "U2",
+        "value": "MPU-6050",
+        "library_id": "Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm",
+        "position_mm": [
+          138.726098,
+          93.999244
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "GND",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "unconnected-(U2-NC-Pad2)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "3",
+            "net": "unconnected-(U2-NC-Pad3)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "4",
+            "net": "unconnected-(U2-NC-Pad4)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "5",
+            "net": "unconnected-(U2-NC-Pad5)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "6",
+            "net": "Net-(U2-AUX_DA)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "7",
+            "net": "Net-(U2-AUX_CL)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "8",
+            "net": "+3V3",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "9",
+            "net": "IMU-AD0X1",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "10",
+            "net": "Net-(U2-REGOUT)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "11",
+            "net": "GND",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "12",
+            "net": "unconnected-(U2-INT-Pad12)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "13",
+            "net": "+3V3",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "14",
+            "net": "unconnected-(U2-NC-Pad14)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "15",
+            "net": "unconnected-(U2-NC-Pad15)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "16",
+            "net": "unconnected-(U2-NC-Pad16)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "17",
+            "net": "unconnected-(U2-NC-Pad17)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "18",
+            "net": "GND",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "19",
+            "net": "unconnected-(U2-RESV-Pad19)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "20",
+            "net": "Net-(U2-CPOUT)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "21",
+            "net": "unconnected-(U2-RESV-Pad21)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "22",
+            "net": "unconnected-(U2-RESV-Pad22)",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "23",
+            "net": "IMU-SCL",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "24",
+            "net": "IMU-SDA",
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "R8",
+        "value": "4.7K",
+        "library_id": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+        "position_mm": [
+          150.05,
+          74.55
+        ],
+        "rotation_deg": 90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "+3V3",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "IMU-SCL",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "R3",
+        "value": "5.1k",
+        "library_id": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+        "position_mm": [
+          131.02,
+          79.27
+        ],
+        "rotation_deg": 90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "Net-(J1-CC1)",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.2,
+              1.4
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "C11",
+        "value": "100nF",
+        "library_id": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+        "position_mm": [
+          170.75,
+          69.4625
+        ],
+        "rotation_deg": -90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "Net-(U4-REGOUT)",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "J1",
+        "value": "USB_C_Receptacle_USB2.0_16P",
+        "library_id": "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+        "position_mm": [
+          124.635,
+          80.36
+        ],
+        "rotation_deg": -90.0,
+        "pads": [
+          {
+            "number": "",
+            "net": "",
+            "size_mm": [
+              0.65,
+              0.65
+            ],
+            "drill_mm": [
+              0.65,
+              0.65
+            ]
+          },
+          {
+            "number": "",
+            "net": "",
+            "size_mm": [
+              0.65,
+              0.65
+            ],
+            "drill_mm": [
+              0.65,
+              0.65
+            ]
+          },
+          {
+            "number": "A1",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "A4",
+            "net": "+5V",
+            "size_mm": [
+              0.6,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "A5",
+            "net": "Net-(J1-CC1)",
+            "size_mm": [
+              0.3,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "A6",
+            "net": "D+",
+            "size_mm": [
+              0.3,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "A7",
+            "net": "D-",
+            "size_mm": [
+              0.3,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "A8",
+            "net": "unconnected-(J1-SBU1-PadA8)",
+            "size_mm": [
+              0.3,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "A9",
+            "net": "+5V",
+            "size_mm": [
+              0.6,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "A12",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "B1",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "B4",
+            "net": "+5V",
+            "size_mm": [
+              0.6,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "B5",
+            "net": "Net-(J1-CC2)",
+            "size_mm": [
+              0.3,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "B6",
+            "net": "D+",
+            "size_mm": [
+              0.3,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "B7",
+            "net": "D-",
+            "size_mm": [
+              0.3,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "B8",
+            "net": "unconnected-(J1-SBU2-PadB8)",
+            "size_mm": [
+              0.3,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "B9",
+            "net": "+5V",
+            "size_mm": [
+              0.6,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "B12",
+            "net": "GND",
+            "size_mm": [
+              0.6,
+              1.15
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "S1",
+            "net": "GND",
+            "size_mm": [
+              1.0,
+              2.1
+            ],
+            "drill_mm": [
+              0.6,
+              1.7
+            ]
+          },
+          {
+            "number": "S1",
+            "net": "GND",
+            "size_mm": [
+              1.0,
+              1.8
+            ],
+            "drill_mm": [
+              0.6,
+              1.4
+            ]
+          },
+          {
+            "number": "S1",
+            "net": "GND",
+            "size_mm": [
+              1.0,
+              2.1
+            ],
+            "drill_mm": [
+              0.6,
+              1.7
+            ]
+          },
+          {
+            "number": "S1",
+            "net": "GND",
+            "size_mm": [
+              1.0,
+              1.8
+            ],
+            "drill_mm": [
+              0.6,
+              1.4
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "C8",
+        "value": "100nF",
+        "library_id": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+        "position_mm": [
+          142.7,
+          94.7875
+        ],
+        "rotation_deg": 90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "Net-(U2-REGOUT)",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.175,
+              1.45
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "D:\\Antigravity\\Projects\\SHM-Capstone\\PCB Files\\Reference PCB (OLD Version)\\Thesis\\SHM_PCB_New\\SHM_Proto_PCB\\SHM_Proto_PCB.kicad_pcb",
+    "sha256": "2e7d70ba3a8623c37751402be5fd25b20e133de368f50b81ec10beb50fbcb769",
+    "edge_stroke_bbox_mm": [
+      137.925,
+      47.625,
+      65.05,
+      70.05
+    ],
+    "footprint_count": 21,
+    "track_via_count": 84,
+    "copper_layer_count": 2,
+    "thickness_mm": 1.6,
+    "edges": [
+      {
+        "shape": 1,
+        "start_mm": [
+          137.95,
+          47.65
+        ],
+        "end_mm": [
+          202.95,
+          117.65
+        ],
+        "mid_mm": null,
+        "width_mm": 0.05
+      }
+    ],
+    "footprints": [
+      {
+        "ref": "",
+        "value": "",
+        "library_id": "",
+        "position_mm": [
+          168.125,
+          78.725
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "4",
+            "net": "AD0_X",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "",
+        "value": "",
+        "library_id": "",
+        "position_mm": [
+          174.1,
+          88.725
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "SCL",
+            "net": "SCL",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "C2",
+        "value": "100uF",
+        "library_id": "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm",
+        "position_mm": [
+          148.25,
+          72.2
+        ],
+        "rotation_deg": 90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "3V3",
+            "size_mm": [
+              1.6,
+              1.6
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.6,
+              1.6
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "",
+        "value": "",
+        "library_id": "",
+        "position_mm": [
+          167.725,
+          93.1
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "4",
+            "net": "AD0_X",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "U1",
+        "value": "~",
+        "library_id": "ESP32_S3_WROOM_1_DEVBOARD:ESP32 S3 WROOM 1 DEVBOARD",
+        "position_mm": [
+          156.325,
+          51.225
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "3V3",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "2",
+            "net": "3V3",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "3",
+            "net": "unconnected-(U1-RST-Pad3)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "4",
+            "net": "AD0_X",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "5",
+            "net": "AD0_Y",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "6",
+            "net": "AD0_Z",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "7",
+            "net": "unconnected-(U1-Pad7)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "8",
+            "net": "unconnected-(U1-15-Pad8)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "9",
+            "net": "unconnected-(U1-16-Pad9)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "10",
+            "net": "unconnected-(U1-17-Pad10)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "11",
+            "net": "unconnected-(U1-18-Pad11)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "12",
+            "net": "SDA",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "13",
+            "net": "unconnected-(U1-3-Pad13)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "14",
+            "net": "unconnected-(U1-46-Pad14)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "15",
+            "net": "SCL",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "16",
+            "net": "unconnected-(U1-10-Pad16)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "17",
+            "net": "unconnected-(U1-11-Pad17)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "18",
+            "net": "unconnected-(U1-12-Pad18)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "19",
+            "net": "unconnected-(U1-13-Pad19)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "20",
+            "net": "unconnected-(U1-14-Pad20)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "21",
+            "net": "+5V",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "22",
+            "net": "GND",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "23",
+            "net": "GND",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "24",
+            "net": "GND",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "25",
+            "net": "unconnected-(U1-51-Pad25)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "26",
+            "net": "unconnected-(U1-20-Pad26)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "27",
+            "net": "unconnected-(U1-21-Pad27)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "28",
+            "net": "unconnected-(U1-47-Pad28)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "29",
+            "net": "unconnected-(U1-48-Pad29)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "30",
+            "net": "unconnected-(U1-45-Pad30)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "31",
+            "net": "unconnected-(U1-0-Pad31)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "32",
+            "net": "unconnected-(U1-35-Pad32)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "33",
+            "net": "unconnected-(U1-36-Pad33)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "34",
+            "net": "unconnected-(U1-37-Pad34)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "35",
+            "net": "unconnected-(U1-38-Pad35)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "36",
+            "net": "unconnected-(U1-39-Pad36)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "37",
+            "net": "unconnected-(U1-40-Pad37)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "38",
+            "net": "unconnected-(U1-41-Pad38)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "39",
+            "net": "unconnected-(U1-42-Pad39)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "40",
+            "net": "unconnected-(U1-2-Pad40)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "41",
+            "net": "unconnected-(U1-1-Pad41)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "42",
+            "net": "unconnected-(U1-RX-Pad42)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "43",
+            "net": "unconnected-(U1-TX-Pad43)",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "44",
+            "net": "GND",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "U4",
+        "value": "~",
+        "library_id": "Gyro:MPU-6050",
+        "position_mm": [
+          211.3,
+          52.594
+        ],
+        "rotation_deg": -90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "3V3",
+            "size_mm": [
+              2.54,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              2.54,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "3",
+            "net": "SCL",
+            "size_mm": [
+              2.54,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "4",
+            "net": "SDA",
+            "size_mm": [
+              2.54,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "5",
+            "net": "unconnected-(U4-XDA-Pad5)",
+            "size_mm": [
+              2.54,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "6",
+            "net": "unconnected-(U4-XCL-Pad6)",
+            "size_mm": [
+              2.54,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "7",
+            "net": "AD0_Z",
+            "size_mm": [
+              2.54,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "8",
+            "net": "unconnected-(U4-INT-Pad8)",
+            "size_mm": [
+              2.54,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "",
+        "value": "",
+        "library_id": "",
+        "position_mm": [
+          188.95,
+          88.35
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "SCL",
+            "net": "",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "",
+        "value": "",
+        "library_id": "",
+        "position_mm": [
+          168.05,
+          63.275
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "4",
+            "net": "AD0_X",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "",
+        "value": "",
+        "library_id": "",
+        "position_mm": [
+          190.4,
+          109.9
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "3V3",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "R2",
+        "value": "4.7k",
+        "library_id": "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal",
+        "position_mm": [
+          149.2,
+          53.6
+        ],
+        "rotation_deg": -90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "3V3",
+            "size_mm": [
+              2.54,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "2",
+            "net": "SCL",
+            "size_mm": [
+              2.54,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "",
+        "value": "",
+        "library_id": "",
+        "position_mm": [
+          193.225,
+          69.45
+        ],
+        "rotation_deg": 90.0,
+        "pads": [
+          {
+            "number": "6",
+            "net": "AD0_Z",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "",
+        "value": "",
+        "library_id": "",
+        "position_mm": [
+          164.05,
+          88.575
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "SCL",
+            "net": "SCL",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "C3",
+        "value": "100uF",
+        "library_id": "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm",
+        "position_mm": [
+          192.075,
+          54.275
+        ],
+        "rotation_deg": -90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "3V3",
+            "size_mm": [
+              1.6,
+              1.6
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.6,
+              1.6
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "C1",
+        "value": "100uF",
+        "library_id": "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm",
+        "position_mm": [
+          184.7,
+          114.425
+        ],
+        "rotation_deg": 90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "3V3",
+            "size_mm": [
+              1.6,
+              1.6
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              1.6,
+              1.6
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "U2",
+        "value": "~",
+        "library_id": "Gyro:MPU-6050",
+        "position_mm": [
+          180.706,
+          129.25
+        ],
+        "rotation_deg": 180.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "3V3",
+            "size_mm": [
+              2.54,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              2.54,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "3",
+            "net": "SCL",
+            "size_mm": [
+              2.54,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "4",
+            "net": "SDA",
+            "size_mm": [
+              2.54,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "5",
+            "net": "unconnected-(U2-XDA-Pad5)",
+            "size_mm": [
+              2.54,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "6",
+            "net": "unconnected-(U2-XCL-Pad6)",
+            "size_mm": [
+              2.54,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "7",
+            "net": "AD0_X",
+            "size_mm": [
+              2.54,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "8",
+            "net": "unconnected-(U2-INT-Pad8)",
+            "size_mm": [
+              2.54,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "",
+        "value": "",
+        "library_id": "",
+        "position_mm": [
+          192.375,
+          99.9
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "12",
+            "net": "SDA",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "",
+        "value": "",
+        "library_id": "",
+        "position_mm": [
+          164.025,
+          69.725
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "6",
+            "net": "AD0_Z",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "",
+        "value": "",
+        "library_id": "",
+        "position_mm": [
+          158.0,
+          110.325
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "3V3",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "U3",
+        "value": "~",
+        "library_id": "Gyro:MPU-6050",
+        "position_mm": [
+          128.9,
+          73.35
+        ],
+        "rotation_deg": 90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "3V3",
+            "size_mm": [
+              2.54,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "2",
+            "net": "GND",
+            "size_mm": [
+              2.54,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "3",
+            "net": "SCL",
+            "size_mm": [
+              2.54,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "4",
+            "net": "SDA",
+            "size_mm": [
+              2.54,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "5",
+            "net": "unconnected-(U3-XDA-Pad5)",
+            "size_mm": [
+              2.54,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "6",
+            "net": "unconnected-(U3-XCL-Pad6)",
+            "size_mm": [
+              2.54,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "7",
+            "net": "AD0_Y",
+            "size_mm": [
+              2.54,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "8",
+            "net": "unconnected-(U3-INT-Pad8)",
+            "size_mm": [
+              2.54,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "R1",
+        "value": "4.7k",
+        "library_id": "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal",
+        "position_mm": [
+          153.6,
+          53.6
+        ],
+        "rotation_deg": -90.0,
+        "pads": [
+          {
+            "number": "1",
+            "net": "3V3",
+            "size_mm": [
+              2.54,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          },
+          {
+            "number": "2",
+            "net": "SDA",
+            "size_mm": [
+              2.54,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "",
+        "value": "",
+        "library_id": "",
+        "position_mm": [
+          170.825,
+          100.2
+        ],
+        "rotation_deg": 0.0,
+        "pads": [
+          {
+            "number": "12",
+            "net": "SDA",
+            "size_mm": [
+              3.5,
+              2.2
+            ],
+            "drill_mm": [
+              0.8,
+              0.8
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

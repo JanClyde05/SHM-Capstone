@@ -1,0 +1,28 @@
+{
+  "time_utc": "2026-10-28T16:12:36.330957+00:00",
+  "status": "prepared_not_executed",
+  "checks": [
+    "Python ast.parse passed for both scripts",
+    "KiCad 10 BOX2I origin/size construction, Inflate and IsFlipped available in read-only API probe"
+  ],
+  "corrected_during_preparation": [
+    "BOX2I copy constructor unavailable; use explicit origin and size",
+    "B.Cu flipped testpoints require bottom ground fanout and mirrored B.SilkS labels"
+  ],
+  "acceptance": [
+    "input and output restricted to design/reference_corrected",
+    "never move components",
+    "preserve locked critical copper",
+    "record default and unresolved DRC issues without exclusions",
+    "independent output pad/net and reference Edge.Cuts audit"
+  ],
+  "files": {
+    "finish_corrected_board.py": "3c44e662c2e8b326a042e55370a7f15a399dd0704304c19a44aef15c56562df2",
+    "verify_corrected_board.py": "1fa4c4ccf00ff2e046933a4f2780686df5da9cf11f6548fc4077e0450262f97f"
+  },
+  "not_performed": [
+    "No finisher execution or candidate board modification yet",
+    "No physical validation",
+    "No guarantee of successful automatic power bridge or silkscreen placement until candidate DRC and visual review"
+  ]
+}

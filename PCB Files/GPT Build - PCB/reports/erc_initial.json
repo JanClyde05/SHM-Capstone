@@ -1,0 +1,172 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-25T00:14:31",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/ff179cf3-f4ff-5003-81cd-e6008a2d518d",
+            "violations": [
+                {
+                    "description": "The current configuration does not include the footprint library 'SHM_Local'",
+                    "items": [
+                        {
+                            "description": "Symbol U2 [MPU-6050]",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 0.5715
+                            },
+                            "uuid": "32996d5a-66b7-5fe6-b4ff-3887486c08cc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG01 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 0.8509,
+                                "y": 2.16535
+                            },
+                            "uuid": "68f72c6a-f66f-532e-b9b3-2500ffa349cd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 0.8509,
+                                "y": 2.16535
+                            },
+                            "uuid": "9e7b638c-f62b-500d-854f-7ea4becff8a4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 2.16535
+                            },
+                            "uuid": "846f6313-b729-58ac-ae20-77e74cc54604"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG02 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 2.16535
+                            },
+                            "uuid": "de3d4ba9-5f89-55a9-938a-328e26a226f6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 1.2827,
+                                "y": 2.16535
+                            },
+                            "uuid": "0f669118-a2f8-58d5-bba9-8ebd20652576"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG03 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 1.2827,
+                                "y": 2.16535
+                            },
+                            "uuid": "4364abb0-c839-531c-9f87-3281c5e8d6f6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'SHM_Local'",
+                    "items": [
+                        {
+                            "description": "Symbol U3 [MPU-6050]",
+                            "pos": {
+                                "x": 2.0955,
+                                "y": 0.5715
+                            },
+                            "uuid": "be746da7-9e06-5845-ac6e-1621f6dc5ad6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'SHM_Local'",
+                    "items": [
+                        {
+                            "description": "Symbol U4 [MPU-6050]",
+                            "pos": {
+                                "x": 3.429,
+                                "y": 0.5715
+                            },
+                            "uuid": "4696a2f2-6189-51a9-bce9-2856e5938535"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                }
+            ]
+        }
+    ],
+    "source": "SHM_Node_R2.kicad_sch"
+}

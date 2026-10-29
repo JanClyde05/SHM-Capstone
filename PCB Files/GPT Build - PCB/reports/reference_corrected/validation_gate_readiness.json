@@ -1,0 +1,23 @@
+{
+  "time_utc": "2026-10-29T09:59:47.851639+00:00",
+  "scope": "Source syntax/help and bounded read-only KiCad API readiness; final candidate audit NOT run",
+  "tool": "KiCad Python 3.11 / pcbnew 10.0.6",
+  "source_hashes": {
+    "PCB Files\\GPT Build - PCB\\tools\\verify_corrected_board.py": "230055612b3122e574241900cb135d5e4cae2069dab1985f6cd11e2ab5bce1de",
+    "PCB Files\\GPT Build - PCB\\tools\\run_corrected_checks.py": "0f569f2d69270fcbbde067a261196ab7c4dcbcf10743bace48a3ca52fd1c4ff6"
+  },
+  "checks": {
+    "both_ast_parse": "passed",
+    "both_help_exit": "0",
+    "cli_version": "10.0.6",
+    "shape_rect_and_copper_paste_collision_api": "passed on one peripheral U2 pad; not a complete design audit",
+    "rule_area_layers_and_vertices_api": "passed",
+    "ground_zone_layer_api": "passed",
+    "shape_uuid_api": "passed"
+  },
+  "limitations": [
+    "Final checker execution remains pending routed candidate",
+    "No physical validation"
+  ],
+  "editing_note": "One exact-context apply_patch for the runner did not match; no file changed in that attempt. Reread file and rewrote runner, then syntax/help passed."
+}

@@ -1,0 +1,582 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-29T18:20:42",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "SHM_Node_R2.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [+3V3] on F.Cu, length 1.6250 mm",
+                    "pos": {
+                        "x": 108.4,
+                        "y": 66.2
+                    },
+                    "uuid": "867439e8-3578-4e7c-8a86-121922054d63"
+                },
+                {
+                    "description": "Track [+3V3] on F.Cu, length 1.6500 mm",
+                    "pos": {
+                        "x": 111.125,
+                        "y": 65.45
+                    },
+                    "uuid": "4fac0952-5e10-43ba-ac0f-19dd36648b74"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [/IMU1_INT] on B.Cu, length 4.4442 mm",
+                    "pos": {
+                        "x": 134.4673,
+                        "y": 87.0575
+                    },
+                    "uuid": "21bf8b70-de74-4570-ac39-f89dca55b127"
+                },
+                {
+                    "description": "Pad 12 [/IMU1_INT] of U2 on F.Cu",
+                    "pos": {
+                        "x": 140.0,
+                        "y": 95.975
+                    },
+                    "uuid": "f3be6ebe-671c-4e74-bb48-bcf2b98f3911"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Silkscreen clipped by board edge (board setup constraints silk clearance 0.1000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 122.05,
+                        "y": 53.55
+                    },
+                    "uuid": "b7cac84b-f0a3-4862-8016-c739a86f8cbd"
+                },
+                {
+                    "description": "Reference field of H1",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 53.85
+                    },
+                    "uuid": "aa52220e-0c22-44fc-bcaa-e718f4371ecb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge (board setup constraints silk clearance 0.1000 mm; actual 0.0650 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 155.75,
+                        "y": 53.55
+                    },
+                    "uuid": "669e5d5f-08cd-4db9-b89b-30178e90b03c"
+                },
+                {
+                    "description": "Polygon of U1 on F.Silkscreen",
+                    "pos": {
+                        "x": 129.7,
+                        "y": 54.175
+                    },
+                    "uuid": "cf2d5559-4e62-4ae5-9559-2dadea047d3a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge (board setup constraints silk clearance 0.1000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 155.75,
+                        "y": 53.55
+                    },
+                    "uuid": "5589e624-01ad-490e-bdb7-11ff830c35a7"
+                },
+                {
+                    "description": "Reference field of J2",
+                    "pos": {
+                        "x": 160.2,
+                        "y": 53.92
+                    },
+                    "uuid": "fe95b4b4-a2c6-4ee1-aa80-1e22d5f7a612"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Footprint 'ESP32-S3-WROOM-1_Overhang' does not match copy in library 'SHM_Local'",
+            "items": [
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 138.9,
+                        "y": 60.2
+                    },
+                    "uuid": "6ae136ed-0927-4fb4-90ff-2ddd2177a820"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C9",
+                    "pos": {
+                        "x": 138.07,
+                        "y": 89.6
+                    },
+                    "uuid": "33811b4f-96cd-4a55-8534-21e2da0ffb33"
+                },
+                {
+                    "description": "Reference field of U2",
+                    "pos": {
+                        "x": 138.75,
+                        "y": 90.5
+                    },
+                    "uuid": "b87683a7-8f11-4da5-97d3-230d201688f5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0014 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R8",
+                    "pos": {
+                        "x": 135.07,
+                        "y": 76.0
+                    },
+                    "uuid": "0d2b875e-81b5-4e0a-b62f-087580b1c278"
+                },
+                {
+                    "description": "Segment of R7 on F.Silkscreen",
+                    "pos": {
+                        "x": 134.5225,
+                        "y": 76.237258
+                    },
+                    "uuid": "aa8edd04-0919-47ce-b777-f8a3fcdcbef2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0741 mm)",
+            "items": [
+                {
+                    "description": "Reference field of U4",
+                    "pos": {
+                        "x": 109.15,
+                        "y": 60.7
+                    },
+                    "uuid": "26de043c-6ad0-43b3-b602-40e275626bee"
+                },
+                {
+                    "description": "Reference field of C17",
+                    "pos": {
+                        "x": 108.47,
+                        "y": 59.8
+                    },
+                    "uuid": "b6b124ab-5a84-47da-94fe-58fa23d2900e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0741 mm)",
+            "items": [
+                {
+                    "description": "Reference field of U3",
+                    "pos": {
+                        "x": 168.65,
+                        "y": 60.7
+                    },
+                    "uuid": "a8c832d6-5fbb-4d52-9670-ae986257a8ed"
+                },
+                {
+                    "description": "Reference field of C13",
+                    "pos": {
+                        "x": 167.97,
+                        "y": 59.8
+                    },
+                    "uuid": "f9b58f54-d884-4e62-9562-5876469faaaf"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0353 mm)",
+            "items": [
+                {
+                    "description": "Segment of R3 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.962742,
+                        "y": 70.8225
+                    },
+                    "uuid": "a0a38cf0-1fc9-47fb-b797-b27b393da00c"
+                },
+                {
+                    "description": "Reference field of R4",
+                    "pos": {
+                        "x": 127.2,
+                        "y": 70.57
+                    },
+                    "uuid": "c8589f84-1b89-4af8-b7a8-58d0ab139705"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0230 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C3",
+                    "pos": {
+                        "x": 126.8,
+                        "y": 57.48
+                    },
+                    "uuid": "b882a545-3d4c-4754-a0a3-2bbaf711a940"
+                },
+                {
+                    "description": "Segment of C4 on F.Silkscreen",
+                    "pos": {
+                        "x": 127.14058,
+                        "y": 57.49
+                    },
+                    "uuid": "f888c953-adb7-4565-ba2e-9f5812b214b4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0990 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C5",
+                    "pos": {
+                        "x": 127.6,
+                        "y": 59.37
+                    },
+                    "uuid": "9424fa28-4e92-4f32-b690-4c856089e7db"
+                },
+                {
+                    "description": "Reference field of C4",
+                    "pos": {
+                        "x": 127.0,
+                        "y": 59.43
+                    },
+                    "uuid": "9508e2da-0bff-43c9-84f7-713ae30219dd"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment of R9 on F.Silkscreen",
+                    "pos": {
+                        "x": 139.5225,
+                        "y": 76.237258
+                    },
+                    "uuid": "85f0a599-d204-4a5d-a1ae-f02b37fcc7d5"
+                },
+                {
+                    "description": "Reference field of R10",
+                    "pos": {
+                        "x": 140.07,
+                        "y": 75.2
+                    },
+                    "uuid": "ff45b949-2f21-4335-b393-4578eab90a73"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0210 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R9",
+                    "pos": {
+                        "x": 137.57,
+                        "y": 76.0
+                    },
+                    "uuid": "274a2db5-7d57-4751-9b2e-2b2dae23edbd"
+                },
+                {
+                    "description": "Segment of R8 on F.Silkscreen",
+                    "pos": {
+                        "x": 137.0225,
+                        "y": 76.237258
+                    },
+                    "uuid": "fb80a475-4650-4426-b063-e73ea9a57334"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of U1",
+                    "pos": {
+                        "x": 128.4,
+                        "y": 71.6
+                    },
+                    "uuid": "a71e7d30-b2d2-41ff-820e-818fcd2305c0"
+                },
+                {
+                    "description": "Pad 2 [/USB_DP_MCU] of R4 on F.Cu",
+                    "pos": {
+                        "x": 128.025,
+                        "y": 72.0
+                    },
+                    "uuid": "56193585-cd85-4aa1-a3b8-8673c17bcd9c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of U4",
+                    "pos": {
+                        "x": 109.15,
+                        "y": 60.7
+                    },
+                    "uuid": "26de043c-6ad0-43b3-b602-40e275626bee"
+                },
+                {
+                    "description": "Pad 1 [/IMU3_CPOUT] of C17 on F.Cu",
+                    "pos": {
+                        "x": 109.9,
+                        "y": 60.575
+                    },
+                    "uuid": "053eacf5-c51f-4e64-942a-481cea3c21c8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of U3",
+                    "pos": {
+                        "x": 168.65,
+                        "y": 60.7
+                    },
+                    "uuid": "a8c832d6-5fbb-4d52-9670-ae986257a8ed"
+                },
+                {
+                    "description": "Pad 1 [/IMU2_CPOUT] of C13 on F.Cu",
+                    "pos": {
+                        "x": 169.4,
+                        "y": 60.575
+                    },
+                    "uuid": "59108ae1-0305-4fc4-a3bd-3921e069778d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R4",
+                    "pos": {
+                        "x": 127.2,
+                        "y": 70.57
+                    },
+                    "uuid": "c8589f84-1b89-4af8-b7a8-58d0ab139705"
+                },
+                {
+                    "description": "Pad 2 [/USB_DM_MCU] of R3 on F.Cu",
+                    "pos": {
+                        "x": 128.025,
+                        "y": 70.3
+                    },
+                    "uuid": "4d5d0869-e8e9-4f1f-aa1f-e506caff0c79"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R3",
+                    "pos": {
+                        "x": 127.2,
+                        "y": 68.87
+                    },
+                    "uuid": "b49a148a-40e2-490c-abbc-ef330b410ee7"
+                },
+                {
+                    "description": "Pad 2 [GND] of SW1 on F.Cu",
+                    "pos": {
+                        "x": 126.15,
+                        "y": 67.9
+                    },
+                    "uuid": "f1302ba4-622d-4347-85bb-a0031c7b6e7d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R4",
+                    "pos": {
+                        "x": 127.2,
+                        "y": 70.57
+                    },
+                    "uuid": "c8589f84-1b89-4af8-b7a8-58d0ab139705"
+                },
+                {
+                    "description": "Pad 1 [/USB_DM] of R3 on F.Cu",
+                    "pos": {
+                        "x": 126.375,
+                        "y": 70.3
+                    },
+                    "uuid": "c36f2eaa-cd7d-4d2b-9797-63f2f11d7e5a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C3",
+                    "pos": {
+                        "x": 126.8,
+                        "y": 57.48
+                    },
+                    "uuid": "b882a545-3d4c-4754-a0a3-2bbaf711a940"
+                },
+                {
+                    "description": "Pad 2 [GND] of C4 on F.Cu",
+                    "pos": {
+                        "x": 126.225,
+                        "y": 58.0
+                    },
+                    "uuid": "ee4a4625-4d3b-462e-a8c3-f06d12c0ed3e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C3",
+                    "pos": {
+                        "x": 126.8,
+                        "y": 57.48
+                    },
+                    "uuid": "b882a545-3d4c-4754-a0a3-2bbaf711a940"
+                },
+                {
+                    "description": "Pad 1 [+3V3] of C4 on F.Cu",
+                    "pos": {
+                        "x": 127.775,
+                        "y": 58.0
+                    },
+                    "uuid": "2c433d76-4328-4e2d-8412-1c5a96e5c59b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of U2",
+                    "pos": {
+                        "x": 138.75,
+                        "y": 90.5
+                    },
+                    "uuid": "b87683a7-8f11-4da5-97d3-230d201688f5"
+                },
+                {
+                    "description": "Pad 1 [/IMU1_CPOUT] of C9 on F.Cu",
+                    "pos": {
+                        "x": 139.5,
+                        "y": 90.375
+                    },
+                    "uuid": "3e17323f-2f03-41a9-a401-c9e435a7ec4b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

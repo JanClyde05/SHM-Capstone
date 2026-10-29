@@ -59,5 +59,6 @@ Only one active at a time via selectSensor().
 
 ## Links
 
+- [[SCHEMATIC_AESTHETIC_STANDARD]] — KiCad schematic aesthetic standard & zero-overlap rules
 - [[04-firmware]] — software that drives this hardware
 - [[01-system-overview]] — where hardware fits in system

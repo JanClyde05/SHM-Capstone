@@ -1,0 +1,1 @@
+PASS: known tertiles and optional QC; 12 invalid pilot cases rejected; matching campaign accepted and mixed station/orientation rejected
