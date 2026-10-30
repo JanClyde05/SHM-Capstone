@@ -1,0 +1,160 @@
+{
+  "record": "SHM Capstone V8 local-precedent fact-check",
+  "checked_at": "2026-10-30T00:58:14+08:00",
+  "timezone": "Asia/Manila",
+  "candidate_status": "separate candidate; V2 remains approved",
+  "artifacts": {
+    "SHM_Research_Aligned_Revision_Draft_v2.docx": {
+      "path": "Documents/The Real Research Paper/GPT Paper/SHM_Research_Aligned_Revision_Draft_v2.docx",
+      "bytes": 537524,
+      "sha256": "B09C741309444DAB16ACA6957250217CB776E310C20459820547AA747264CB42"
+    },
+    "SHM_Research_Aligned_Revision_Draft_v7.docx": {
+      "path": "Documents/The Real Research Paper/GPT Paper/SHM_Research_Aligned_Revision_Draft_v7.docx",
+      "bytes": 1930860,
+      "sha256": "1555634592F0C1E9174CC489B70D772C887EB4101A06FFFE33CD563E5F30790E"
+    },
+    "SHM_Research_Aligned_Revision_Draft_v8.docx": {
+      "path": "Documents/The Real Research Paper/GPT Paper/SHM_Research_Aligned_Revision_Draft_v8.docx",
+      "bytes": 1930981,
+      "sha256": "7B5CD7F9D341D47ED7DB82C1351CDF9EFADE1D275D36A01927BAD673966DED1C"
+    },
+    "SHM_Research_Aligned_Revision_Draft_v8.pdf": {
+      "path": "Documents/The Real Research Paper/GPT Paper/SHM_Research_Aligned_Revision_Draft_v8.pdf",
+      "bytes": 1480741,
+      "sha256": "5B480365EE850FF755A532BED0F32F4DFE6970FF707E261FEA884C69EEC603E1"
+    }
+  },
+  "pdf": {
+    "pages": 80,
+    "page_size": "US Letter, 612 x 792 pt"
+  },
+  "changes": [
+    {
+      "body_paragraph_index": 125,
+      "change": "Removed citation bundle after project overview; citations remain with scoped method and Chapter II claims."
+    },
+    {
+      "body_paragraph_index": 222,
+      "change": "Gaviña et al. reported bridge count changed to singular."
+    },
+    {
+      "body_paragraph_index": 226,
+      "change": "Corrected full USHER name and attributed/bounded description."
+    },
+    {
+      "body_paragraph_index": 434,
+      "change": "Replaced stale/undated PCIEERD locator with dated official brief."
+    }
+  ],
+  "checks": {
+    "v2_v7_identity": "passed",
+    "docx_zip_crc": "passed",
+    "body_text_diff": {
+      "status": "passed",
+      "changed_indexes": [
+        125,
+        222,
+        226,
+        434
+      ],
+      "other_nonempty_paragraphs_changed": false
+    },
+    "reference_count": {
+      "status": "passed",
+      "count": 101
+    },
+    "media": {
+      "status": "passed",
+      "count": 8,
+      "byte_identical_to_v7": true
+    },
+    "pdf_text_assertions": {
+      "status": "passed",
+      "count": 6
+    },
+    "render": {
+      "status": "passed",
+      "pages": 80,
+      "dpi": 75,
+      "poppler": "26.07.0",
+      "contact_sheets_reviewed": 4,
+      "target_pages_at_160dpi": [
+        11,
+        12,
+        13,
+        14,
+        35,
+        36,
+        37,
+        38,
+        77,
+        78,
+        79
+      ],
+      "folder": "MD Files/verification/v8_render_20261030"
+    },
+    "post_log_structural_rerun": {
+      "status": "passed",
+      "body_paragraphs": 458,
+      "changed_indexes": [
+        125,
+        222,
+        226,
+        434
+      ],
+      "references": 101,
+      "identical_media_parts": 8,
+      "pdf_pages": 80,
+      "pdf_text_assertions": 6,
+      "reference_title_as_printed": "Let's LINC: Leverage innovation partners to nurture collaboration"
+    }
+  },
+  "tools": {
+    "Word": "16.0, read-only repagination/export",
+    "Python": "3.12.14",
+    "python-docx": "1.2.0",
+    "pypdf": "6.10.0",
+    "lxml": "6.1.1",
+    "Pillow": "12.3.0",
+    "Poppler": "26.07.0",
+    "renderer_limit": "render_docx.py unavailable because soffice.exe absent; Word/Poppler fallback used"
+  },
+  "sources": [
+    {
+      "name": "Payawal et al. 2017 IEEE Xplore DOI 10.1109/SusTech.2017.8333539",
+      "url": "https://ieeexplore.ieee.org/document/8333539/",
+      "status": "partially verified: official abstract only"
+    },
+    {
+      "name": "Lau et al. 2018 MATEC DOI 10.1051/matecconf/201820601013",
+      "url": "https://www.matec-conferences.org/articles/matecconf/pdf/2018/65/matecconf_iccems2018_01013.pdf",
+      "status": "partially verified: indexed text; PDF 403"
+    },
+    {
+      "name": "Gaviña et al. 2017 IOP DOI 10.1088/1757-899X/216/1/012050",
+      "url": "https://doi.org/10.1088/1757-899X/216/1/012050",
+      "status": "partially verified: DOST/STII indexed abstract; IOP full text unavailable"
+    },
+    {
+      "name": "PCIEERD 2020 USHER brief",
+      "url": "https://projects.pcieerd.dost.gov.ph/docs/Tech%20Brief%20-%20USHER%20102320%20cleared.pdf",
+      "status": "verified for institutional description, not performance"
+    }
+  ],
+  "failed_attempts": [
+    "M-2026-10-30-03: PDF assertion expected filename phrase in title; corrected and passed.",
+    "M-2026-10-30-04: LibreOffice renderer unavailable; Word/Poppler fallback completed.",
+    "M-2026-10-30-05: manual expected hash typo failed before write; hashes recomputed.",
+    "M-2026-10-30-06: wrapper syntax error before execution; rebuilt and reran.",
+    "M-2026-10-30-07: PDF title assertion expected uppercase/curly-apostrophe form; inspected physical page 78, corrected to printed APA-style sentence case/ASCII apostrophe, reran successfully.",
+    "M-2026-10-30-08: final inventory consistency command used implicit cp1252 and failed to decode UTF-8 JSON; rerun with explicit UTF-8 passed."
+  ],
+  "open_limits": [
+    "No full-text review of all 101 references.",
+    "No ethics/privacy, Turnitin/AI, site permission/safety, physical validation, or adviser/institution approval in this pass.",
+    "V2 remains approved; V8 is a separate candidate."
+  ],
+  "checked_at_followup": "2026-10-30T01:00:00+08:00",
+  "checked_at_final_consistency": "2026-10-30T01:00:21+08:00"
+}

@@ -40,4 +40,8 @@ No study result can be called validated until the appropriate physical/data evid
 - Do not upload a manuscript to Turnitin or another external repository unless the user explicitly authorizes that destination and the repository/retention settings are known. Do not rewrite to evade similarity or AI detectors; correct attribution and preserve genuine provenance.
 - The strict rule is zero unsupported claims in the final record, not a promise of “100% verification.” If a material issue cannot be closed without an owner, institution, site authority, or data decision, log it and stop only the dependent action while continuing independent review.
 
+## Reusable PCB design skill
+
+For any schematic or PCB planning, design, layout, review, or correction task in this repository, read and apply [`AI Skills/pcb-design-astra/SKILL.md`](AI%20Skills/pcb-design-astra/SKILL.md) and its linked references as appropriate. It is a portable, model-neutral engineering workflow distilled from public capability descriptions and observable project records; it does not expose private model reasoning, guarantee model parity, or override this file, current user instructions, active design sources, or owner decisions.
+
 Do not change user data or remove historical artifacts as part of routine cleanup. Avoid unrelated edits. Before handoff, state changed files, checks performed, checks not performed, open blockers, and any assumptions.

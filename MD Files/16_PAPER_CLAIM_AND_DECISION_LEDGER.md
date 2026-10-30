@@ -129,3 +129,26 @@ The final V7 output hashes, source links, page map, document checks, limits, and
 ## V7 FHWA citation adjudication (2026-10-29)
 
 P18 remains verified only as a traffic-count interval/procedure precedent: the FHWA 2022 Traffic Monitoring Guide section 3.8.3 lists 10 minutes as an interval in the stated continuous-count-station AADT procedure, and Chapter 4 allows 10-minute traffic-volume formats. This does not establish that the study's 10-minute vibration/count pairing is sufficient or optimal. The proposed F11 rewrite came from a failed exact-phrase search and was withdrawn after opening section 3.8.3. The final V7 candidate is byte-identical to the pre-F11 verified candidate; no text change remains from that attempted rewrite. V2 remains approved and V7 remains unapproved.
+
+## V8 paper-claim dispositions — selected local precedents (2026-10-30)
+
+| Record | Manuscript location | Issue checked | Status after V8 | Evidence boundary / remaining work |
+|---|---|---|---|---|
+| V8-P1 | DOCX paragraph 125; PDF p. 12 | Four-source citation bundle followed project-specific architecture/procedure description. | **Corrected in V8.** | FFT citation retained with method text; local case-study citations remain in Chapter II. Firmware/PCB corroborate source-level configuration, not deployment/performance. |
+| V8-P2 | DOCX paragraph 222; PDF pp. 36–37 | Gaviña et al. sentence used plural “bridges.” | **Corrected; partially verified.** | DOST/STII abstract result describes one existing concrete bridge. IOP full text was not retrieved. Sentence is singular and abstract-scoped. |
+| V8-P3 | DOCX paragraph 226; PDF p. 37 | USHER name/description tied to a project page with no descriptive content. | **Corrected; description verified to official brief.** | V8 attributes the full system name and architecture/earthquake decision-support framing to the 2020 PCIEERD brief. It is not independent performance evidence. |
+| V8-P4 | DOCX paragraph 434; PDF p. 78 | PCIEERD reference had incomplete title, no date, stale locator. | **Corrected; locator/title/date verified to brief.** | Bibliographic fields match the official brief; this does not validate all non-DOI sources or all 101 citation-to-passage relationships. |
+
+These dispositions cover four edits only. They do not supersede P01–P50 records, establish general paper correctness, close fixed-Hann versus pilot-selected-window conflict, or resolve ethics/privacy, sample-size, field access/safety, sensor timing, calibration, or validation gates. V2 remains approved; V8 is a separate candidate.
+
+## V9 visual artifact and claim boundary (2026-10-30)
+
+| Item | Manuscript location | Evidence | Status and limits |
+|---|---|---|---|
+| Figure 3.2, Device schematic diagram | Printed p. 38; physical PDF p. 47 | Embedded raster hash matches `PCB Files/GPT Build - PCB/previews/active_schematic.png`; its underlying schematic hash matches the active `DESIGN_MANIFEST.json`. | **Verified for file identity and rendered placement.** It depicts the current CAD schematic; it does not establish assembly, electrical operation, or field behavior. |
+| Figure 3.3, PCB layout and 3D CAD view | Printed p. 38; physical PDF p. 47 | Composite uses the active PCB top SVG plot and top 3D PNG listed in the active preview register; the PCB hash matches the active design manifest. | **Verified for source linkage and rendering.** The preview register describes generic MPU-6050 3D models as approximate. This visual does not establish physical package geometry, assembly, fit, fabrication, or performance. |
+| Configuration caveat | Printed p. 35; physical PDF p. 44 | Full rendered paragraph states evidence sources, pending-value handling, and that the 3D render is a CAD preview without proof of assembly or fit. | **Verified as visible text/layout.** It does not substitute for board inspection, bench records, survey/site approval, or frozen-protocol evidence. |
+| Table 1 configuration fields | Printed p. 36; physical PDF p. 45 | Updated cells list board revision/component markings/channel identifiers; 600-second sessions with ten consecutive 60-second windows; frozen analysis band and estimator/window settings; Arduino IDE/library versions; measured per-channel rate; and raw-data/session-summary fields. Caption and table are together on the page; the static List of Tables agrees. The station/mount/orientation and supply/data-path fields remain in their existing rows. | **Verified as stated and legible.** The table does not choose between the manuscript's pilot-selected window and firmware's symmetric Hann; that discrepancy remains open until resolved against the approved method. |
+
+V9 adds no external-source citation or scientific result; the figures are project design artifacts. The 101-entry bibliography remains unchanged from V8. V9 is a separate layout candidate; V2 remains approved. Machine record: `verification/v9_figure_insertion_verification_20261030.json`.
+

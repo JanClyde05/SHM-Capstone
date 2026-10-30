@@ -1,5 +1,9 @@
 # Hardware continuation handoff
 
+## DOST-ASTI supplier option reviewed — 2026-10-30
+
+The supplied EPDC limits were compared with the active 4-layer R2 board in [DOST_EPDC_MANUFACTURING_COMPATIBILITY_20261030.md](DOST_EPDC_MANUFACTURING_COMPATIBILITY_20261030.md). The 1-2-layer capability and several stated minimum geometries conflict with the current design; do not send its Gerbers as an order package. The inquiry form in the folder is a completed sample with third-party personal/contact data and a signature, not a blank form. Request a blank form and obtain supplier clarification first. No design files were changed or sent.
+
 ## Engineering audit follow-up — 2026-10-29
 
 Read [ENGINEERING_AUDIT_20261029.md](ENGINEERING_AUDIT_20261029.md) and its [plan](ENGINEERING_AUDIT_PLAN.md) before the next CAD edit. The deeper read-only audit found issues beyond configured ERC/DRC: USB A-contact transition imbalance (4 D+ versus 2 D−), missing explicit impedance stackup, no local capacitor directly on the ESD VBUS net, J2-to-U3 nominal body separation about 5.18 mm (5.13 mm conservative F.Fab box) against the TDK 6 mm insertion-component guidance, and unresolved thermal/probe-access qualification. Nominal antenna overhang is 0.10 mm with no recorded tolerance budget. These are engineering concerns, not observed prototype failures. Active PCB remains unchanged at SHA-256 `0ea352e982e6ccb87134d1d3dcef7bd3adb747efab5ba28b136cd1090f99540e`; the earlier configured CAD pass remains bounded evidence.

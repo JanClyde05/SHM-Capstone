@@ -1,5 +1,9 @@
 # PCB continuation plan and recovery instructions
 
+## DOST-ASTI EPDC manufacturing pre-screen — 2026-10-30
+
+Read [DOST_EPDC_MANUFACTURING_COMPATIBILITY_20261030.md](DOST_EPDC_MANUFACTURING_COMPATIBILITY_20261030.md) before considering a DOST-ASTI manufacturing package. The supplied EPDC Rev 02 spec allows one or two copper layers, while the hash-matched active R2 design has four; it also sets larger minimum track/space and hole/annular-ring values than several current features. The board is not directly orderable under the supplied limits. No Gerbers were generated or sent, no sample inquiry form was edited, and no order or fabrication release is authorized by the supplier documents. A two-layer conversion is a separate design candidate that requires electrical, geometry, and supplier-rule revalidation. Confirm ambiguous slots, larger drills, via limits, stackup/USB impedance, plating/current limits, address and lead-time with EPDC.
+
 ## Engineering audit follow-up — 2026-10-29
 
 Read [ENGINEERING_AUDIT_20261029.md](ENGINEERING_AUDIT_20261029.md) and its [plan](ENGINEERING_AUDIT_PLAN.md) before the next CAD edit. The deeper read-only audit found issues beyond configured ERC/DRC: USB A-contact transition imbalance (4 D+ versus 2 D−), missing explicit impedance stackup, no local capacitor directly on the ESD VBUS net, J2-to-U3 nominal body separation about 5.18 mm (5.13 mm conservative F.Fab box) against the TDK 6 mm insertion-component guidance, and unresolved thermal/probe-access qualification. Nominal antenna overhang is 0.10 mm with no recorded tolerance budget. These are engineering concerns, not observed prototype failures. Active PCB remains unchanged at SHA-256 `0ea352e982e6ccb87134d1d3dcef7bd3adb747efab5ba28b136cd1090f99540e`; the earlier configured CAD pass remains bounded evidence.

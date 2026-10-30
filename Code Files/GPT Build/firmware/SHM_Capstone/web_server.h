@@ -11,14 +11,14 @@ struct WebForm {
 };
 
 struct WebApiCallbacks {
-    String (*getJson)(const String& route) = nullptr;
-    bool (*postForm)(const String& route, const WebForm& form,
-                     String& responseJson, int& responseStatus) = nullptr;
-    bool (*openDownload)(const String& sessionId, const String& kind,
-                         fs::File& file, String& contentType, String& filename) = nullptr;
+    String (*getJson)(const String &route) = nullptr;
+    bool (*postForm)(const String &route, const WebForm &form, String &responseJson,
+                     int &responseStatus) = nullptr;
+    bool (*openDownload)(const String &sessionId, const String &kind, fs::File &file,
+                         String &contentType, String &filename) = nullptr;
     bool (*isCapturing)() = nullptr;
 };
 
-void webServerConfigure(const WebApiCallbacks& callbacks);
+void webServerConfigure(const WebApiCallbacks &callbacks);
 void webServerBegin();
 void webServerUpdate();

@@ -1,0 +1,251 @@
+{
+  "record": "V9 schematic/PCB/3D figure insertion and final layout verification",
+  "created_local": "2026-10-30T01:53:25+08:00",
+  "status": "passed for scoped figure insertion, document-package integrity, pagination, and rendered layout checks",
+  "authority": "User explicitly requested insertion of the existing schematic, PCB layout, and 3D view.",
+  "approval_boundary": "V2 remains the approved source; V9 is a separate review candidate and is not adviser/institution approval.",
+  "artifacts": {
+    "approved_v2": {
+      "path": "Documents\\The Real Research Paper\\GPT Paper\\SHM_Research_Aligned_Revision_Draft_v2.docx",
+      "sha256": "B09C741309444DAB16ACA6957250217CB776E310C20459820547AA747264CB42"
+    },
+    "base_v8": {
+      "path": "Documents\\The Real Research Paper\\GPT Paper\\SHM_Research_Aligned_Revision_Draft_v8.docx",
+      "sha256": "7B5CD7F9D341D47ED7DB82C1351CDF9EFADE1D275D36A01927BAD673966DED1C"
+    },
+    "initial_v9_snapshot": {
+      "path": "MD Files\\verification\\v9_render_20261030\\SHM_Research_Aligned_Revision_Draft_v9_initial.docx",
+      "sha256": "56457ECB5B0B859634A00F8F9205169E1A7C5693CE9EE3542A9F0FB7C7243DE4"
+    },
+    "initial_v9_pdf_snapshot": {
+      "path": "MD Files\\verification\\v9_render_20261030\\SHM_Research_Aligned_Revision_Draft_v9_initial.pdf",
+      "sha256": "F0CFB2AE0CC05FB9507174A2F6CDBA0CF9B0E1324DDF643AD7567D3D095B2506"
+    },
+    "intermediate_reflow1_snapshot": {
+      "path": "MD Files\\verification\\v9_render_20261030\\SHM_Research_Aligned_Revision_Draft_v9_reflow1.docx",
+      "sha256": "E5DF5DA7DF0659B70DE7FED82662A3E7CBE035F6F40EC97599701CF9FAD54C72"
+    },
+    "intermediate_reflow2_snapshot": {
+      "path": "MD Files\\verification\\v9_render_20261030\\SHM_Research_Aligned_Revision_Draft_v9_reflow2.docx",
+      "sha256": "118C19F7FC4B344D9812B0A4C385C36E46C4BFBC508C2445EA1F576BCF1E6409"
+    },
+    "caption_kept_v9_snapshot": {
+      "path": "MD Files\\verification\\v9_render_20261030\\SHM_Research_Aligned_Revision_Draft_v9_caption_kept.docx",
+      "bytes": 3075651,
+      "sha256": "BCD8B916EE54AAA4414DC7A3D4AAC5FD7B79A193110E2ADE21625A17A6CD1B80"
+    },
+    "caption_kept_pdf_snapshot": {
+      "path": "MD Files\\verification\\v9_render_20261030\\SHM_Research_Aligned_Revision_Draft_v9_caption_kept.pdf",
+      "bytes": 1722142,
+      "sha256": "ED6DAE71277C2A7C2D69095E260E453E213A0859C576CEF28926A6D0814D712D"
+    },
+    "final_v9_docx": {
+      "path": "Documents\\The Real Research Paper\\GPT Paper\\SHM_Research_Aligned_Revision_Draft_v9.docx",
+      "bytes": 3075651,
+      "sha256": "BCD8B916EE54AAA4414DC7A3D4AAC5FD7B79A193110E2ADE21625A17A6CD1B80"
+    },
+    "final_v9_pdf": {
+      "path": "Documents\\The Real Research Paper\\GPT Paper\\SHM_Research_Aligned_Revision_Draft_v9.pdf",
+      "bytes": 1722142,
+      "sha256": "ED6DAE71277C2A7C2D69095E260E453E213A0859C576CEF28926A6D0814D712D"
+    }
+  },
+  "source_provenance": {
+    "design_manifest": "PCB Files\\GPT Build - PCB\\design\\DESIGN_MANIFEST.json",
+    "active_schematic": {
+      "path": "PCB Files\\GPT Build - PCB\\design\\SHM_Node_R2.kicad_sch",
+      "sha256": "4D93FA95E3C7131072CDAC248E71C3A8D98AEA8189763AA2578037EAB57F4A94"
+    },
+    "active_pcb": {
+      "path": "PCB Files\\GPT Build - PCB\\design\\SHM_Node_R2.kicad_pcb",
+      "sha256": "0EA352E982E6CCB87134D1D3DCEF7BD3ADB747EFAB5BA28B136CD1090F99540E"
+    },
+    "schematic_render": {
+      "path": "PCB Files\\GPT Build - PCB\\previews\\active_schematic.png",
+      "sha256": "217B1484ED4E74DD4F180B88FF0B7D863BBCB8555216D16AAC13572D53C36457",
+      "dimensions_px": [
+        3307,
+        2339
+      ]
+    },
+    "pcb_top_plot": {
+      "path": "PCB Files\\GPT Build - PCB\\previews\\active_pcb_top.svg",
+      "sha256": "CA1BC2C3FAF60F3F29C50B6A7CC2127E911E0063D24A0CA7659B0CA02C04375B"
+    },
+    "pcb_3d_render": {
+      "path": "PCB Files\\GPT Build - PCB\\previews\\active_pcb_3d_top.png",
+      "sha256": "26C6C48D040C77D320620FB7F798E305AB2DAD0E3775A76393842B40F76832A4"
+    },
+    "composite_inserted_figure": {
+      "path": "MD Files\\verification\\v9_figures_20261030\\figure_3_3_pcb_layout_and_3d.png",
+      "sha256": "7DAB447339F05D9061859B0B4F30BAE3BC6E4EF756880B93246E25ABD750E820",
+      "dimensions_px": [
+        3200,
+        1958
+      ],
+      "mode": "RGB",
+      "distinct_color_count": 33111
+    },
+    "embedded_media_hashes": {
+      "word/media/image5.png": "217B1484ED4E74DD4F180B88FF0B7D863BBCB8555216D16AAC13572D53C36457",
+      "word/media/image6.png": "7DAB447339F05D9061859B0B4F30BAE3BC6E4EF756880B93246E25ABD750E820"
+    },
+    "source_limit": "The preview register identifies generic MPU-6050 3D packages as approximate; a CAD view is not evidence of assembly or physical fit."
+  },
+  "document_diff": {
+    "final_v9_vs_v8_changed_body_paragraph_indexes": [
+      93,
+      94,
+      255,
+      260,
+      262
+    ],
+    "final_v9_vs_v8_changed_table_cells_zero_based": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    "final_v9_vs_v8_changed_package_parts": [
+      "word/document.xml",
+      "word/media/image5.png",
+      "word/media/image6.png"
+    ],
+    "final_v9_vs_initial_v9_changed_body_paragraph_indexes": [
+      255
+    ],
+    "final_v9_vs_reflow2_changed_table_cells_zero_based": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    "table_caption_keep_next_paragraph_indexes": [
+      256,
+      257
+    ],
+    "table_caption_keep_next_text": "Table 1. Required documentation of the final monitoring-system configuration",
+    "reference_entry_count": 101,
+    "inline_picture_count": 7
+  },
+  "figure_page_map": {
+    "list_of_figures": {
+      "physical_pdf_page": 8,
+      "printed_page": "viii",
+      "verified_entries": [
+        "3.2 p. 38",
+        "3.3 p. 38",
+        "3.4 p. 40",
+        "3.5 p. 53"
+      ]
+    },
+    "configuration_caveat": {
+      "physical_pdf_page": 44,
+      "printed_page": 35
+    },
+    "table_1_caption_and_table": {
+      "physical_pdf_page": 45,
+      "printed_page": 36
+    },
+    "figure_3_1": {
+      "physical_pdf_page": 46,
+      "printed_page": 37
+    },
+    "figures_3_2_and_3_3": {
+      "physical_pdf_page": 47,
+      "printed_page": 38
+    },
+    "figure_3_4": {
+      "physical_pdf_page": 49,
+      "printed_page": 40
+    },
+    "figure_3_5": {
+      "physical_pdf_page": 62,
+      "printed_page": 53
+    }
+  },
+  "printed_page_number_sequence": "Roman i–ix front matter followed by Arabic 1–71 continuously; verified from each page header.",
+  "checks": [
+    {
+      "check": "V2/V8 preservation and fixed artifact identities",
+      "status": "passed",
+      "evidence": "Expected SHA-256 values match; V2 and V8 were not written."
+    },
+    {
+      "check": "OOXML package integrity and bounded differences",
+      "status": "passed",
+      "evidence": "DOCX ZIP CRC passed; V9 differs from V8 only in document.xml and replacement media image5/image6; body-text reflow changes paragraph 255, the final table-completeness edit changes three Table 1 cells, and caption keepNext formatting applies to paragraphs 256–257."
+    },
+    {
+      "check": "Active design/source lineage",
+      "status": "passed",
+      "evidence": "Active schematic and PCB hashes match design/DESIGN_MANIFEST.json; preview index marks these renders active and warns that generic MPU 3D models are approximate."
+    },
+    {
+      "check": "Figure contents, colors, alignment, captions, and static list",
+      "status": "passed",
+      "evidence": "Embedded schematic and composite hashes match source/derived files; picture and caption paragraphs are centered; captions contain figure number and description; List of Figures entries match PDF pagination."
+    },
+    {
+      "check": "Table 1 configuration-field completeness",
+      "status": "passed",
+      "evidence": "The board revision/component markings, session/window schedule, analysis settings, software/library versions, measured per-channel rate, raw-data fields, and session-summary fields are stated in the corresponding table rows; window selection remains neutral pending resolution."
+    },
+    {
+      "check": "Pagination, caveat, and table-caption keep-together",
+      "status": "passed",
+      "evidence": "Word 2019 export is 80 US Letter pages; Roman front matter i–ix is followed by Arabic pages 1–71; the CAD-only/approximate-model caveat is on physical p. 44, and the complete Table 1 caption and table are together on physical p. 45 / printed p. 36. The List of Tables also gives page 36."
+    },
+    {
+      "check": "Full-document visual pass",
+      "status": "passed",
+      "evidence": "All 80 pages from the caption-kept PDF were rendered at 75 dpi and reviewed in four contact sheets; physical pp. 8, 44–47, 49, and 62 were inspected at 160 dpi. The schematic, PCB/3D composite, and diagrams are centered; no text overflow or arrow/decision-label overlaps were observed in targeted figures."
+    }
+  ],
+  "toolchain": {
+    "exporter": "Microsoft Word 2019 / Word 16.0, opened read-only",
+    "renderer": "Poppler 26.07.0 pdftoppm",
+    "python": "Bundled workspace Python runtime",
+    "pypdf": "6.10.0",
+    "lxml": "6.1.1",
+    "pillow": "12.3.0",
+    "render_resolution_dpi": {
+      "all_pages": 75,
+      "targeted_pages": 160
+    }
+  },
+  "limitations": [
+    "This verifies insertion, source file identity, document structure and rendered layout only; it is not a full-paper claim/reference audit.",
+    "The figures describe the active CAD design; they do not prove fabrication, assembly, fit, electrical behavior, sensor timing, or field performance.",
+    "Ethics/privacy, Turnitin/AI-writing review, site permission/safety, and adviser/institution approval are separate unresolved gates.",
+    "No code, PCB CAD, measurements, or reference entries were changed in this figure-insertion pass."
+  ],
+  "retained_failures": [
+    "Initial V9 render split the CAD caveat across physical pp. 44–45; the paragraph was condensed to refer to Table 1 while preserving evidence-source, pending-value, and CAD limitation text. Final render inspected with the complete caveat on p. 44.",
+    "A read-only project-document print failed because the Windows console could not encode a Unicode arrow; reran with UTF-8 output and no files were changed by the failed read.",
+    "The initial reflow-writer invocation had an indentation syntax error before execution; no files changed. The corrected script ran with hash preconditions.",
+    "A second reflow script stopped on an outdated text precondition after the intermediate wording changed; no document write occurred. The guard was corrected and rerun successfully.",
+    "The initial structural verifier expected seven w:drawing containers; inspection found seven inline pictures plus anchored diagram containers. No paper file changed; the assertion was corrected to count wp:inline and the verification then passed.",
+    "A post-render content audit found Table 1 lacked several configuration fields listed in the pre-reflow note. Three table cells were expanded from already stated method requirements; the final Word export and full render were repeated, and Table 1 remains on printed p. 36.",
+    "The table-complete render stranded the Table 1 caption on printed p. 35. The caption/spacer were set to keep with the table; a new Word PDF export and full-page render verified caption and table together on printed p. 36 and the List of Tables entry matches.",
+    "An existing directory named v9_render_20261030_final contained an older PDF render. Its page 45 did not contain the final caption/expanded fields; it was retained as historical, and all 80 pages were rerendered from the caption-kept PDF into v9_render_20261030_caption_kept_final/.",
+    "A PowerShell PDF snapshot command attempted a self-copy and warned that the source and destination were identical. The source was unchanged; snapshot and output hashes were verified equal.",
+    "System Python lacked pypdf and pdftotext was not available on PATH. The configured workspace Python/pypdf runtime was used for read-only page extraction and passed the text/page checks."
+  ]
+}

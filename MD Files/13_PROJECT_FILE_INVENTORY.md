@@ -1,8 +1,8 @@
 # Project file inventory
 
-Generated 2026-10-29T23:58:57+08:00 (Asia/Manila) from the project root. Presence/size is not validation. Git internals and this inventory are excluded.
+Generated 2026-10-30T12:28:56+08:00 (Asia/Manila) from the project root. Presence/size is not validation. Git internals and this inventory are excluded.
 
-Directories: 104. Files listed: 948. Total listed bytes: 186,493,762.
+Directories: 115. Files listed: 1446. Total listed bytes: 300,257,194.
 
 ## Directory tree
 
@@ -19,6 +19,9 @@ Directories: 104. Files listed: 948. Total listed bytes: 186,493,762.
     07-graphs
     08-ai-integration
   3D Files
+  AI Skills
+    pcb-design-astra
+      references
   Code Files
     GPT Build
       docs
@@ -47,6 +50,7 @@ Directories: 104. Files listed: 948. Total listed bytes: 186,493,762.
         gerber
         images
   Documents
+    For PCB Ordering - DOST
     Forms
       Forms Edited - GPT
         Personalized Copies
@@ -66,6 +70,13 @@ Directories: 104. Files listed: 948. Total listed bytes: 186,493,762.
         high
       v6_source_figures
       v7_render
+      v8_render_20261030
+      v9_figures_20261030
+      v9_render_20261030
+      v9_render_20261030_caption_kept
+      v9_render_20261030_caption_kept_final
+      v9_render_20261030_final
+      v9_render_20261030_table_complete
   PCB Files
     GPT Build - PCB
       archive
@@ -131,7 +142,10 @@ Directories: 104. Files listed: 948. Total listed bytes: 186,493,762.
 | `.obsidian-vault/07-graphs/CONTEXT.md` | 5,281 |
 | `.obsidian-vault/08-ai-integration/CONTEXT.md` | 4,855 |
 | `.obsidian-vault/CLAUDE.md` | 1,229 |
-| `AGENTS.md` | 6,664 |
+| `AGENTS.md` | 7,221 |
+| `AI Skills/pcb-design-astra/references/decision-ledger-template.md` | 1,773 |
+| `AI Skills/pcb-design-astra/references/pcb-validation-matrix.md` | 3,921 |
+| `AI Skills/pcb-design-astra/SKILL.md` | 14,001 |
 | `Code Files/GPT Build/.clang-format` | 224 |
 | `Code Files/GPT Build/.gitignore` | 225 |
 | `Code Files/GPT Build/AGENTS.md` | 2,557 |
@@ -166,15 +180,15 @@ Directories: 104. Files listed: 948. Total listed bytes: 186,493,762.
 | `Code Files/GPT Build/firmware/SHM_Capstone/acquisition.h` | 447 |
 | `Code Files/GPT Build/firmware/SHM_Capstone/app.cpp` | 2,938 |
 | `Code Files/GPT Build/firmware/SHM_Capstone/app.h` | 48 |
-| `Code Files/GPT Build/firmware/SHM_Capstone/baseline.cpp` | 3,143 |
-| `Code Files/GPT Build/firmware/SHM_Capstone/baseline.h` | 1,391 |
+| `Code Files/GPT Build/firmware/SHM_Capstone/baseline.cpp` | 3,268 |
+| `Code Files/GPT Build/firmware/SHM_Capstone/baseline.h` | 1,351 |
 | `Code Files/GPT Build/firmware/SHM_Capstone/config.h` | 798 |
 | `Code Files/GPT Build/firmware/SHM_Capstone/data/app.js` | 15,772 |
 | `Code Files/GPT Build/firmware/SHM_Capstone/data/index.html` | 13,898 |
 | `Code Files/GPT Build/firmware/SHM_Capstone/data/README.md` | 480 |
 | `Code Files/GPT Build/firmware/SHM_Capstone/data/style.css` | 19,528 |
-| `Code Files/GPT Build/firmware/SHM_Capstone/dsp.cpp` | 7,314 |
-| `Code Files/GPT Build/firmware/SHM_Capstone/dsp.h` | 2,186 |
+| `Code Files/GPT Build/firmware/SHM_Capstone/dsp.cpp` | 7,832 |
+| `Code Files/GPT Build/firmware/SHM_Capstone/dsp.h` | 2,217 |
 | `Code Files/GPT Build/firmware/SHM_Capstone/hardware_profile.h` | 411 |
 | `Code Files/GPT Build/firmware/SHM_Capstone/imu_mpu6050.cpp` | 6,222 |
 | `Code Files/GPT Build/firmware/SHM_Capstone/imu_mpu6050.h` | 222 |
@@ -190,9 +204,9 @@ Directories: 104. Files listed: 948. Total listed bytes: 186,493,762.
 | `Code Files/GPT Build/firmware/SHM_Capstone/timebase.h` | 143 |
 | `Code Files/GPT Build/firmware/SHM_Capstone/ui_assets.h` | 52,861 |
 | `Code Files/GPT Build/firmware/SHM_Capstone/version.h` | 60 |
-| `Code Files/GPT Build/firmware/SHM_Capstone/web_server.cpp` | 5,629 |
+| `Code Files/GPT Build/firmware/SHM_Capstone/web_server.cpp` | 6,129 |
 | `Code Files/GPT Build/firmware/SHM_Capstone/web_server.h` | 857 |
-| `Code Files/GPT Build/firmware/SHM_Capstone/wifi_manager.cpp` | 3,363 |
+| `Code Files/GPT Build/firmware/SHM_Capstone/wifi_manager.cpp` | 3,561 |
 | `Code Files/GPT Build/firmware/SHM_Capstone/wifi_manager.h` | 169 |
 | `Code Files/GPT Build/firmware_legacy/.gitignore` | 50 |
 | `Code Files/GPT Build/firmware_legacy/data/arduino-littlefs-upload-1.6.3.vsix` | 23,473 |
@@ -233,11 +247,14 @@ Directories: 104. Files listed: 948. Total listed bytes: 186,493,762.
 | `Code Files/GPT Build/thesis/chapter3_sync.md` | 861 |
 | `Code Files/GPT Build/thesis/README.md` | 520 |
 | `Code Files/GPT Build/tools/__pycache__/analyze_session.cpython-312.pyc` | 16,557 |
+| `Code Files/GPT Build/tools/__pycache__/analyze_session.cpython-314.pyc` | 18,725 |
 | `Code Files/GPT Build/tools/__pycache__/derive_traffic_cutoffs.cpython-312.pyc` | 6,536 |
+| `Code Files/GPT Build/tools/__pycache__/derive_traffic_cutoffs.cpython-314.pyc` | 6,927 |
 | `Code Files/GPT Build/tools/__pycache__/reference_math.cpython-312.pyc` | 7,529 |
-| `Code Files/GPT Build/tools/analyze_campaign.py` | 3,271 |
+| `Code Files/GPT Build/tools/__pycache__/reference_math.cpython-314.pyc` | 8,891 |
+| `Code Files/GPT Build/tools/analyze_campaign.py` | 3,611 |
 | `Code Files/GPT Build/tools/analyze_session.py` | 11,815 |
-| `Code Files/GPT Build/tools/derive_traffic_cutoffs.py` | 4,339 |
+| `Code Files/GPT Build/tools/derive_traffic_cutoffs.py` | 4,474 |
 | `Code Files/GPT Build/tools/native_math_check.cpp` | 3,915 |
 | `Code Files/GPT Build/tools/README.md` | 4,063 |
 | `Code Files/GPT Build/tools/reference_math.py` | 4,795 |
@@ -269,6 +286,10 @@ Directories: 104. Files listed: 948. Total listed bytes: 186,493,762.
 | `Code Files/Reference File (OLD Version)/SHM-ESP32-System/images/WebUI_Image.png` | 271,552 |
 | `Code Files/Reference File (OLD Version)/SHM-ESP32-System/README.md` | 7,140 |
 | `Code Files/Reference File (OLD Version)/SHM-ESP32-System/README.md.txt` | 4,811 |
+| `Documents/For PCB Ordering - DOST/Annex A Manufacturing Specs_EPDC-MAN-PM-001_rev 2.pdf` | 439,717 |
+| `Documents/For PCB Ordering - DOST/DOST-ASTI-Citizens-Charter 2026.pdf` | 1,605,448 |
+| `Documents/For PCB Ordering - DOST/EPDC BROCHURE 2026.pdf` | 13,926,338 |
+| `Documents/For PCB Ordering - DOST/PCB-Manufacturing-and-Assembly-Inquiry-Form.pdf` | 805,326 |
 | `Documents/Forms/COE-SR01-Research-Topic-Pre-Reg.docx` | 363,893 |
 | `Documents/Forms/COE-SR02-Adviser-Selection.docx` | 364,726 |
 | `Documents/Forms/COE-SR03-Adviser-Acceptance.docx` | 358,269 |
@@ -310,10 +331,14 @@ Directories: 104. Files listed: 948. Total listed bytes: 186,493,762.
 | `Documents/The Real Research Paper/GPT Paper/SHM_Research_Aligned_Revision_Draft_v7.docx` | 1,930,860 |
 | `Documents/The Real Research Paper/GPT Paper/SHM_Research_Aligned_Revision_Draft_v7.pdf` | 1,480,367 |
 | `Documents/The Real Research Paper/GPT Paper/SHM_Research_Aligned_Revision_Draft_v7_apostrophe_tmp.docx` | 22 |
+| `Documents/The Real Research Paper/GPT Paper/SHM_Research_Aligned_Revision_Draft_v8.docx` | 1,930,981 |
+| `Documents/The Real Research Paper/GPT Paper/SHM_Research_Aligned_Revision_Draft_v8.pdf` | 1,480,741 |
+| `Documents/The Real Research Paper/GPT Paper/SHM_Research_Aligned_Revision_Draft_v9.docx` | 3,075,651 |
+| `Documents/The Real Research Paper/GPT Paper/SHM_Research_Aligned_Revision_Draft_v9.pdf` | 1,722,142 |
 | `Documents/The Real Research Paper/SHM - Formatted Thesis Paper - Reference Update.docx` | 733,303 |
 | `Documents/The Real Research Paper/SHM - Formatted Thesis Paper - Reference Update.pdf` | 933,748 |
 | `Documents/The Real Research Paper/SHM - Formatted Thesis Paper.docx` | 688,292 |
-| `MD Files/00_README.md` | 15,847 |
+| `MD Files/00_README.md` | 21,260 |
 | `MD Files/01_RESEARCH_CONTEXT.md` | 7,254 |
 | `MD Files/02_AUDIT_AND_FIXES.md` | 9,718 |
 | `MD Files/03_FIRMWARE_FIX_INSTRUCTIONS.md` | 13,776 |
@@ -321,24 +346,24 @@ Directories: 104. Files listed: 948. Total listed bytes: 186,493,762.
 | `MD Files/05_SCHEMATIC_PCB_V2_SPEC.md` | 12,419 |
 | `MD Files/06_DATA_COLLECTION_PROTOCOL.md` | 10,557 |
 | `MD Files/07_REFERENCES.md` | 4,289 |
-| `MD Files/08_PROJECT_MAP_AND_SOURCE_OF_TRUTH.md` | 30,383 |
-| `MD Files/09_VERIFICATION_LEDGER.md` | 71,946 |
-| `MD Files/10_RESEARCH_REFERENCE_AUDIT.md` | 30,344 |
+| `MD Files/08_PROJECT_MAP_AND_SOURCE_OF_TRUTH.md` | 36,335 |
+| `MD Files/09_VERIFICATION_LEDGER.md` | 89,358 |
+| `MD Files/10_RESEARCH_REFERENCE_AUDIT.md` | 33,241 |
 | `MD Files/11_AI_WORK_PROMPT.md` | 10,483 |
-| `MD Files/12_EXECUTION_PLAN.md` | 19,434 |
+| `MD Files/12_EXECUTION_PLAN.md` | 21,680 |
 | `MD Files/14_CAD_VALIDATION_SNAPSHOT.md` | 8,189 |
 | `MD Files/15_PAPER_REVIEW_AND_INTEGRITY_GATES.md` | 25,367 |
-| `MD Files/16_PAPER_CLAIM_AND_DECISION_LEDGER.md` | 35,755 |
+| `MD Files/16_PAPER_CLAIM_AND_DECISION_LEDGER.md` | 39,945 |
 | `MD Files/17_RESEARCH_PAPER_AUDIT_PROMPT.md` | 10,423 |
 | `MD Files/18_RRL_SUPPORT_AND_GAP_SEARCH.md` | 36,800 |
 | `MD Files/19_ENGR_MAY_ANNE_VALENCIA_CORRECTION_LOG.md` | 31,297 |
 | `MD Files/20_V3_REVIEW_CANDIDATE_AND_RRL_BATCH.md` | 50,374 |
 | `MD Files/21_V4_VISUAL_RRL_AND_OBJECTIVE_REVIEW.md` | 33,468 |
-| `MD Files/22_AI_FEEDBACK_AND_MISTAKE_LOG.md` | 60,042 |
+| `MD Files/22_AI_FEEDBACK_AND_MISTAKE_LOG.md` | 83,914 |
 | `MD Files/23_V5_ANNOTATED_LAYOUT_AND_FIGURE_REVIEW.md` | 6,851 |
 | `MD Files/24_V6_ANNOTATED_LAYOUT_AND_FIGURE_REVIEW.md` | 7,374 |
 | `MD Files/25_V6_FACT_CHECK_PLAN.md` | 5,572 |
-| `MD Files/26_V6_FACT_CHECK_AND_V7_CORRECTIONS.md` | 25,170 |
+| `MD Files/26_V6_FACT_CHECK_AND_V7_CORRECTIONS.md` | 50,305 |
 | `MD Files/AGENTS.md` | 5,038 |
 | `MD Files/figures_v4/apply_v4_comment_fixes.py` | 9,869 |
 | `MD Files/figures_v4/figure_1_1_ipo_bw.png` | 82,465 |
@@ -373,7 +398,11 @@ Directories: 104. Files listed: 948. Total listed bytes: 186,493,762.
 | `MD Files/figures_v6/figure_3_4_firmware_flow_bw.svg` | 17,862 |
 | `MD Files/figures_v6/figure_3_5_field_workflow_bw.png` | 575,250 |
 | `MD Files/figures_v6/figure_3_5_field_workflow_bw.svg` | 13,382 |
+| `MD Files/verification/apply_v9_caption_keep_together.py` | 3,138 |
+| `MD Files/verification/apply_v9_reflow.py` | 3,588 |
+| `MD Files/verification/apply_v9_table_completeness.py` | 5,353 |
 | `MD Files/verification/create_v6_contact_sheets.py` | 1,266 |
+| `MD Files/verification/create_v9_caption_kept_contact_sheets.py` | 1,253 |
 | `MD Files/verification/forms_sr06_page_reference_audit_20261026.json` | 9,616 |
 | `MD Files/verification/kicad_drc_20261026_020348.json` | 1,126 |
 | `MD Files/verification/kicad_drc_exclusions_20261026_020514.json` | 1,126 |
@@ -709,8 +738,486 @@ Directories: 104. Files listed: 948. Total listed bytes: 186,493,762.
 | `MD Files/verification/v7_render/SHM_Research_Aligned_Revision_Draft_v7_pre_map_restore.pdf` | 1,448,999 |
 | `MD Files/verification/v7_render/SHM_Research_Aligned_Revision_Draft_v7_python_docx_resave_rejected.docx` | 1,716,711 |
 | `MD Files/verification/v7_render/SHM_Research_Aligned_Revision_Draft_v7_restoredmap.pdf` | 1,480,367 |
+| `MD Files/verification/v8_local_precedent_factcheck_20261030.json` | 5,676 |
+| `MD Files/verification/v8_render_20261030/contact_01.jpg` | 403,127 |
+| `MD Files/verification/v8_render_20261030/contact_02.jpg` | 466,125 |
+| `MD Files/verification/v8_render_20261030/contact_03.jpg` | 404,782 |
+| `MD Files/verification/v8_render_20261030/contact_04.jpg` | 475,778 |
+| `MD Files/verification/v8_render_20261030/page-01.png` | 58,895 |
+| `MD Files/verification/v8_render_20261030/page-02.png` | 77,336 |
+| `MD Files/verification/v8_render_20261030/page-03.png` | 39,521 |
+| `MD Files/verification/v8_render_20261030/page-04.png` | 36,007 |
+| `MD Files/verification/v8_render_20261030/page-05.png` | 118,565 |
+| `MD Files/verification/v8_render_20261030/page-06.png` | 109,986 |
+| `MD Files/verification/v8_render_20261030/page-07.png` | 39,960 |
+| `MD Files/verification/v8_render_20261030/page-08.png` | 52,038 |
+| `MD Files/verification/v8_render_20261030/page-09.png` | 139,487 |
+| `MD Files/verification/v8_render_20261030/page-10.png` | 110,651 |
+| `MD Files/verification/v8_render_20261030/page-11.png` | 128,677 |
+| `MD Files/verification/v8_render_20261030/page-12.png` | 129,904 |
+| `MD Files/verification/v8_render_20261030/page-13.png` | 110,493 |
+| `MD Files/verification/v8_render_20261030/page-14.png` | 111,458 |
+| `MD Files/verification/v8_render_20261030/page-15.png` | 120,871 |
+| `MD Files/verification/v8_render_20261030/page-16.png` | 115,417 |
+| `MD Files/verification/v8_render_20261030/page-17.png` | 117,945 |
+| `MD Files/verification/v8_render_20261030/page-18.png` | 106,415 |
+| `MD Files/verification/v8_render_20261030/page-19.png` | 148,992 |
+| `MD Files/verification/v8_render_20261030/page-20.png` | 116,661 |
+| `MD Files/verification/v8_render_20261030/page-21.png` | 115,470 |
+| `MD Files/verification/v8_render_20261030/page-22.png` | 41,190 |
+| `MD Files/verification/v8_render_20261030/page-23.png` | 118,216 |
+| `MD Files/verification/v8_render_20261030/page-24.png` | 126,410 |
+| `MD Files/verification/v8_render_20261030/page-25.png` | 112,530 |
+| `MD Files/verification/v8_render_20261030/page-26.png` | 91,031 |
+| `MD Files/verification/v8_render_20261030/page-27.png` | 131,092 |
+| `MD Files/verification/v8_render_20261030/page-28.png` | 130,826 |
+| `MD Files/verification/v8_render_20261030/page-29.png` | 124,718 |
+| `MD Files/verification/v8_render_20261030/page-30.png` | 131,017 |
+| `MD Files/verification/v8_render_20261030/page-31.png` | 124,876 |
+| `MD Files/verification/v8_render_20261030/page-32.png` | 128,941 |
+| `MD Files/verification/v8_render_20261030/page-33.png` | 120,800 |
+| `MD Files/verification/v8_render_20261030/page-34.png` | 132,787 |
+| `MD Files/verification/v8_render_20261030/page-35.png` | 103,703 |
+| `MD Files/verification/v8_render_20261030/page-36.png` | 120,003 |
+| `MD Files/verification/v8_render_20261030/page-37.png` | 135,124 |
+| `MD Files/verification/v8_render_20261030/page-38.png` | 122,754 |
+| `MD Files/verification/v8_render_20261030/page-39.png` | 119,960 |
+| `MD Files/verification/v8_render_20261030/page-40.png` | 61,968 |
+| `MD Files/verification/v8_render_20261030/page-41.png` | 115,784 |
+| `MD Files/verification/v8_render_20261030/page-42.png` | 117,968 |
+| `MD Files/verification/v8_render_20261030/page-43.png` | 115,980 |
+| `MD Files/verification/v8_render_20261030/page-44.png` | 126,571 |
+| `MD Files/verification/v8_render_20261030/page-45.png` | 78,834 |
+| `MD Files/verification/v8_render_20261030/page-46.png` | 72,291 |
+| `MD Files/verification/v8_render_20261030/page-47.png` | 32,056 |
+| `MD Files/verification/v8_render_20261030/page-48.png` | 45,039 |
+| `MD Files/verification/v8_render_20261030/page-49.png` | 123,158 |
+| `MD Files/verification/v8_render_20261030/page-50.png` | 126,592 |
+| `MD Files/verification/v8_render_20261030/page-51.png` | 45,383 |
+| `MD Files/verification/v8_render_20261030/page-52.png` | 124,756 |
+| `MD Files/verification/v8_render_20261030/page-53.png` | 111,376 |
+| `MD Files/verification/v8_render_20261030/page-54.png` | 113,009 |
+| `MD Files/verification/v8_render_20261030/page-55.png` | 111,411 |
+| `MD Files/verification/v8_render_20261030/page-56.png` | 113,786 |
+| `MD Files/verification/v8_render_20261030/page-57.png` | 95,178 |
+| `MD Files/verification/v8_render_20261030/page-58.png` | 68,982 |
+| `MD Files/verification/v8_render_20261030/page-59.png` | 70,627 |
+| `MD Files/verification/v8_render_20261030/page-60.png` | 110,597 |
+| `MD Files/verification/v8_render_20261030/page-61.png` | 98,868 |
+| `MD Files/verification/v8_render_20261030/page-62.png` | 119,011 |
+| `MD Files/verification/v8_render_20261030/page-63.png` | 100,533 |
+| `MD Files/verification/v8_render_20261030/page-64.png` | 128,174 |
+| `MD Files/verification/v8_render_20261030/page-65.png` | 121,588 |
+| `MD Files/verification/v8_render_20261030/page-66.png` | 113,504 |
+| `MD Files/verification/v8_render_20261030/page-67.png` | 122,553 |
+| `MD Files/verification/v8_render_20261030/page-68.png` | 52,507 |
+| `MD Files/verification/v8_render_20261030/page-69.png` | 97,715 |
+| `MD Files/verification/v8_render_20261030/page-70.png` | 77,463 |
+| `MD Files/verification/v8_render_20261030/page-71.png` | 159,587 |
+| `MD Files/verification/v8_render_20261030/page-72.png` | 170,345 |
+| `MD Files/verification/v8_render_20261030/page-73.png` | 172,547 |
+| `MD Files/verification/v8_render_20261030/page-74.png` | 168,425 |
+| `MD Files/verification/v8_render_20261030/page-75.png` | 172,880 |
+| `MD Files/verification/v8_render_20261030/page-76.png` | 181,569 |
+| `MD Files/verification/v8_render_20261030/page-77.png` | 188,998 |
+| `MD Files/verification/v8_render_20261030/page-78.png` | 168,340 |
+| `MD Files/verification/v8_render_20261030/page-79.png` | 182,844 |
+| `MD Files/verification/v8_render_20261030/page-80.png` | 97,904 |
+| `MD Files/verification/v8_render_20261030/review_intro-11.png` | 320,470 |
+| `MD Files/verification/v8_render_20261030/review_intro-12.png` | 318,395 |
+| `MD Files/verification/v8_render_20261030/review_intro-13.png` | 269,853 |
+| `MD Files/verification/v8_render_20261030/review_intro-14.png` | 279,698 |
+| `MD Files/verification/v8_render_20261030/review_refs-77.png` | 520,801 |
+| `MD Files/verification/v8_render_20261030/review_refs-78.png` | 464,453 |
+| `MD Files/verification/v8_render_20261030/review_refs-79.png` | 501,149 |
+| `MD Files/verification/v8_render_20261030/review_rrl-35.png` | 258,301 |
+| `MD Files/verification/v8_render_20261030/review_rrl-36.png` | 297,740 |
+| `MD Files/verification/v8_render_20261030/review_rrl-37.png` | 328,772 |
+| `MD Files/verification/v8_render_20261030/review_rrl-38.png` | 301,954 |
+| `MD Files/verification/v9_figure_insertion_verification_20261030.json` | 12,528 |
+| `MD Files/verification/v9_figures_20261030/active_pcb_top_3200.png` | 500,824 |
+| `MD Files/verification/v9_figures_20261030/figure_3_3_pcb_layout_and_3d.png` | 747,762 |
+| `MD Files/verification/v9_figures_20261030/v9_figure_assets_manifest.json` | 7,052 |
+| `MD Files/verification/v9_render_20261030/contact_01.jpg` | 430,704 |
+| `MD Files/verification/v9_render_20261030/contact_02.jpg` | 499,179 |
+| `MD Files/verification/v9_render_20261030/contact_03.jpg` | 442,438 |
+| `MD Files/verification/v9_render_20261030/contact_04.jpg` | 501,040 |
+| `MD Files/verification/v9_render_20261030/hi-08.png` | 134,985 |
+| `MD Files/verification/v9_render_20261030/hi-44.png` | 305,988 |
+| `MD Files/verification/v9_render_20261030/hi-45.png` | 236,810 |
+| `MD Files/verification/v9_render_20261030/hi-46.png` | 234,255 |
+| `MD Files/verification/v9_render_20261030/hi-47.png` | 283,301 |
+| `MD Files/verification/v9_render_20261030/hi-48.png` | 119,908 |
+| `MD Files/verification/v9_render_20261030/hi-49.png` | 349,261 |
+| `MD Files/verification/v9_render_20261030/page-01.png` | 58,895 |
+| `MD Files/verification/v9_render_20261030/page-02.png` | 77,336 |
+| `MD Files/verification/v9_render_20261030/page-03.png` | 39,521 |
+| `MD Files/verification/v9_render_20261030/page-04.png` | 36,007 |
+| `MD Files/verification/v9_render_20261030/page-05.png` | 118,565 |
+| `MD Files/verification/v9_render_20261030/page-06.png` | 109,986 |
+| `MD Files/verification/v9_render_20261030/page-07.png` | 39,960 |
+| `MD Files/verification/v9_render_20261030/page-08.png` | 50,869 |
+| `MD Files/verification/v9_render_20261030/page-09.png` | 139,487 |
+| `MD Files/verification/v9_render_20261030/page-10.png` | 110,651 |
+| `MD Files/verification/v9_render_20261030/page-11.png` | 128,677 |
+| `MD Files/verification/v9_render_20261030/page-12.png` | 129,904 |
+| `MD Files/verification/v9_render_20261030/page-13.png` | 110,493 |
+| `MD Files/verification/v9_render_20261030/page-14.png` | 111,458 |
+| `MD Files/verification/v9_render_20261030/page-15.png` | 120,871 |
+| `MD Files/verification/v9_render_20261030/page-16.png` | 115,417 |
+| `MD Files/verification/v9_render_20261030/page-17.png` | 117,945 |
+| `MD Files/verification/v9_render_20261030/page-18.png` | 106,415 |
+| `MD Files/verification/v9_render_20261030/page-19.png` | 148,992 |
+| `MD Files/verification/v9_render_20261030/page-20.png` | 116,661 |
+| `MD Files/verification/v9_render_20261030/page-21.png` | 115,470 |
+| `MD Files/verification/v9_render_20261030/page-22.png` | 41,190 |
+| `MD Files/verification/v9_render_20261030/page-23.png` | 118,216 |
+| `MD Files/verification/v9_render_20261030/page-24.png` | 126,410 |
+| `MD Files/verification/v9_render_20261030/page-25.png` | 112,530 |
+| `MD Files/verification/v9_render_20261030/page-26.png` | 91,031 |
+| `MD Files/verification/v9_render_20261030/page-27.png` | 131,092 |
+| `MD Files/verification/v9_render_20261030/page-28.png` | 130,826 |
+| `MD Files/verification/v9_render_20261030/page-29.png` | 124,718 |
+| `MD Files/verification/v9_render_20261030/page-30.png` | 131,017 |
+| `MD Files/verification/v9_render_20261030/page-31.png` | 124,876 |
+| `MD Files/verification/v9_render_20261030/page-32.png` | 128,941 |
+| `MD Files/verification/v9_render_20261030/page-33.png` | 120,800 |
+| `MD Files/verification/v9_render_20261030/page-34.png` | 132,787 |
+| `MD Files/verification/v9_render_20261030/page-35.png` | 103,703 |
+| `MD Files/verification/v9_render_20261030/page-36.png` | 120,003 |
+| `MD Files/verification/v9_render_20261030/page-37.png` | 135,124 |
+| `MD Files/verification/v9_render_20261030/page-38.png` | 122,754 |
+| `MD Files/verification/v9_render_20261030/page-39.png` | 119,960 |
+| `MD Files/verification/v9_render_20261030/page-40.png` | 61,968 |
+| `MD Files/verification/v9_render_20261030/page-41.png` | 115,784 |
+| `MD Files/verification/v9_render_20261030/page-42.png` | 117,968 |
+| `MD Files/verification/v9_render_20261030/page-43.png` | 115,980 |
+| `MD Files/verification/v9_render_20261030/page-44.png` | 127,227 |
+| `MD Files/verification/v9_render_20261030/page-45.png` | 87,200 |
+| `MD Files/verification/v9_render_20261030/page-46.png` | 72,291 |
+| `MD Files/verification/v9_render_20261030/page-47.png` | 103,320 |
+| `MD Files/verification/v9_render_20261030/page-48.png` | 45,039 |
+| `MD Files/verification/v9_render_20261030/page-49.png` | 123,158 |
+| `MD Files/verification/v9_render_20261030/page-50.png` | 126,592 |
+| `MD Files/verification/v9_render_20261030/page-51.png` | 45,383 |
+| `MD Files/verification/v9_render_20261030/page-52.png` | 124,756 |
+| `MD Files/verification/v9_render_20261030/page-53.png` | 111,376 |
+| `MD Files/verification/v9_render_20261030/page-54.png` | 113,009 |
+| `MD Files/verification/v9_render_20261030/page-55.png` | 111,411 |
+| `MD Files/verification/v9_render_20261030/page-56.png` | 113,786 |
+| `MD Files/verification/v9_render_20261030/page-57.png` | 95,178 |
+| `MD Files/verification/v9_render_20261030/page-58.png` | 68,982 |
+| `MD Files/verification/v9_render_20261030/page-59.png` | 70,627 |
+| `MD Files/verification/v9_render_20261030/page-60.png` | 110,597 |
+| `MD Files/verification/v9_render_20261030/page-61.png` | 98,868 |
+| `MD Files/verification/v9_render_20261030/page-62.png` | 119,011 |
+| `MD Files/verification/v9_render_20261030/page-63.png` | 100,533 |
+| `MD Files/verification/v9_render_20261030/page-64.png` | 128,174 |
+| `MD Files/verification/v9_render_20261030/page-65.png` | 121,588 |
+| `MD Files/verification/v9_render_20261030/page-66.png` | 113,504 |
+| `MD Files/verification/v9_render_20261030/page-67.png` | 122,553 |
+| `MD Files/verification/v9_render_20261030/page-68.png` | 52,507 |
+| `MD Files/verification/v9_render_20261030/page-69.png` | 97,715 |
+| `MD Files/verification/v9_render_20261030/page-70.png` | 77,463 |
+| `MD Files/verification/v9_render_20261030/page-71.png` | 159,587 |
+| `MD Files/verification/v9_render_20261030/page-72.png` | 170,345 |
+| `MD Files/verification/v9_render_20261030/page-73.png` | 172,547 |
+| `MD Files/verification/v9_render_20261030/page-74.png` | 168,425 |
+| `MD Files/verification/v9_render_20261030/page-75.png` | 172,880 |
+| `MD Files/verification/v9_render_20261030/page-76.png` | 181,569 |
+| `MD Files/verification/v9_render_20261030/page-77.png` | 188,998 |
+| `MD Files/verification/v9_render_20261030/page-78.png` | 168,340 |
+| `MD Files/verification/v9_render_20261030/page-79.png` | 182,844 |
+| `MD Files/verification/v9_render_20261030/page-80.png` | 97,904 |
+| `MD Files/verification/v9_render_20261030/SHM_Research_Aligned_Revision_Draft_v9_caption_kept.docx` | 3,075,651 |
+| `MD Files/verification/v9_render_20261030/SHM_Research_Aligned_Revision_Draft_v9_caption_kept.pdf` | 1,722,142 |
+| `MD Files/verification/v9_render_20261030/SHM_Research_Aligned_Revision_Draft_v9_initial.docx` | 3,075,716 |
+| `MD Files/verification/v9_render_20261030/SHM_Research_Aligned_Revision_Draft_v9_initial.pdf` | 1,722,653 |
+| `MD Files/verification/v9_render_20261030/SHM_Research_Aligned_Revision_Draft_v9_reflow1.docx` | 3,075,688 |
+| `MD Files/verification/v9_render_20261030/SHM_Research_Aligned_Revision_Draft_v9_reflow2.docx` | 3,075,586 |
+| `MD Files/verification/v9_render_20261030/SHM_Research_Aligned_Revision_Draft_v9_reflow2.pdf` | 1,721,859 |
+| `MD Files/verification/v9_render_20261030/SHM_Research_Aligned_Revision_Draft_v9_table_complete.docx` | 3,075,650 |
+| `MD Files/verification/v9_render_20261030/SHM_Research_Aligned_Revision_Draft_v9_table_complete.pdf` | 1,722,102 |
+| `MD Files/verification/v9_render_20261030_caption_kept/hi-07.png` | 108,986 |
+| `MD Files/verification/v9_render_20261030_caption_kept/hi-44.png` | 270,991 |
+| `MD Files/verification/v9_render_20261030_caption_kept/hi-45.png` | 234,129 |
+| `MD Files/verification/v9_render_20261030_caption_kept/hi-47.png` | 283,301 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/contact_01.png` | 732,126 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/contact_02.png` | 862,080 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/contact_03.png` | 725,986 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/contact_04.png` | 1,003,369 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/hi-08.png` | 134,985 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/hi-44.png` | 270,991 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/hi-45.png` | 234,129 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/hi-46.png` | 234,255 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/hi-47.png` | 283,301 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/hi-49.png` | 349,261 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/hi-62.png` | 328,479 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-01.png` | 58,895 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-02.png` | 77,336 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-03.png` | 39,521 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-04.png` | 36,007 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-05.png` | 118,565 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-06.png` | 109,986 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-07.png` | 39,960 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-08.png` | 50,869 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-09.png` | 139,487 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-10.png` | 110,651 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-11.png` | 128,677 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-12.png` | 129,904 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-13.png` | 110,493 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-14.png` | 111,458 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-15.png` | 120,871 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-16.png` | 115,417 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-17.png` | 117,945 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-18.png` | 106,415 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-19.png` | 148,992 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-20.png` | 116,661 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-21.png` | 115,470 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-22.png` | 41,190 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-23.png` | 118,216 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-24.png` | 126,410 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-25.png` | 112,530 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-26.png` | 91,031 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-27.png` | 131,092 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-28.png` | 130,826 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-29.png` | 124,718 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-30.png` | 131,017 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-31.png` | 124,876 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-32.png` | 128,941 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-33.png` | 120,800 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-34.png` | 132,787 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-35.png` | 103,703 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-36.png` | 120,003 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-37.png` | 135,124 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-38.png` | 122,754 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-39.png` | 119,960 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-40.png` | 61,968 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-41.png` | 115,784 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-42.png` | 117,968 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-43.png` | 115,980 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-44.png` | 110,715 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-45.png` | 83,164 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-46.png` | 72,291 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-47.png` | 103,320 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-48.png` | 45,039 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-49.png` | 123,158 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-50.png` | 126,592 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-51.png` | 45,383 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-52.png` | 124,756 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-53.png` | 111,376 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-54.png` | 113,009 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-55.png` | 111,411 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-56.png` | 113,786 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-57.png` | 95,178 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-58.png` | 68,982 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-59.png` | 70,627 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-60.png` | 110,597 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-61.png` | 98,868 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-62.png` | 119,011 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-63.png` | 100,533 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-64.png` | 128,174 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-65.png` | 121,588 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-66.png` | 113,504 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-67.png` | 122,553 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-68.png` | 52,507 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-69.png` | 97,715 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-70.png` | 77,463 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-71.png` | 159,587 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-72.png` | 170,345 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-73.png` | 172,547 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-74.png` | 168,425 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-75.png` | 172,880 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-76.png` | 181,569 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-77.png` | 188,998 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-78.png` | 168,340 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-79.png` | 182,844 |
+| `MD Files/verification/v9_render_20261030_caption_kept_final/page-80.png` | 97,904 |
+| `MD Files/verification/v9_render_20261030_final/contact_01.jpg` | 167,489 |
+| `MD Files/verification/v9_render_20261030_final/contact_02.jpg` | 189,035 |
+| `MD Files/verification/v9_render_20261030_final/contact_03.jpg` | 170,835 |
+| `MD Files/verification/v9_render_20261030_final/contact_04.jpg` | 191,073 |
+| `MD Files/verification/v9_render_20261030_final/hi-08.png` | 134,985 |
+| `MD Files/verification/v9_render_20261030_final/hi-44.png` | 281,966 |
+| `MD Files/verification/v9_render_20261030_final/hi-45.png` | 204,019 |
+| `MD Files/verification/v9_render_20261030_final/hi-46.png` | 234,255 |
+| `MD Files/verification/v9_render_20261030_final/hi-47.png` | 283,301 |
+| `MD Files/verification/v9_render_20261030_final/hi-49.png` | 349,261 |
+| `MD Files/verification/v9_render_20261030_final/hi-62.png` | 328,479 |
+| `MD Files/verification/v9_render_20261030_final/page-01.png` | 58,895 |
+| `MD Files/verification/v9_render_20261030_final/page-02.png` | 77,336 |
+| `MD Files/verification/v9_render_20261030_final/page-03.png` | 39,521 |
+| `MD Files/verification/v9_render_20261030_final/page-04.png` | 36,007 |
+| `MD Files/verification/v9_render_20261030_final/page-05.png` | 118,565 |
+| `MD Files/verification/v9_render_20261030_final/page-06.png` | 109,986 |
+| `MD Files/verification/v9_render_20261030_final/page-07.png` | 39,960 |
+| `MD Files/verification/v9_render_20261030_final/page-08.png` | 50,869 |
+| `MD Files/verification/v9_render_20261030_final/page-09.png` | 139,487 |
+| `MD Files/verification/v9_render_20261030_final/page-10.png` | 110,651 |
+| `MD Files/verification/v9_render_20261030_final/page-11.png` | 128,677 |
+| `MD Files/verification/v9_render_20261030_final/page-12.png` | 129,904 |
+| `MD Files/verification/v9_render_20261030_final/page-13.png` | 110,493 |
+| `MD Files/verification/v9_render_20261030_final/page-14.png` | 111,458 |
+| `MD Files/verification/v9_render_20261030_final/page-15.png` | 120,871 |
+| `MD Files/verification/v9_render_20261030_final/page-16.png` | 115,417 |
+| `MD Files/verification/v9_render_20261030_final/page-17.png` | 117,945 |
+| `MD Files/verification/v9_render_20261030_final/page-18.png` | 106,415 |
+| `MD Files/verification/v9_render_20261030_final/page-19.png` | 148,992 |
+| `MD Files/verification/v9_render_20261030_final/page-20.png` | 116,661 |
+| `MD Files/verification/v9_render_20261030_final/page-21.png` | 115,470 |
+| `MD Files/verification/v9_render_20261030_final/page-22.png` | 41,190 |
+| `MD Files/verification/v9_render_20261030_final/page-23.png` | 118,216 |
+| `MD Files/verification/v9_render_20261030_final/page-24.png` | 126,410 |
+| `MD Files/verification/v9_render_20261030_final/page-25.png` | 112,530 |
+| `MD Files/verification/v9_render_20261030_final/page-26.png` | 91,031 |
+| `MD Files/verification/v9_render_20261030_final/page-27.png` | 131,092 |
+| `MD Files/verification/v9_render_20261030_final/page-28.png` | 130,826 |
+| `MD Files/verification/v9_render_20261030_final/page-29.png` | 124,718 |
+| `MD Files/verification/v9_render_20261030_final/page-30.png` | 131,017 |
+| `MD Files/verification/v9_render_20261030_final/page-31.png` | 124,876 |
+| `MD Files/verification/v9_render_20261030_final/page-32.png` | 128,941 |
+| `MD Files/verification/v9_render_20261030_final/page-33.png` | 120,800 |
+| `MD Files/verification/v9_render_20261030_final/page-34.png` | 132,787 |
+| `MD Files/verification/v9_render_20261030_final/page-35.png` | 103,703 |
+| `MD Files/verification/v9_render_20261030_final/page-36.png` | 120,003 |
+| `MD Files/verification/v9_render_20261030_final/page-37.png` | 135,124 |
+| `MD Files/verification/v9_render_20261030_final/page-38.png` | 122,754 |
+| `MD Files/verification/v9_render_20261030_final/page-39.png` | 119,960 |
+| `MD Files/verification/v9_render_20261030_final/page-40.png` | 61,968 |
+| `MD Files/verification/v9_render_20261030_final/page-41.png` | 115,784 |
+| `MD Files/verification/v9_render_20261030_final/page-42.png` | 117,968 |
+| `MD Files/verification/v9_render_20261030_final/page-43.png` | 115,980 |
+| `MD Files/verification/v9_render_20261030_final/page-44.png` | 115,492 |
+| `MD Files/verification/v9_render_20261030_final/page-45.png` | 73,682 |
+| `MD Files/verification/v9_render_20261030_final/page-46.png` | 72,291 |
+| `MD Files/verification/v9_render_20261030_final/page-47.png` | 103,320 |
+| `MD Files/verification/v9_render_20261030_final/page-48.png` | 45,039 |
+| `MD Files/verification/v9_render_20261030_final/page-49.png` | 123,158 |
+| `MD Files/verification/v9_render_20261030_final/page-50.png` | 126,592 |
+| `MD Files/verification/v9_render_20261030_final/page-51.png` | 45,383 |
+| `MD Files/verification/v9_render_20261030_final/page-52.png` | 124,756 |
+| `MD Files/verification/v9_render_20261030_final/page-53.png` | 111,376 |
+| `MD Files/verification/v9_render_20261030_final/page-54.png` | 113,009 |
+| `MD Files/verification/v9_render_20261030_final/page-55.png` | 111,411 |
+| `MD Files/verification/v9_render_20261030_final/page-56.png` | 113,786 |
+| `MD Files/verification/v9_render_20261030_final/page-57.png` | 95,178 |
+| `MD Files/verification/v9_render_20261030_final/page-58.png` | 68,982 |
+| `MD Files/verification/v9_render_20261030_final/page-59.png` | 70,627 |
+| `MD Files/verification/v9_render_20261030_final/page-60.png` | 110,597 |
+| `MD Files/verification/v9_render_20261030_final/page-61.png` | 98,868 |
+| `MD Files/verification/v9_render_20261030_final/page-62.png` | 119,011 |
+| `MD Files/verification/v9_render_20261030_final/page-63.png` | 100,533 |
+| `MD Files/verification/v9_render_20261030_final/page-64.png` | 128,174 |
+| `MD Files/verification/v9_render_20261030_final/page-65.png` | 121,588 |
+| `MD Files/verification/v9_render_20261030_final/page-66.png` | 113,504 |
+| `MD Files/verification/v9_render_20261030_final/page-67.png` | 122,553 |
+| `MD Files/verification/v9_render_20261030_final/page-68.png` | 52,507 |
+| `MD Files/verification/v9_render_20261030_final/page-69.png` | 97,715 |
+| `MD Files/verification/v9_render_20261030_final/page-70.png` | 77,463 |
+| `MD Files/verification/v9_render_20261030_final/page-71.png` | 159,587 |
+| `MD Files/verification/v9_render_20261030_final/page-72.png` | 170,345 |
+| `MD Files/verification/v9_render_20261030_final/page-73.png` | 172,547 |
+| `MD Files/verification/v9_render_20261030_final/page-74.png` | 168,425 |
+| `MD Files/verification/v9_render_20261030_final/page-75.png` | 172,880 |
+| `MD Files/verification/v9_render_20261030_final/page-76.png` | 181,569 |
+| `MD Files/verification/v9_render_20261030_final/page-77.png` | 188,998 |
+| `MD Files/verification/v9_render_20261030_final/page-78.png` | 168,340 |
+| `MD Files/verification/v9_render_20261030_final/page-79.png` | 182,844 |
+| `MD Files/verification/v9_render_20261030_final/page-80.png` | 97,904 |
+| `MD Files/verification/v9_render_20261030_table_complete/contact_01.jpg` | 167,489 |
+| `MD Files/verification/v9_render_20261030_table_complete/contact_02.jpg` | 189,035 |
+| `MD Files/verification/v9_render_20261030_table_complete/contact_03.jpg` | 171,136 |
+| `MD Files/verification/v9_render_20261030_table_complete/contact_04.jpg` | 191,073 |
+| `MD Files/verification/v9_render_20261030_table_complete/hi-08.png` | 134,985 |
+| `MD Files/verification/v9_render_20261030_table_complete/hi-44.png` | 281,722 |
+| `MD Files/verification/v9_render_20261030_table_complete/hi-45.png` | 222,557 |
+| `MD Files/verification/v9_render_20261030_table_complete/hi-46.png` | 234,255 |
+| `MD Files/verification/v9_render_20261030_table_complete/hi-47.png` | 283,301 |
+| `MD Files/verification/v9_render_20261030_table_complete/hi-49.png` | 349,261 |
+| `MD Files/verification/v9_render_20261030_table_complete/hi-62.png` | 328,479 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-01.png` | 58,895 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-02.png` | 77,336 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-03.png` | 39,521 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-04.png` | 36,007 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-05.png` | 118,565 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-06.png` | 109,986 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-07.png` | 39,960 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-08.png` | 50,869 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-09.png` | 139,487 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-10.png` | 110,651 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-11.png` | 128,677 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-12.png` | 129,904 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-13.png` | 110,493 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-14.png` | 111,458 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-15.png` | 120,871 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-16.png` | 115,417 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-17.png` | 117,945 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-18.png` | 106,415 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-19.png` | 148,992 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-20.png` | 116,661 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-21.png` | 115,470 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-22.png` | 41,190 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-23.png` | 118,216 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-24.png` | 126,410 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-25.png` | 112,530 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-26.png` | 91,031 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-27.png` | 131,092 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-28.png` | 130,826 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-29.png` | 124,718 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-30.png` | 131,017 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-31.png` | 124,876 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-32.png` | 128,941 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-33.png` | 120,800 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-34.png` | 132,787 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-35.png` | 103,703 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-36.png` | 120,003 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-37.png` | 135,124 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-38.png` | 122,754 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-39.png` | 119,960 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-40.png` | 61,968 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-41.png` | 115,784 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-42.png` | 117,968 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-43.png` | 115,980 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-44.png` | 115,497 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-45.png` | 78,728 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-46.png` | 72,291 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-47.png` | 103,320 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-48.png` | 45,039 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-49.png` | 123,158 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-50.png` | 126,592 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-51.png` | 45,383 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-52.png` | 124,756 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-53.png` | 111,376 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-54.png` | 113,009 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-55.png` | 111,411 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-56.png` | 113,786 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-57.png` | 95,178 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-58.png` | 68,982 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-59.png` | 70,627 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-60.png` | 110,597 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-61.png` | 98,868 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-62.png` | 119,011 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-63.png` | 100,533 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-64.png` | 128,174 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-65.png` | 121,588 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-66.png` | 113,504 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-67.png` | 122,553 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-68.png` | 52,507 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-69.png` | 97,715 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-70.png` | 77,463 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-71.png` | 159,587 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-72.png` | 170,345 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-73.png` | 172,547 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-74.png` | 168,425 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-75.png` | 172,880 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-76.png` | 181,569 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-77.png` | 188,998 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-78.png` | 168,340 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-79.png` | 182,844 |
+| `MD Files/verification/v9_render_20261030_table_complete/page-80.png` | 97,904 |
 | `MD Files/verification/verify_v5_layout.py` | 12,738 |
 | `MD Files/verification/verify_v6_layout.py` | 16,687 |
+| `MD Files/verification/verify_v9_figure_insertion.py` | 23,309 |
 | `PCB Files/GPT Build - PCB/AGENTS.md` | 5,590 |
 | `PCB Files/GPT Build - PCB/archive/20261028_before_reference_correction.zip` | 1,863,224 |
 | `PCB Files/GPT Build - PCB/archive/documentation_before_final_handoff_20261029.zip` | 29,480 |
@@ -777,13 +1284,14 @@ Directories: 104. Files listed: 948. Total listed bytes: 186,493,762.
 | `PCB Files/GPT Build - PCB/design/superseded_wrong_83mm_outline/SUPERSEDED_AUDIT.json` | 750 |
 | `PCB Files/GPT Build - PCB/docs/ANTENNA_PLACEMENT_REVIEW.md` | 4,345 |
 | `PCB Files/GPT Build - PCB/docs/AUDIT_ELECTRICAL.md` | 10,144 |
-| `PCB Files/GPT Build - PCB/docs/CONTINUATION_PLAN.md` | 25,986 |
+| `PCB Files/GPT Build - PCB/docs/CONTINUATION_PLAN.md` | 26,889 |
 | `PCB Files/GPT Build - PCB/docs/DECISION_MAP.md` | 4,178 |
+| `PCB Files/GPT Build - PCB/docs/DOST_EPDC_MANUFACTURING_COMPATIBILITY_20261030.md` | 11,328 |
 | `PCB Files/GPT Build - PCB/docs/ELECTRICAL_DECISIONS.md` | 9,987 |
 | `PCB Files/GPT Build - PCB/docs/ENGINEERING_AUDIT_20261029.md` | 20,107 |
 | `PCB Files/GPT Build - PCB/docs/ENGINEERING_AUDIT_PLAN.md` | 2,867 |
 | `PCB Files/GPT Build - PCB/docs/ERROR_LOG.md` | 18,388 |
-| `PCB Files/GPT Build - PCB/docs/HANDOFF.md` | 15,903 |
+| `PCB Files/GPT Build - PCB/docs/HANDOFF.md` | 16,510 |
 | `PCB Files/GPT Build - PCB/docs/LAYOUT_REVIEW.md` | 7,966 |
 | `PCB Files/GPT Build - PCB/docs/PROJECT_MAP.md` | 14,526 |
 | `PCB Files/GPT Build - PCB/docs/PROTOTYPE_BRINGUP.md` | 8,182 |
@@ -868,6 +1376,7 @@ Directories: 104. Files listed: 948. Total listed bytes: 186,493,762.
 | `PCB Files/GPT Build - PCB/reports/reference_corrected/finisher_import_guard_20261029.json` | 1,274 |
 | `PCB Files/GPT Build - PCB/reports/reference_corrected/finisher_preparation.json` | 1,231 |
 | `PCB Files/GPT Build - PCB/reports/reference_corrected/finisher_review_20261029.json` | 932 |
+| `PCB Files/GPT Build - PCB/reports/reference_corrected/geometric_net_audit.json` | 11,769 |
 | `PCB Files/GPT Build - PCB/reports/reference_corrected/preroute_drc.json` | 111,138 |
 | `PCB Files/GPT Build - PCB/reports/reference_corrected/preroute_placement_fixed.json` | 110,483 |
 | `PCB Files/GPT Build - PCB/reports/reference_corrected/preroute_usb_v3_drc.json` | 100,755 |
